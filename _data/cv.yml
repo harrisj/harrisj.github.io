@@ -1,0 +1,124 @@
+objective: >
+  I am a web developer with 19 years of work experience and a Master’s
+  Degree in Computer Science who is looking for interesting problems
+  and building software for the public good. I specialize in backend
+  architectures and reliable APIs for important purposes.
+career:
+  - company: 18F
+    link: https://18f.gsa.gov/
+    title: Innovation Specialist
+    start: 2015
+    end:
+    description: >
+      18F is a “government startup” that operates within the General
+      Services Administration and consults to build software products
+      for other federal agencies as clients.
+    projects:
+      - title: MyUSA
+        link: https://alpha.my.usa.gov/
+        description: >-
+           I joined the team on this prototype system for basic
+           single-sign-on that allowed users to avoid typing the same
+           fields and also control what information they share with
+           government websites
+      - title: Micro-purchase
+        link: https://micropurchase.18f.gov
+        description: >-
+          I worked with team on website that lets government employees
+          commission software development through open auctions
+          beneath the basic federal procurement thresholds
+      - title: Confidential Survey
+        link: https://github.com/18f/confidential-survey
+        description: >-
+          I developed a prototype for surveying our team about its
+          diversity without collecting individual response records
+          that could betray someone’s privacy
+  - company: The New York Times
+    link: http://nytimes.com
+    title: Senior Software Architect
+    office: Interactive News
+    start: 2006
+    end: 2015
+    description: >-
+      In 2007, I was a co-founder of the Interactive Newsroom Technologies
+      Team, a startup-like group embedded within the newsroom that
+      creates news-driven web applications on agile timeframes.
+    projects:
+      - title: Elections (2008-2014)
+        link: https://source.opennews.org/en-US/articles/ny-times-results-loader/
+        description: >-
+          I helped develop the system in 2008 for loading election
+          data from the AP. I then expanded it for 2010, 2012, 2013
+          (NYC mayor) and 2014 election years. In 2012, I helped
+          formulate strategy for more dynamic coverage online and
+          developed a modular API-based approach for providing data to
+          various parts of the site.
+      - title: Olympics Results (2010/2012)
+        link: http://2010games.nytimes.com/events/curling/mens/results.html
+        description: >
+          I was part of team building a system to load Olympics data
+          from the IOC and update the Times’ Olympics site in
+          near-realtime. Helped architect successor built for
+          2012/2014.
+      - title: Wikileaks War Logs
+        link: http://www.nytimes.com/interactive/2010/10/24/world/1024-surge-graphic.html
+        description: >
+          I created internal website tools used by reporters to better
+          understand the data. I also contributed research and pitched
+          a graphic to accompany a story on the deaths in Baghdad.
+      - title: "@nytimes Twitter Account"
+        link: https://twitter.com/nytimes
+        description: >
+          I created the @nytimes twitter account (among others) and
+          built the software that feeds them from RSS feeds
+      - title: Times Haiku
+        link: http://haiku.nytimes.com/
+        description: >
+          I built the bot for finding haiku within New York Times
+          articles and a Tumblr-based backend for moderating them
+  - company: Alacra, Inc.
+    title: Software Developer
+    link: http://www.alacra.com/
+    start: 1998
+    end: 2006
+    description: >
+      Alacra resells financial content from over 80 different
+      databases to financial and legal firms. My role there was R&D
+      and rapid development, particularly combining content from these
+      databases.
+education:
+  - name: Massachusetts Institute of Technology
+    link: https://mit.edu/
+    start: 1993
+    end: 1998
+    degree: Masters of Engineering/Bachelor of Science (dual)
+    description: >
+      Major in Computer Science, Minor in Literature. Concentration of
+      studies: operating systems, software engineering, programming
+      languages and compilers. GPA: 4.5/5.0
+skills:
+  languages:
+    - C/C++/Go
+    - Java/Scala
+    - HTML/CSS/Javascript
+    - Ruby/Ruby on Rails
+    - Python/Flask
+    - Scheme/Lisp/Clojure
+    - SQL (MySQL/Postgres)
+  tools:
+    - Mac OS X/ Linux server
+    - Amazon Web Services
+    - Docker/CloudFoundry
+    - Varnish/Haproxy
+    - Apache/Nginx/static sites
+    - Redis/Elasticsearch
+    - Test-Driven Development
+  creative:
+    - Data Journalism
+    - API-centric approaches
+    - Agile/Kanban
+    - Effective remote worker
+    - Excellent communication skills
+    - Independent and self-directed
+    - Plays well with others
+    - Concerned about inclusion

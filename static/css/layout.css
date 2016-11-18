@@ -1,0 +1,46 @@
+dt {
+    float: left;
+    left: 0;
+    color: #626262;
+    font-size: 14px;
+    text-transform: none;
+    width: 80px;
+}
+
+dd {
+    border-left: 1px solid #dfdfdf;
+    margin: 0 0 -15px 86px;
+    padding: 0 0 0 9px;
+    clear: right;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
+li:before {
+  content: "›";
+  padding-right: 5px;
+  margin-bottom: 0;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+  border-bottom: #666666;
+  border-width: 0px 0px 1px 0px;
+  border-style: none none dotted none;
+}
+
+a:visited {
+  color: black;
+}

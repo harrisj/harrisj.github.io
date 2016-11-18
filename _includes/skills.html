@@ -1,0 +1,35 @@
+<section>
+  <h3 class="twelve columns">Skills</h3>
+
+  <div class="row">
+    <section class="four columns">
+      <h3>Languages</h3>
+
+      <ul>
+        {% for item in site.data.cv.skills.languages %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section class="four columns">
+      <h3>Tools</h3>
+
+      <ul>
+        {% for item in site.data.cv.skills.tools %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section class="four columns">
+      <h3>Creative</h3>
+
+      <ul>
+        {% for item in site.data.cv.skills.creative %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+</section>

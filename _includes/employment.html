@@ -1,0 +1,26 @@
+<section class="row">
+  <h2>Employment</h2>
+
+  <dl>
+  {% for job in site.data.cv.career %}
+    <dt><time>{{ job.start }} - {{ job.end }}</time></dt>
+    <dd>
+      <header>
+      <strong>{{ job.title }}</strong>, <span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+        <a href="{{ job.link }}" itemprop="url"><span itemprop="name">{{ job.company }}</span></a>
+      </header>
+
+      <p>{{ job.description }}</p>
+
+    {% if job.projects.size > 100 %}
+    <p>Notable projects:</p>
+    <ul>
+      {% for project in job.projects %}
+      <li><strong><a href="{{ project.link }}">{{ project.title }}</a></strong> {{ project.description }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+   </dd>
+  {% endfor %}
+  </dl>
+</section>

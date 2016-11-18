@@ -1,0 +1,20 @@
+<section class="row">
+  <h2>Education</h2>
+
+  <dl>
+    {% for school in site.data.cv.education %}
+    <dt><time>{{ school.start }} - {{ school.end }}</time></dt>
+
+    <dd>
+      <header>
+        <strong>{{ school.degree }}</strong>,
+        <span itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+          <span itemprop="name"><a href="{{ school.link }}">{{ school.name }}</a></span>
+      </header>
+
+      <p>{{ school.description }}</p>
+    </dd>
+
+    {% endfor %}
+  </dl>
+</section>
