@@ -1,0 +1,17 @@
+<section class="row">
+  <h2>Selected Writing</h2>
+
+  <dl>
+    {% assign by_year = site.data.cv.writing | group_by: "year" %}
+    {% for year in by_year %}
+    <dt><time>{{ year.name }}</time></dt>
+    <dd>
+      <ul>
+        {% for doc in year.items %}
+        <li><a href="{{ doc.link }}">{{ doc.title }}</a>, <em>{{ doc.publication }}</em></li>
+        {% endfor %}
+      </ul>
+    </dd>
+    {% endfor %}
+  </dl>
+</section>

@@ -10,17 +10,17 @@
         <a href="{{ job.link }}" itemprop="url"><span itemprop="name">{{ job.company }}</span></a>
       </header>
 
-      <p>{{ job.description }}</p>
-
-    {% if job.projects.size > 100 %}
-    <p>Notable projects:</p>
-    <ul>
-      {% for project in job.projects %}
-      <li><strong><a href="{{ project.link }}">{{ project.title }}</a></strong> {{ project.description }}</li>
-      {% endfor %}
-    </ul>
-    {% endif %}
-   </dd>
-  {% endfor %}
+      <span>{{ job.description }}
+        {% if job.projects.size > 0 %}
+        Notable projects:
+        <ul>
+          {% for project in job.projects %}
+          <li><strong><a href="{{ project.link }}">{{ project.title }}</a></strong> {{ project.description }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </span>
+    </dd>
+    {% endfor %}
   </dl>
 </section>

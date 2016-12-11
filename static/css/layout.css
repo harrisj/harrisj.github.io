@@ -5,6 +5,7 @@ dt {
     font-size: 14px;
     text-transform: none;
     width: 80px;
+    text-align: right;
 }
 
 dd {
