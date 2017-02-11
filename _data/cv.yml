@@ -3,6 +3,7 @@ personal:
   email: harrisj.home@gmail.com
   phone: (917) 535-2026
   site: http://harrisj.github.io
+  city: Takoma Park, MD
   accounts:
     twitter: harrisj
     github: harrisj
@@ -13,7 +14,9 @@ objective: >
   I am a web developer with 19 years of work experience and a Master’s
   Degree in Computer Science who is looking for interesting problems
   and building software for the public good. I specialize in backend
-  architectures and reliable APIs for important purposes.
+  architectures and reliable APIs for important purposes. I live in
+  the DC area, but I am also an experienced and ruthlessly efficient
+  remote worker accustomed to working with distributed teams.
 career:
   - company: 18F
     link: https://18f.gsa.gov/
