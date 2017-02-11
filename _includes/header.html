@@ -1,15 +1,25 @@
 <section class="row">
-  <h1>{{ site.data.cv.personal.name }}</h1>
+  <section class="three columns">
+    <img src="static/avatar.jpg" height="200" width="200" />
+  </section>
 
-  <p>
-    <a href="mailto:{{ site.data.cv.personal.email }}">{{ site.data.cv.personal.email }}</a> //
-    <a href="{{ site.data.cv.personal.site }}">{{ site.data.cv.personal.site }}</a> //
-    {{ site.data.cv.personal.phone }}
-  </p>
-  <p>
-    <i class="fa fa-github"></i><a href="https://github.com/{{ site.data.cv.personal.accounts.github }}">github/{{ site.data.cv.personal.accounts.github }}</a>
-    <i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/{{ site.data.cv.personal.accounts.linkedin }}">linkedin/{{ site.data.cv.personal.accounts.linkedin }}</a>
-    <i class="fa fa-key"></i><a href="https://keybase.io/{{ site.data.cv.personal.accounts.keybase }}">keybase/{{ site.data.cv.personal.accounts.keybase }}</a>
-  </p>
+      <h1>{{ site.data.cv.personal.name }}</h1>
+
+    <section class="row">
+    <section class="three columns">
+    <ul>
+      <li><a href="mailto:{{ site.data.cv.personal.email }}">{{ site.data.cv.personal.email }}</a></li>
+      <li><a href="{{ site.data.cv.personal.site }}">{{ site.data.cv.personal.site }}</a></li>
+      <li>{{ site.data.cv.personal.phone }}</li>
+    </ul>
+    </section>
+    <section class="five columns">
+    <ul>
+      <li><a href="https://github.com/{{ site.data.cv.personal.accounts.github }}">github/{{ site.data.cv.personal.accounts.github }}</a></li>
+      <li><a href="https://twitter/{{ site.data.cv.personal.accounts.twitter }}">twitter/{{ site.data.cv.personal.accounts.twitter }}</a></li>
+      <li><a href="https://www.linkedin.com/in/{{ site.data.cv.personal.accounts.linkedin }}">linkedin/{{ site.data.cv.personal.accounts.linkedin }}</a></li>
+      <li><a href="https://keybase.io/{{ site.data.cv.personal.accounts.keybase }}">keybase/{{ site.data.cv.personal.accounts.keybase }}</a></li>
+    </ul>
+    </section>
+    </section>
 </section>
-<hr />

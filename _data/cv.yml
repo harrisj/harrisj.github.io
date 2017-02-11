@@ -4,7 +4,7 @@ personal:
   phone: (917) 535-2026
   site: http://harrisj.github.io
   accounts:
-    twitter: https://twitter.com/harrisj
+    twitter: harrisj
     github: harrisj
     linkedin: jacob-harris-4157961
     keybase: https://keybase.io/harrisj
@@ -38,6 +38,13 @@ career:
           I worked with team on website that lets government employees
           commission software development through open auctions
           beneath the basic federal procurement thresholds
+      - title: FBI Crime Data Explorer
+        link: https://github.com/18F/crime-data-api
+        description: >-
+          I joined the project in progress to learn Python and work
+          with Open Data. I have worked as part of the API team,
+          creating and optimizing endpoints for the explorer site and
+          power users.
       - title: Confidential Survey
         link: https://github.com/18f/confidential-survey
         description: >-
