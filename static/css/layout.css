@@ -45,3 +45,45 @@ a:link {
 a:visited {
   color: black;
 }
+
+.contact-list {
+    padding-left: 5px;
+    margin-left: 0;
+}
+
+@media print
+{
+    h1 {
+        margin-bottom: 0.5rem;
+    }
+
+    body {
+        font-size: 1.25em;
+        line-height: 1.2;
+    }
+
+/*    .column, .columns {
+        width: 100% !important;
+        margin-left: 0% !important;
+        page-break-inside: avoid;
+    } */
+
+    .contact-list {
+        display: block;
+        width: 100% !important;
+    }
+
+    .contact-list li {
+        padding-left: 0;
+        display: inline-block;
+    }
+
+    .contact-list li:before {
+        content: "›";
+        margin: 0 4px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
