@@ -34,31 +34,47 @@ li:before {
   margin-bottom: 0;
 }
 
-a:link {
-  color: black;
-  text-decoration: none;
-  border-bottom: #666666;
-  border-width: 0px 0px 1px 0px;
-  border-style: none none dotted none;
-}
+@media screen
+{
+    a:link {
+        color: black;
+        text-decoration: none;
+        border-bottom: #666666;
+        border-width: 0px 0px 1px 0px;
+        border-style: none none dotted none;
+    }
 
-a:visited {
-  color: black;
-}
+    a:visited {
+        color: black;
+    }
 
-.contact-list {
-    padding-left: 5px;
-    margin-left: 0;
+    .contact-list {
+        padding-left: 5px;
+        margin-left: 0;
+    }
+
+    .print-only {
+        display: none;
+    }
 }
 
 @media print
 {
+    a:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: black;
+    }
+
     h1 {
         margin-bottom: 0.5rem;
     }
 
     body {
-        font-size: 1.25em;
+        font-size: 1.25em !important;
         line-height: 1.2;
     }
 
@@ -70,6 +86,7 @@ a:visited {
 
     .contact-list {
         display: block;
+        margin-left: 1%;
         width: 100% !important;
     }
 
