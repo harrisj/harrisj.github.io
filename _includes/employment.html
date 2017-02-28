@@ -15,7 +15,7 @@
         Notable projects:
         <ul>
           {% for project in job.projects %}
-          <li><strong><a href="{{ project.link }}">{{ project.title }}</a></strong> {{ project.description }}</li>
+          <li><strong><a href="{{ project.link }}">{{ project.title }}</a></strong> {{ project.description | markdownify | remove: '<p>' | remove: '</p>' }}</li>
           {% endfor %}
         </ul>
         {% endif %}
