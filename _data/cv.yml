@@ -59,11 +59,11 @@ career:
       - title: Confidential Survey
         link: https://github.com/18f/confidential-survey
         description: >-
-          "As part of my involvement with the Diversity Guild and a
+          As part of my involvement with the Diversity Guild and a
           project to gather statistics on 18F's efforts at diversity
           and inclusion, I built a prototype for conducting surveys
           without collecting detailed records that could compromise a
-          user's privacy"
+          user's privacy
   - company: The New York Times
     link: http://nytimes.com
     title: Senior Software Architect

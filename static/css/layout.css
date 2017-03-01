@@ -84,6 +84,10 @@ li:before {
         page-break-inside: avoid;
     } */
 
+    div.job {
+        page-break-inside: avoid;
+    }
+
     .contact-list {
         display: block;
         margin-left: 1%;
