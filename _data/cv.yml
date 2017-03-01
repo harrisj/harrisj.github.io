@@ -27,7 +27,9 @@ career:
     description: >
       18F is a “government startup” that operates within the General
       Services Administration and consults to build software products
-      for other federal agencies as clients.
+      for other federal agencies as clients. We build all of our
+      projects in public, as open source software informed by user
+      research and agile planning.
     projects:
       - title: MyUSA
         link: https://github.com/18F/myusa
