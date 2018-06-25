@@ -11,7 +11,7 @@ personal:
     keybase: harrisj
   fingerprint: 219E C44A EC5B 6425 5A5B 0CB9 22C5 DDCC 45EE 2FBA
 objective: >
-  I am a web developer with 19 years of work experience and a Master’s
+  I am a web developer with 20 years of work experience and a Master’s
   Degree in Computer Science who is looking for interesting problems
   and building software for the public good. I specialize in backend
   architectures and reliable APIs for important purposes. I live in
@@ -19,11 +19,32 @@ objective: >
   ruthlessly efficient remote worker accustomed to working with
   distributed teams.
 career:
+  - company: Nava PBC
+    link: https://www.navapbc.com/
+    title: Experienced Software Engineer
+    start: 2018
+    end: now
+    description: >
+      Nava is a public benefit corporation that contracts with
+      government agencies to build solutions and thoughtfully apply
+      technology to serve the American public.
+    projects:
+      - title: Quality Payments Program (QPP) Submissions API
+        link: https://qpp.cms.gov/developers
+        description: >-
+          I joined the Quality Payments Program API team and learned
+          Node while ramping up on the project for a critical
+          deadline. The Submissions API is a necessary part of the QPP
+          Program that allows medical registries to submit health
+          measures for clinicians. I implemented a component of the
+          final scoring process for clinicians and practices and also
+          identified several ways to improve tooling for tests and
+          reduce technical debt.
   - company: 18F
     link: https://18f.gsa.gov/
     title: Innovation Specialist
     start: 2015
-    end: now
+    end: 2018
     description: >
       18F is a “government startup” that operates within the General
       Services Administration and consults to build software products
@@ -144,6 +165,7 @@ skills:
     - HTML/CSS/Javascript
     - Ruby/Ruby on Rails
     - Python/Flask
+    - Node/Express
     - Scheme/Lisp/Clojure
     - SQL (MySQL/Postgres)
   tools:
