@@ -32,14 +32,16 @@ career:
       - title: Quality Payments Program (QPP) Submissions API
         link: https://qpp.cms.gov/developers
         description: >-
-          I joined the Quality Payments Program API team and learned
-          Node while ramping up on the project for a critical
-          deadline. The Submissions API is a necessary part of the QPP
-          Program that allows medical registries to submit health
-          measures for clinicians. I implemented a component of the
-          final scoring process for clinicians and practices and also
-          identified several ways to improve tooling for tests and
-          reduce technical debt.
+          The Submissions API is an integral component of the QPP Program
+          that allows medical registries to submit health measures
+          that are used to grade clinicians on their performance and
+          adjust how they are reimbursed by Medicare.  This was
+          already a successful API in production when I joined the
+          team, but the next critical phase was final scoring for
+          clinicians and physicians. I hit the groud running, learning
+          Node while implementing some logic for scoring. I also
+          identified and led on several ways to improve tooling for
+          tests and reduce technical debt.
   - company: 18F
     link: https://18f.gsa.gov/
     title: Innovation Specialist
