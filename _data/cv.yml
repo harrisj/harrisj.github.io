@@ -41,7 +41,7 @@ career:
           clinicians and physicians. I hit the groud running, learning
           Node while implementing some logic for scoring. I also
           identified and led on several ways to improve tooling for
-          tests and reduce technical debt.
+          tests, reduce technical debt and improve scoring for future years.
   - company: 18F
     link: https://18f.gsa.gov/
     title: Innovation Specialist
@@ -163,10 +163,10 @@ education:
 skills:
   languages:
     - C/C++/Go
-    - Java/Scala
+    - Java/Scala/Spark
     - HTML/CSS/Javascript
     - Ruby/Ruby on Rails
-    - Python/Flask
+    - Python/Flask/Luigi
     - Node/Express
     - Scheme/Lisp/Clojure
     - SQL (MySQL/Postgres)
@@ -174,17 +174,16 @@ skills:
     - Mac OS X/ Linux server
     - Amazon Web Services
     - Docker/CloudFoundry
-    - Varnish/Haproxy
-    - Apache/Nginx/static sites
+    - Scraping and ETL Pipelines
     - Redis/Elasticsearch
     - Test-Driven Development
   creative:
     - Data Journalism
     - API-centric approaches
     - Agile/Kanban
-    - Effective remote worker
+    - Self-directed remote worker
     - Great communication skills
-    - Plays well with others
+    - Works well with others
     - Concerned about inclusion
 writing:
   - title: Solving a Century-Old Typographical Mystery
