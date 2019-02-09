@@ -21,7 +21,7 @@ objective: >
 career:
   - company: Nava PBC
     link: https://www.navapbc.com/
-    title: Experienced Software Engineer
+    title: Senior Engineering Lead
     start: 2018
     end: now
     description: >
@@ -32,16 +32,21 @@ career:
       - title: Quality Payments Program (QPP) Submissions API
         link: https://qpp.cms.gov/developers
         description: >-
-          The Submissions API is an integral component of the QPP Program
-          that allows medical registries to submit health measures
-          that are used to grade clinicians on their performance and
-          adjust how they are reimbursed by Medicare.  This was
-          already a successful API in production when I joined the
-          team, but the next critical phase was final scoring for
-          clinicians and physicians. I hit the groud running, learning
-          Node while implementing some logic for scoring. I also
-          identified and led on several ways to improve tooling for
-          tests, reduce technical debt and improve scoring for future years.
+          The QPP program in Medicare replaces the old flat
+          fee-for-service model of Medicare with adjusted
+          reimbursements that award effective doctors and penalize bad
+          outcomes to improve the quality of Medicare through
+          financial incentives. Nava built the QPP Submissions API to
+          accept annual submissions of measures by participating
+          health registries. I joined the team while the API was
+          already in service, but I helped to implement the initial
+          version of the final scoring algorithm and helped with a
+          later effort to improve the scoring process for future
+          years. I have since moved into the role of Senior Tech Lead
+          for the project, managing a team of 6 engineers and helping
+          to define and prioritize tasks for further improvments to
+          the API and other projects. I also help coordinate our work
+          with other contractors working on the QPP project.
   - company: 18F
     link: https://18f.gsa.gov/
     title: Innovation Specialist
@@ -170,6 +175,7 @@ skills:
     - Node/Express
     - Scheme/Lisp/Clojure
     - SQL (MySQL/Postgres)
+    - Spark/Scala
   tools:
     - Mac OS X/ Linux server
     - Amazon Web Services
@@ -180,7 +186,7 @@ skills:
   creative:
     - Data Journalism
     - API-centric approaches
-    - Agile/Kanban
+    - Agile/Kanban/SAFe
     - Self-directed remote worker
     - Great communication skills
     - Works well with others
