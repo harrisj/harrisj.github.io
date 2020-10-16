@@ -203,7 +203,7 @@ skills:
     - Python/Flask/Luigi
     - Node/Express
     - Scheme/Lisp/Clojure
-    - SQL (MySQL/Postgres)
+    - SQL (MySQL/Postgres/Sqlite)
     - Spark/Scala
   tools:
     - Mac OS X/ Linux server
@@ -220,7 +220,7 @@ skills:
     - API-centric approaches
     - Agile/Kanban/SAFe
     - Self-directed remote worker
-    - Experience engineering manager
+    - Experienced engineering manager
     - Strong communication skills
     - Works well with others
     - Concerned about inclusion
