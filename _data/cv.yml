@@ -11,17 +11,16 @@ personal:
     keybase: harrisj
   fingerprint: 219E C44A EC5B 6425 5A5B 0CB9 22C5 DDCC 45EE 2FBA
 objective: >
-  I am a web developer with 20 years of work experience and a Master’s
-  Degree in Computer Science who is looking for interesting problems
-  and building software for the public good. I specialize in backend
-  architectures and reliable APIs for important purposes. I live in
-  the Washington, D.C. area, but I am also an experienced and
-  ruthlessly efficient remote worker accustomed to working with
-  distributed teams.
+  I am a web developer with over 20 years of work experience and a Master’s
+  Degree in Computer Science who is looking for interesting problems and
+  building software for the public good. I specialize in backend architectures
+  and reliable APIs for important purposes. I live in the Washington, D.C. area,
+  but I am also an experienced and ruthlessly efficient remote worker accustomed
+  to working with distributed teams.
 career:
   - company: Nava PBC
     link: https://www.navapbc.com/
-    title: Senior Engineering Lead
+    title: Senior Engineering Lead / Engineering Manager
     start: 2018
     end: now
     description: >
@@ -29,24 +28,54 @@ career:
       government agencies to build solutions and thoughtfully apply
       technology to serve the American public.
     projects:
+      - title: CMS Cloud IT Operations (CLOUDITOPS)
+        description: >-
+          The CMS Cloud ITOPS project is an ambitious effort to modernize the
+          infrastructure powering hundreds of applications at the Center for
+          Medicare and Medicaid Services (CMS) and migrate them to the AWS and
+          Microsoft Azure clouds. As a developer on the Apps team, I helped to
+          identify and implement ways to operationalize some custom tooling
+          needed for security and compliance. I also helped build out new
+          tooling in Go. As a member of the CMS Cloud frontend team, I have
+          worked to standardize and improve backend infrastructure with
+          terraform. I also was a people manager for 6 engineers.
       - title: Quality Payments Program (QPP) Submissions API
         link: https://qpp.cms.gov/developers
         description: >-
-          The QPP program in Medicare replaces the old flat
-          fee-for-service model of Medicare with adjusted
-          reimbursements that award effective doctors and penalize bad
-          outcomes to improve the quality of Medicare through
-          financial incentives. Nava built the QPP Submissions API to
-          accept annual submissions of measures by participating
-          health registries. I joined the team while the API was
-          already in service, but I helped to implement the initial
-          version of the final scoring algorithm and helped with a
-          later effort to improve the scoring process for future
-          years. I have since moved into the role of Senior Tech Lead
-          for the project, managing a team of 6 engineers and helping
-          to define and prioritize tasks for further improvments to
-          the API and other projects. I also help coordinate our work
-          with other contractors working on the QPP project.
+          The QPP program in Medicare replaces the old flat fee-for-service
+          model of Medicare with adjusted reimbursements that award effective
+          doctors and penalize bad outcomes to improve the quality of Medicare
+          through financial incentives. Nava built the QPP Submissions API to
+          accept annual submissions of measures by participating health
+          registries. I joined the team while the API was already in service,
+          but I helped to implement the initial version of the final scoring
+          algorithm and helped with a later effort to improve the scoring
+          process for future years. I have since moved into the role of Senior
+          Tech Lead for the project, managing a team of up to 9 engineers and
+          helping to define and prioritize tasks for further improvments to the
+          API and other projects. I also help coordinate our work with other
+          contractors working on the QPP project. I helped gracefully wind down
+          and hand off the project when Nava's involvement ended.
+      - title: Business Development Work
+        description: >-
+          I participated on different teams bidding on projects to expand Nava's
+          reach into new areas, several of which Nava won. On these projects, I
+          worked closely with internal experts from various teams on such tasks
+          as scoping out the architectures of the current system and our
+          proposed approaches, staffing and cost estimates, QASPs and other
+          measures of success and planning out rough timelines for delivery and
+          milestones for the project.
+      - title: Engineering Management
+        description: >-
+          I have been an Engineering Manager at Nava since the fall of 2018.
+          During that time, I typically managed teams of 6-8 engineers and
+          coached their career development through weekly 1:1s and regular
+          performance checkins. I am most proud about guiding junior engineers
+          through promotions and increasing responsibilities and encouraging
+          other direct reports to explore people management as well. I have
+          received high marks from my direct reports in 360 Reviews, with
+          specific recognition for building supportive teams and addressing
+          problems quickly for my engineers to be productive.
   - company: 18F
     link: https://18f.gsa.gov/
     title: Innovation Specialist
@@ -179,8 +208,11 @@ skills:
   tools:
     - Mac OS X/ Linux server
     - Amazon Web Services
+    - Terraform
+    - New Relic/on-call tools
     - Docker/CloudFoundry
     - Scraping and ETL Pipelines
+    - Splunk/Kinesis/ELK
     - Redis/Elasticsearch
     - Test-Driven Development
   creative:
@@ -188,7 +220,8 @@ skills:
     - API-centric approaches
     - Agile/Kanban/SAFe
     - Self-directed remote worker
-    - Great communication skills
+    - Experience engineering manager
+    - Strong communication skills
     - Works well with others
     - Concerned about inclusion
 writing:
