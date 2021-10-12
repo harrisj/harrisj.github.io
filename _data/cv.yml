@@ -28,6 +28,19 @@ career:
       government agencies to build solutions and thoughtfully apply
       technology to serve the American public.
     projects:
+      - title: Medicare Replicated Data Access (RDA) API
+        description: >-
+          The Medicare Payment Systems Modernization (MPSM) is an ambitious
+          long-term effort spanning multiple teams to migrate Medicare payments
+          processing away from COBOL running on mainframes to modern Java
+          running in the AWS Cloud. I am the Engineering Lead (a key personnel
+          role) of the Replicated Data Access (RDA) API team, which is building
+          a streaming API in gRPC to provide claims in near real-time to other
+          projects within CMS. While acting as the engineering lead, I have also
+          helped guide the expansion of the RDA API contract to include a
+          greater role in the MPSM project that is providing claims data to the
+          RDA API, as well as a pilot project to build a prototype API for
+          receiving questionnaires in the FHIR format.
       - title: CMS Cloud IT Operations (CLOUDITOPS)
         description: >-
           The CMS Cloud ITOPS project is an ambitious effort to modernize the
@@ -50,12 +63,13 @@ career:
           registries. I joined the team while the API was already in service,
           but I helped to implement the initial version of the final scoring
           algorithm and helped with a later effort to improve the scoring
-          process for future years. I have since moved into the role of Senior
-          Tech Lead for the project, managing a team of up to 9 engineers and
-          helping to define and prioritize tasks for further improvments to the
-          API and other projects. I also help coordinate our work with other
-          contractors working on the QPP project. I helped gracefully wind down
-          and hand off the project when Nava's involvement ended.
+          process for future years. I then moved into the role of Senior Tech
+          Lead (key personnel) for the project, managing a team of up to 9
+          engineers and helping to define and prioritize tasks for further
+          improvments to the API and other projects. I also help coordinate our
+          work with other contractors working on the QPP project. I helped
+          gracefully wind down and hand off the project when Nava's involvement
+          ended.
       - title: Business Development Work
         description: >-
           I participated on different teams bidding on projects to expand Nava's
@@ -200,11 +214,11 @@ skills:
     - Java/Scala/Spark
     - HTML/CSS/Javascript
     - Ruby/Ruby on Rails
-    - Python/Flask/Luigi
+    - Python/Flask/Luigi/FastAPI
     - Node/Express
     - Scheme/Lisp/Clojure
     - SQL (MySQL/Postgres/Sqlite)
-    - Spark/Scala
+    - Apache Kafka
   tools:
     - Mac OS X/ Linux server
     - Amazon Web Services
