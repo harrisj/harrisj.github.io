@@ -29,6 +29,7 @@ career:
       technology to serve the American public.
     projects:
       - title: Medicare Replicated Data Access (RDA) API
+        link: https://www.usds.gov/projects/medicare-payment-program
         description: >-
           The Medicare Payment Systems Modernization (MPSM) is an ambitious
           long-term effort spanning multiple teams to migrate Medicare payments
