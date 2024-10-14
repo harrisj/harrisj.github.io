@@ -5,7 +5,7 @@ personal:
   site: http://harrisj.github.io
   city: Takoma Park, MD
   accounts:
-    twitter: harrisj
+    bluesky: harrisj.bsky.social
     github: harrisj
     linkedin: jacob-harris-4157961
     keybase: harrisj
@@ -18,11 +18,33 @@ objective: >
   but I am also an experienced and ruthlessly efficient remote worker accustomed
   to working with distributed teams.
 career:
+  - company: Consumer Financial Protection Bureau
+    link: http://consumerfinance.gov/
+    title: Supervisory IT Specialist
+    start: 2023
+    end: now
+    description: >-
+      The Consumer Financial Protection Bureau (CFPB) is a small federal agency founded in 2010 and dedicated to financial education, regulation and enforcement in service of the American public. Since its founding, the CFPB has had an innovative digital presence, including the first design system and open-source presence in the US government, and it influenced the tactics and mission of the US Digital Service and 18F
+    projects:
+      - title: App Dev Lead in Design & Development
+        description: >-
+          The Design & Development (D&D) team within CFPB handles a variety of
+          print and digital design as well as software development
+          responsibilities. As part of the Front Office leadership team, I
+          balance s variety of supervisory duties within the department.
+          Primarily, I am the people manager in a matrix model for 12 front-end
+          and back-end engineers arranged across 5 different teams within D&D;
+          in that capacity, I also help oversee the technical work for those
+          teams, guide decision-making, steer teams through bureaucratic
+          roadblocks and establish engineering practices for an experienced and
+          stable team focused on sustainability and longevity. I also am
+          certified as a Contracting Officer Representable (COR) Level 1,
+          meaning that I have supervised procurements for software.
   - company: Nava PBC
     link: https://www.navapbc.com/
     title: Senior Engineering Lead / Engineering Manager
     start: 2018
-    end: now
+    end: 2023
     description: >
       Nava is a public benefit corporation that contracts with
       government agencies to build solutions and thoughtfully apply
@@ -34,17 +56,17 @@ career:
           The Medicare Payment Systems Modernization (MPSM) is an ambitious
           long-term effort spanning multiple teams to migrate Medicare payments
           processing away from COBOL running on mainframes to modern Java
-          running in the AWS Cloud. I am the Engineering Lead (a key personnel
+          running in the AWS Cloud. I was the Engineering Lead (a key personnel
           role) of the Replicated Data Access (RDA) API team, which is building
           a streaming API in gRPC to provide claims in near real-time to other
-          projects within CMS. While acting as the engineering lead, I have also
+          projects within CMS. While acting as the engineering lead, I also
           helped guide the expansion of the RDA API contract to include a
           greater role in the MPSM project that is providing claims data to the
           RDA API, as well as a pilot project to build a prototype API for
           receiving questionnaires in the FHIR format.
       - title: CMS Cloud IT Operations (CLOUDITOPS)
         description: >-
-          The CMS Cloud ITOPS project is an ambitious effort to modernize the
+          The CMS Cloud ITOPS project is an extensive effort to modernize the
           infrastructure powering hundreds of applications at the Center for
           Medicare and Medicaid Services (CMS) and migrate them to the AWS and
           Microsoft Azure clouds. As a developer on the Apps team, I helped to
@@ -177,6 +199,22 @@ career:
           the people and places within. I also contributed
           research and pitched a graphic to accompany a story on the
           deaths in Baghdad.
+      - title: PUFFY
+        link: https://lens.blogs.nytimes.com/2010/05/02/readers-13/
+        description: >-
+          I helped create a new site for readers to upload photos from the 2009
+          inauguration of President Obama. This became the basis of a
+          general-purpose tool named PUFFY (for Photo Upload Form For You) that
+          allowed editors to moderate reader-submitted photos in 30+ projects.
+          This included Moment in Time, where more than 10,000 readers submitted
+          geotagged photos taken at the same time.
+      - title: Open Source
+        link: https://open.nytimes.com/
+        description: >-
+          As part of NYT Digital, I spearheaded new open-source initiatives at
+          the NYT and improved outreach for people to use public APIs from the
+          New York Times. I also helped to create the open.blogs.nytimes.com
+          site for engineers to blog about their work at the Times.
       - title: "@nytimes Twitter Account"
         link: https://twitter.com/nytimes
         description: >
