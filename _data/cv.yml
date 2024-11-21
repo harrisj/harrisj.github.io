@@ -11,12 +11,14 @@ personal:
     keybase: harrisj
   fingerprint: 219E C44A EC5B 6425 5A5B 0CB9 22C5 DDCC 45EE 2FBA
 objective: >
-  I am a web developer with over 20 years of work experience and a Master’s
-  Degree in Computer Science who is looking for interesting problems and
-  building software for the public good. I specialize in backend architectures
-  and reliable APIs for important purposes. I live in the Washington, D.C. area,
-  but I am also an experienced and ruthlessly efficient remote worker accustomed
-  to working with distributed teams.
+  I am a web developer and engineering manager with over 20 years of work
+  experience and a Master’s Degree in Computer Science who is looking for
+  interesting problems and building software for the public good. I specialize
+  in backend architectures and reliable APIs for important purposes. I enjoy
+  immensely being an engineering manager who coaches my direct reports to
+  thrive. I live in the Washington, D.C. area, but I am also an experienced and
+  ruthlessly efficient remote worker accustomed to working with distributed
+  teams.
 career:
   - company: Consumer Financial Protection Bureau
     link: http://www.consumerfinance.gov/
@@ -24,7 +26,12 @@ career:
     start: 2023
     end: now
     description: >-
-      The Consumer Financial Protection Bureau (CFPB) is a small federal agency founded in 2010 and dedicated to financial education, regulation and enforcement in service of the American public. Since its founding, the CFPB has had an innovative digital presence, including the first design system and open-source presence in the US government, and it influenced the tactics and mission of the US Digital Service and 18F
+      The Consumer Financial Protection Bureau (CFPB) is a small federal agency
+      founded in 2010 and dedicated to financial education, regulation and
+      enforcement in service of the American public. Since its founding, the
+      CFPB has had an innovative digital presence, including the first design
+      system and open-source presence in the US government, and it influenced
+      the tactics and mission of the US Digital Service and 18F
     projects:
       - title: Application Development Lead in Design & Development
         description: >-
