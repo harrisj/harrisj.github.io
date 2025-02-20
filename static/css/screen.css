@@ -1,0 +1,31 @@
+a:link {
+    color: black;
+    text-decoration: none;
+    border-bottom: #666666;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none;
+}
+
+a:visited {
+    color: black;
+}
+
+h1 {
+    break-before: avoid;
+}
+
+.contact-list {
+    padding-left: 0px;
+    margin-left: 0;
+}
+
+.contact-list li {
+    line-height: var(--compact-list-height);
+    margin-bottom: 0;
+}
+
+.print-only {
+    display: none;
+}
+
+

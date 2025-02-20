@@ -1,5 +1,17 @@
 :root {
     --compact-line-height: 1.2;
+    --compact-list-height: 1.3;
+}
+
+section.avatar img {
+    max-height: 200px;
+    width: auto;
+}
+
+@media(max-width:829px) {
+    section.avatar img {
+        display: none;
+    }
 }
 
 dt {
@@ -36,7 +48,7 @@ ul.job-projects {
 li {
   padding-left: 1em;
   text-indent: -0.7em;
-  line-height: var(--compact-line-height, 1.2);
+  line-height: var(--compact-list-height);
 }
 
 li:before {
@@ -63,85 +75,6 @@ p {
 }
 
 ul.compact li {
-    line-height: var(--compact-line-height, 1.2);
+    line-height: var(--compact-list-height);
     margin-bottom: 0;
-}
-
-@media screen
-{
-    a:link {
-        color: black;
-        text-decoration: none;
-        border-bottom: #666666;
-        border-width: 0px 0px 1px 0px;
-        border-style: none none dotted none;
-    }
-
-    a:visited {
-        color: black;
-    }
-
-    .contact-list {
-        padding-left: 5px;
-        margin-left: 0;
-    }
-
-    .print-only {
-        display: none;
-    }
-}
-
-@media print
-{
-    a:link {
-        color: black;
-        text-decoration: none;
-    }
-
-    a:visited {
-        color: black;
-    }
-
-    h1 {
-        margin-bottom: 0.5rem;
-    }
-
-    body {
-        font-size: 1.25em !important;
-        line-height: 1.2;
-    }
-
-/*    .column, .columns {
-        width: 100% !important;
-        margin-left: 0% !important;
-        page-break-inside: avoid;
-    } */
-
-    ul.job-projects li {
-        page-break-inside: avoid;
-    }
-
-    ul.job-projects {
-        margin-top: 10px;
-    }
-
-    .contact-list {
-        display: block;
-        margin-left: 1%;
-        width: 100% !important;
-    }
-
-    .contact-list li {
-        padding-left: 0;
-        display: inline-block;
-    }
-
-    .contact-list li:before {
-        content: "›";
-        margin: 0 4px;
-    }
-
-    .no-print, .no-print * {
-        display: none !important;
-    }
 }

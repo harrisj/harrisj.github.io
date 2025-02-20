@@ -1,11 +1,10 @@
 <section class="row">
-  <section class="three columns no-print">
+  <section class="four columns no-print avatar">
     <img src="static/avatar.jpg" height="200" width="200" alt="A black-and-white photograph of the face of Jacob Harris"/>
   </section>
 
+    <section class="eight columns contact-list">
       <h1>{{ site.data.cv.personal.name }}</h1>
-
-    <section class="three columns contact-list">
     <ul>
       <li><a href="mailto:{{ site.data.cv.personal.email }}">{{ site.data.cv.personal.email }}</a></li>
       <li><a href="{{ site.data.cv.personal.site }}">{{ site.data.cv.personal.site }}</a></li>
@@ -13,11 +12,5 @@
       <li>{{ site.data.cv.personal.city }}</li>
     </ul>
     </section>
-    <section class="five columns no-print">
-    <ul>
-      <li><a href="https://github.com/{{ site.data.cv.personal.accounts.github }}">github/{{ site.data.cv.personal.accounts.github }}</a></li>
-      <li><a href="https://www.linkedin.com/in/{{ site.data.cv.personal.accounts.linkedin }}">linkedin/{{ site.data.cv.personal.accounts.linkedin }}</a></li>
-      <li><a href="https://keybase.io/{{ site.data.cv.personal.accounts.keybase }}">keybase/{{ site.data.cv.personal.accounts.keybase }}</a></li>
-    </ul>
     </section>
-</section>
+  </section>

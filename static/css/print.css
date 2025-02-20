@@ -1,0 +1,70 @@
+:root {
+    --job-dt-top-padding: 1em;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    margin-bottom: 0.5rem;
+}
+
+body {
+    font-size: 1.25em !important;
+    line-height: var(--compact-line-height);
+}
+
+/*    .column, .columns {
+        width: 100% !important;
+        margin-left: 0% !important;
+        page-break-inside: avoid;
+    } */
+
+ul.job-projects li {
+    page-break-inside: avoid;
+    margin-bottom: 0;
+    font-size: 80%;
+    line-height: var(--compact-list-height);
+}
+
+ul.job-projects {
+    margin-top: 10px;
+}
+
+.contact-list {
+    display: block;
+    margin-left: 1%;
+    width: 100% !important;
+}
+
+.contact-list li {
+    padding-left: 0;
+    display: inline-block;
+}
+
+.contact-list li:before {
+    content: "›";
+    margin: 0 4px;
+}
+
+.no-print, .no-print * {
+    display: none !important;
+}
+
+dt:not(:first-child) {
+    padding-top: var(--job-dt-top-padding);
+}
+
+dd:not(:first-child) {
+    padding-top: var(--job-dt-top-padding);
+}
