@@ -3,26 +3,22 @@
 
   <dl>
     {% for job in site.data.cv.career %}
-    <div class="job">
     <dt><time>{{ job.start }} - {{ job.end }}</time></dt>
-    <dd>
+    <dd class="job">
       <header>
-      <strong>{{ job.title }}</strong>, <span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-        <a href="{{ job.link }}" itemprop="url"><span itemprop="name">{{ job.company }}</span></a>
+      <strong>{{ job.title }}</strong>, 
+        <a href="{{ job.link }}"><span>{{ job.company }}</span></a>
       </header>
 
-      <span>{{ job.description }}
+      <div class="job-description">{{ job.description }}</div>
         {% if job.projects.size > 0 %}
-        Notable projects:
-        <ul>
+        <ul class="job-projects">
           {% for project in job.projects %}
           <li><strong><a href="{{ project.link }}">{{ project.title }}</a></strong> {{ project.description | markdownify | remove: '<p>' | remove: '</p>' }}</li>
           {% endfor %}
         </ul>
         {% endif %}
-      </span>
     </dd>
-    </div>
     {% endfor %}
   </dl>
 </section>

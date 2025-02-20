@@ -7,9 +7,7 @@
 
     <dd>
       <header>
-        <strong>{{ school.degree }}</strong>,
-        <span itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
-          <span itemprop="name"><a href="{{ school.link }}">{{ school.name }}</a></span>
+        <strong>{{ school.degree }}</strong>, <a href="{{ school.link }}">{{ school.name }}</a>
       </header>
 
       <p>{{ school.description }}</p>

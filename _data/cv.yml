@@ -10,7 +10,7 @@ personal:
     keybase: harrisj
   fingerprint: 219E C44A EC5B 6425 5A5B 0CB9 22C5 DDCC 45EE 2FBA
 objective: >
-  I am seeking a Tech Lead/Manager of Software Engineering role position building software that serves the public in a meaningful way.
+  I am seeking a Tech Lead/Manager of Software Engineering role building software that serves the public in a meaningful way.
   I have 27 years of software engineering experience, 16 years of senior technical leadership and 7 years of people management
   in engineering. I am quick to learn new technologies while using my experience to architect simple solutions to complicated problems.
   Software engineering is a team effort – I use my technical skills and empathetic communication to lift up the entire team, so we can build great products 
@@ -270,15 +270,15 @@ education:
       languages and compilers.
 skills:
   languages:
-    - Python/Flask/Luigi/FastAPI
+    - Python/Flask/FastAPI
     - Node.js/Express
     - Ruby/Ruby on Rails
     - HTML/CSS/Javascript
     - C/C++/Go
     - Java/Scala/Spark
     - Scheme/Lisp/Clojure
-    - SQL (MySQL/Postgres/Sqlite)
-    - Apache Kafka
+    - MySQL/Postgres/Sqlite
+    - Kafka/GRPC/Protobuf
   tools:
     - Amazon Web Services
     - Terraform/Ansible

@@ -1,4 +1,4 @@
-<section class="row no-print">
+<section class="row no-print writing">
   <h2>Selected Writing</h2>
 
   <dl>
@@ -6,7 +6,7 @@
     {% for year in by_year %}
     <dt><time>{{ year.name }}</time></dt>
     <dd>
-      <ul>
+      <ul class="compact">
         {% for doc in year.items %}
         <li><a href="{{ doc.link }}">{{ doc.title }}</a>, <em>{{ doc.publication }}</em></li>
         {% endfor %}
