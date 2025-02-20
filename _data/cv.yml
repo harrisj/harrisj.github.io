@@ -10,14 +10,12 @@ personal:
     keybase: harrisj
   fingerprint: 219E C44A EC5B 6425 5A5B 0CB9 22C5 DDCC 45EE 2FBA
 objective: >
-  I am a web developer and engineering manager with over 20 years of work
-  experience and a Master’s Degree in Computer Science who is looking for
-  interesting problems and building software for the public good. I specialize
-  in backend architectures and reliable APIs for important purposes. I enjoy
-  immensely being an engineering manager who coaches my direct reports to
-  thrive. I live in the Washington, D.C. area, but I am also an experienced and
-  ruthlessly efficient remote worker accustomed to working with distributed
-  teams.
+  I am seeking a Tech Lead/Manager of Software Engineering role position building software that serves the public in a meaningful way.
+  I have 27 years of software engineering experience, 16 years of senior technical leadership and 7 years of people management
+  in engineering. I am quick to learn new technologies while using my experience to architect simple solutions to complicated problems.
+  Software engineering is a team effort – I use my technical skills and empathetic communication to lift up the entire team, so we can build great products 
+  together. I also am an empathetic people manager who enjoys mentoring people and guiding them as they advance in their career. I am
+  looking for a role where I can leverage all of these skills and grow as a leader.
 career:
   - company: Consumer Financial Protection Bureau
     link: http://www.consumerfinance.gov/
@@ -37,8 +35,8 @@ career:
           The Design & Development (D&D) team within CFPB handles a variety of
           print and digital design, as well as software development
           responsibilities. As part of the Front Office leadership team, I
-          balance a variety of supervisory duties within the department. I also
-          help oversee the technical work for multiple front-end and back-end
+          balance a variety of supervisory managerial duties within the department.
+          I also partially oversee the technical work for multiple front-end and back-end
           web developers, guide decision-making, steer teams through
           bureaucratic roadblocks and establish engineering practices for an
           experienced and stable division focused on sustainability and
@@ -272,35 +270,34 @@ education:
       languages and compilers.
 skills:
   languages:
+    - Python/Flask/Luigi/FastAPI
+    - Node.js/Express
+    - Ruby/Ruby on Rails
+    - HTML/CSS/Javascript
     - C/C++/Go
     - Java/Scala/Spark
-    - HTML/CSS/Javascript
-    - Ruby/Ruby on Rails
-    - Python/Flask/Luigi/FastAPI
-    - Node/Express
     - Scheme/Lisp/Clojure
     - SQL (MySQL/Postgres/Sqlite)
     - Apache Kafka
   tools:
-    - Mac OS X/ Linux server
     - Amazon Web Services
-    - Terraform
+    - Terraform/Ansible
     - New Relic/on-call tools
     - Docker/CloudFoundry
     - Scraping and ETL Pipelines
     - Splunk/Kinesis/ELK
     - Redis/Elasticsearch
     - Test-Driven Development
-  creative:
+    - Accessibility
+  career:
     - Data Journalism
     - API-centric approaches
     - Agile/Kanban/SAFe
     - Self-directed remote worker
     - Experienced engineering manager
-    - COR (Level 1)
+    - Contracting Officer Representative (Level 1)
     - Strong communication skills
     - Works well with others
-    - Concerned about inclusion
 writing:
   - title: Solving a Century-Old Typographical Mystery
     link: http://www.theatlantic.com/technology/archive/2016/05/the-ascii-mystery-face/483698/
