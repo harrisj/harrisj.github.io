@@ -15,6 +15,11 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
+h2 {
+    break-before: avoid;
+    font-size: 3.8rem;
+}
+
 ul {
     margin-bottom: 0.5rem;
 }
@@ -41,30 +46,33 @@ ul.job-projects {
     margin-top: 10px;
 }
 
-.contact-list {
-    display: block;
-    margin-left: 1%;
-    width: 100% !important;
+#contact-list {
+    margin-left: 0;
 }
 
-.contact-list li {
-    padding-left: 0;
-    display: inline-block;
+#contact-list ul li {
+    display: inline;
+    padding: 0;
 }
 
-.contact-list li:before {
-    content: "›";
-    margin: 0 4px;
+#contact-list li:before {
+    content: "";
+    padding: 0;
+    margin-left: 1px
+}
+
+#contact-list li:not(:first-child):before {
+    content: " | ";
 }
 
 .no-print, .no-print * {
     display: none !important;
 }
 
-dt:not(:first-child) {
+/* dt:not(:first-child) {
     padding-top: var(--job-dt-top-padding);
 }
 
 dd:not(:first-child) {
     padding-top: var(--job-dt-top-padding);
-}
+} */

@@ -14,12 +14,12 @@ h1 {
     break-before: avoid;
 }
 
-.contact-list {
+#contact-list {
     padding-left: 0px;
     margin-left: 0;
 }
 
-.contact-list li {
+#contact-list li {
     line-height: var(--compact-list-height);
     margin-bottom: 0;
 }
