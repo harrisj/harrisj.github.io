@@ -7,7 +7,7 @@
     size: auto;   /* auto is the initial value */ 
 
     /* this affects the margin in the printer settings */ 
-    margin: 1mm 2mm 1mm 2mm;  
+    margin: 2mm 2mm 2mm 2mm;  
 } 
 
 body  
