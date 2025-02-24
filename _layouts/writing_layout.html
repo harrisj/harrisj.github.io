@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/css/normalize.css">
+    <link rel="stylesheet" href="/static/css/skeleton.css">
+    <link rel="stylesheet" href="/static/css/writing/layout.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <div class="row">
+        <section class="three columns" id="sidebar">
+            <dl id="metadata">
+                <dt id="pub_date">Date</dt>
+                <dd>{{ page.date | date_to_string: "ordinal", "US" }}</dd>
+
+                <dt id="site">Publication</dt>
+                <dd><a href="{{ page.pub_permalink }}">{{ page.publisher }}</a></dd>
+            </dl>
+
+            <div id="subtitle">{{ page.subtitle }}</div>
+        </section>
+        <section class="nine columns" id="content">
+            {{ content }}
+        </section>
+  <footer class="twelve columns">
+  </footer>
+  </div>
+</body>
+</html>

@@ -18,6 +18,7 @@
 dl {
     display: grid;
     grid-template-columns: max-content auto;
+    margin-block-start: 0rem;
 }
 
 #employment dl {
@@ -40,36 +41,11 @@ dd {
     margin-left: 9px;
 }
 
-/* dt {
-    float: left;
-    display: block;
-    /* left: 0; 
-    color: #626262;
-    font-size: var(--dt-time-font-size);
-    text-transform: none;
-    max-width: 80px;
-    text-align: right;
-}
-
-dd {
-    border-left: 1px solid #dfdfdf;
-    float: left;
-    display: block;
-    padding-left: 9px;
-    width: auto;
-    margin-left: 86px;
-    /*margin: 0 0 -15px 86px;
-    padding: 0 0 0 9px; 
-} 
-
-dt { clear: both; } */
-
 ul {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
 }
-
 
 div.job {
     line-height: 1.4;
@@ -95,10 +71,6 @@ li:before {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 0.4rem;
-}
-
-dl {
-    margin-block-start: 0rem;
 }
 
 dd.job {

@@ -1,0 +1,52 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+dl#metadata {
+    display: grid;
+    grid-gap: 0px 9px;
+    margin-block-start: 0rem;
+    grid-template-columns: 3.2em auto;
+}
+
+#metadata dt {
+    grid-column-start: 1;
+    background-color: #eae8e8;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: left;
+    margin-inline: 0;
+}
+  
+#metadata dd {
+    grid-column-start: 2;
+    margin-inline: 0;
+}
+
+#sidebar section {
+    border-right: 1px solid #dfdfdf;
+}
+
+div#subtitle {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* Fun little Markdown hack */
+img[alt$=">"] {
+    float: right;
+    padding-left: 10px;
+}
+  
+img[alt$="<"] {
+    float: left;
+    padding-right: 10px;
+}
+  
+img[alt$="><"] {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    float: none!important;
+}
