@@ -2,7 +2,8 @@
 layout: writing_layout
 title: Prediction for 2015 - A Wave of P.R. Data
 subtitle: "The wave of bullshit data is rising, and now it’s our turn to figure out how not to get swept away."
-date: 20111013
+date: 20141013
+year: 2014
 category: published
 permalink: /published/wave-pr-data.html
 pub_permalink: https://www.niemanlab.org/2014/12/a-wave-of-p-r-data/

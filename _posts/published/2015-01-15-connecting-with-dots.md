@@ -3,6 +3,7 @@ layout: writing_layout
 title: Connecting with the Dots
 subtitle: Jake Harris on data visualization, empathy, and representing people with dots
 date: 20150115
+year: 2015
 category: published
 permalink: /published/connecting-with-dots.html
 pub_permalink: https://source.opennews.org/articles/connecting-dots/

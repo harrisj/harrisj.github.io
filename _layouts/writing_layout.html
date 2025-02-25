@@ -25,14 +25,16 @@
                 <dt id="pub_date">Date</dt>
                 <dd>{{ page.date | date_to_string: "ordinal", "US" }}</dd>
 
-                <dt id="site">Publication</dt>
+                <dt id="site">Publisher</dt>
                 <dd><a href="{{ page.pub_permalink }}">{{ page.publisher }}</a></dd>
             </dl>
 
             <div id="subtitle">{{ page.subtitle }}</div>
+
+            <div id="summary">{{ page.summary }}</div>
         </section>
         <section class="nine columns" id="content">
-            {{ content }}
+            {{ content | smartify }}
         </section>
   <footer class="twelve columns">
   </footer>

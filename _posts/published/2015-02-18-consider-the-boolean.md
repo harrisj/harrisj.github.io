@@ -3,6 +3,7 @@ layout: writing_layout
 title: Consider the Boolean
 subtitle: The Challenge of Using Binary Data Structures in a Complicated World
 date: 20150218
+year: 2015
 category: published
 permalink: /published/consider-boolean.html
 pub_permalink: https://source.opennews.org/articles/consider-boolean/

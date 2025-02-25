@@ -3,6 +3,7 @@ layout: writing_layout
 title: Thank You, Electionbot
 subtitle: A friendly bot that will shoulder the burden of monitoring offers peace of mind as well as efficient notifications
 date: 20150315
+year: 2015
 category: published
 permalink: /published/thank-you-electionbot.html
 pub_permalink: https://source.opennews.org/articles/thank-you-electionbot/

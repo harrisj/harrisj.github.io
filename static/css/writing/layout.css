@@ -6,7 +6,7 @@ dl#metadata {
     display: grid;
     grid-gap: 0px 9px;
     margin-block-start: 0rem;
-    grid-template-columns: 3.2em auto;
+    grid-template-columns: 4.2em auto;
 }
 
 #metadata dt {
@@ -28,8 +28,13 @@ dl#metadata {
 }
 
 div#subtitle {
+    margin-top: 1em;
     font-style: italic;
     font-size: 0.9em;
+}
+
+div#summary {
+    margin-top: 1em;
 }
 
 /* Fun little Markdown hack */

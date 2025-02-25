@@ -3,6 +3,7 @@ layout: writing_layout
 title: Distrust Your Data
 subtitle: Six Ways to Make Mistakes with Data
 date: 20140522
+year: 2014
 category: published
 permalink: /published/distrust-your-data
 pub_permalink: https://source.opennews.org/articles/distrust-your-data/

@@ -3,6 +3,7 @@ layout: writing_layout
 title: Bots With Thoughts
 subtitle: On magic, aesthetics, and the newsbot frontier
 date: 20140328
+year: 2014
 category: published
 permalink: /published/bots-with-thoguhts
 pub_permalink: https://source.opennews.org/articles/bots-with-thoughts/

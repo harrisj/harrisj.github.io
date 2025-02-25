@@ -3,8 +3,9 @@ layout: writing_layout
 title: Solving a Century-Old Typographical Mystery
 subtitle: How a strange face in a random 19th-century newspaper ad became a portal to a forgotten moment in ASCII art history
 date: 20160524
+year: 2016
 category: published
-permalink: /published/typographical-mystery.html
+permalink: /published/typographic-mystery.html
 pub_permalink: http://www.theatlantic.com/technology/archive/2016/05/the-ascii-mystery-face/483698/
 publisher: The Atlantic
 ---

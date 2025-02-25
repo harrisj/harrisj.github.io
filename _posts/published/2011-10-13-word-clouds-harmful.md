@@ -2,6 +2,7 @@
 layout: writing_layout
 title: Word Clouds Considered Harmful
 date: 20111013
+year: 2011
 category: published
 permalink: /published/word-clouds.html
 pub_permalink: https://www.niemanlab.org/2011/10/word-clouds-considered-harmful/

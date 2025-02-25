@@ -2,7 +2,8 @@
 layout: writing_layout
 title: Why Is It So Hard to Make Great Food Infographics?
 subtitle: Two new books, ‘Taste’ and ‘A Visual Guide to Drink,' try to bring data visualization to what we eat and drink
-date: 20160524
+date: 20151216
+year: 2015
 category: published
 permalink: /published/food-infographics.html
 pub_permalink: https://www.eater.com/2015/12/16/10288258/book-review-food-infographics
