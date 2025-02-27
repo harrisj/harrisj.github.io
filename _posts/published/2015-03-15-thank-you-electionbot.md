@@ -1,7 +1,9 @@
 ---
 layout: writing_layout
 title: Thank You, Electionbot
-subtitle: A friendly bot that will shoulder the burden of monitoring offers peace of mind as well as efficient notifications
+subtitle: A friendly bot that will shoulder the burden of monitoring offers peace of mind as well as efficient notifications.
+summary: >
+  I was doing "ChatOps" before it was cool. This piece looked at how we used Slack webhooks and posting to keep track of the election loading bot via Slack without needing to login to dedicated systems to monitor.
 date: 20150315
 year: 2015
 category: published
@@ -9,14 +11,14 @@ permalink: /published/thank-you-electionbot.html
 pub_permalink: https://source.opennews.org/articles/thank-you-electionbot/
 publisher: Source
 ---
-![Typical Electionbot chatter in our Slack channel](/static/images/writing/thank-you-electionbot/typical-chatter.jpg)
-
 Reporting election results is a bit like flying a blimp through windmill country: hours of tedium punctuated by minutes of terror. Generally most of your night filled with the boring hours of waiting for polls to close or watching the remaining votes trickle in after the important races have been called. But in between those spans are usually several important events for key races:
 - The polls close in the state (get ready to show votes)
 - First votes are reported (good time to check your results)
 - The race is called for a winner (sometimes 2 winners or a runoff)
 
 What makes things complicated is that each newsworthy race we might care about might reach these moments at different points during the night. Furthermore, each state will close its polls at different times, and some states will report votes immediately after polls close while others may take a half hour or more. On the night of the 2014 midterm election, there were 9 different poll closing times across all the states and 52 races the New York Times considered especially newsworthy. Those are a lot of balls in the air at once. Previously, the only recourse was to eyeball the loader’s console output as it scrolled past and to send messages to reporters whenever the races they cared about were called. This can mean some stressful interruptions when you are trying to track down a bug in your code. In 2014, it was time for Electionbot to shoulder part of the load.
+
+![Typical Electionbot chatter in our Slack channel](/static/images/writing/thank-you-electionbot/typical-chatter.jpg)
 
 At its core, what we called Electionbot consisted of two separate pieces of code. The first of these was a notifier that would be called by the loader after it completed every load and post messages to a [Slack](https://slack.com/) channel where the election team was gathered. This used Slack’s [incoming webhooks API](https://api.slack.com/incoming-webhooks) to send alerts when an important race was called or a state’s polls had closed. The code for something like this is pretty straightforward but its utility is immense:
 

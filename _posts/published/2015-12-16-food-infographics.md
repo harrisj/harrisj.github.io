@@ -2,6 +2,10 @@
 layout: writing_layout
 title: Why Is It So Hard to Make Great Food Infographics?
 subtitle: Two new books, ‘Taste’ and ‘A Visual Guide to Drink,' try to bring data visualization to what we eat and drink
+summary: >
+    As a commissioned piece for Eater, I reviewed two infographics-themed books about food and drink to discuss what was
+    effective and what was eye candy. I am archiving the text here, but I do not have rights for the images, so you will
+    need to navigate to Eater to view them.
 date: 20151216
 year: 2015
 category: published
@@ -58,5 +62,3 @@ How might they have succeeded? When it comes to data and information, it's advan
 Of course, after all this, it's worth pointing out that infographics aren't entirely new to the food world.&nbsp; We interact with visually presented information on a daily basis — either because they are legally required (we all know what the [food pyramid](https://en.wikipedia.org/wiki/Food_pyramid_(nutrition)) is and [how to perform a Heimlich Maneuver](http://www.studio360.org/story/sideshow-podcast-bea-arthur-and-unicorns-teach-you-heimlich-maneuver/), or because they're extremely practical; that chart at the butcher showing [the cuts of meat on a steer](https://www.angus.org/pub/beefchart.pdf) is an infographic too. What these tremendously successful examples prove is that when done right, an infographic displays perfect harmony between info and graphic: a good one is always going to be significantly more clear and accessible than an equivalent block of text, or an equivalent visual-only representation.
 
 But none of this is to say that an infographic should stand alone. _A Visual Guide to Drink_ is better than some wine references in some ways, but you still need other books if you want to go deep on the nuances of a particular grape, or the histories of various AOCs. _Taste_ may tell you which countries are most enamored of instant ramen, but it won’t give you a deep look at the cultural and geographic reasons why. Even at their very, very best, infographics provide their user with just a starting point for understanding the world. To that end, these books, in differing degrees, succeed. But you'll still need the rest of your library to support them; for better or for worse, neither one stands alone on the shelf. And that's okay — they shouldn't have to.
-
-_Images are not included here, since they are copyrighted. Navigate to the original piece on Eater to see them._

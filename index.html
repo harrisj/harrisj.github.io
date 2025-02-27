@@ -1,1 +1,54 @@
-resume.html
+---
+---
+<html>
+  <head>
+    <title>jacobharr.is</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="The personal website of Jacob Harris">
+    <meta name="author" content="Jacob Harris">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/normalize.css">
+    <link rel="stylesheet" href="static/css/skeleton.css">
+    <link rel="stylesheet" href="static/css/resume/layout.css">
+    <link rel="stylesheet" href="static/css/homepage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <section id="title" class="six columns">
+          <h1 id="big-title">jacobharr.is</h1>
+        </section>
+
+        <section id="contact" class="six columns">
+          <ul class="compact">
+            <li><a href="/resume.html">Professional Résumé</a></li>
+            <li><a href="mailto:mail@jacobharr.is">mail@jacobharr.is</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Takoma_Park,_Maryland">Takoma Park, MD</a></li>
+            <li><a href="https://bsky.app/profile/jacobharr.is">@jacobharr.is on Bsky</a></li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="row" id="writing">
+        <section id="professional_writing" class="eight columns">
+          {% include homepage/professional_writing.html %}
+        </section>
+      </div>
+
+      <div class="row" id="writing">
+        <section id="personal_writing" class="eight columns">
+          {% include homepage/personal_writing.html %}
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

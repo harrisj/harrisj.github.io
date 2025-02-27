@@ -19,8 +19,9 @@
 <body>
   <div class="container">
     <h1>{{ page.title }}</h1>
+    <h6>{{ page.subtitle }}</h6>
     <div class="row">
-        <section class="three columns" id="sidebar">
+        <section class="twelve columns" id="sidebar">
             <dl id="metadata">
                 <dt id="pub_date">Date</dt>
                 <dd>{{ page.date | date_to_string: "ordinal", "US" }}</dd>
@@ -31,11 +32,18 @@
 
             <div id="subtitle">{{ page.subtitle }}</div>
 
-            <div id="summary">{{ page.summary }}</div>
+            <div id="summary">{{ page.summary | markdownify }}</div>
         </section>
-        <section class="nine columns" id="content">
+    </div>
+    <div class="row">
+        <section class="ten columns" id="content">
             {{ content | smartify }}
         </section>
+
+        <section class="two column" id="metadata">
+            {{ page.date | date_to_string: "ordinal", "US" }}
+        </section>
+    </div>
   <footer class="twelve columns">
   </footer>
   </div>

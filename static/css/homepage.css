@@ -1,0 +1,16 @@
+#big-title {
+    margin-top: 2rem;
+    font-size: 10vw;
+    padding-right: 9px;
+}
+
+#bio {
+    margin-top: 3.5rem;
+    border: 3px;
+    vertical-align: bottom;
+    margin-bottom: 0.4rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}

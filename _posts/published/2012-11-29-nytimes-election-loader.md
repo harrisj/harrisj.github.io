@@ -1,7 +1,8 @@
 ---
 layout: writing_layout
 title: The New York Times' Election Loader
-subtitle: On magic, aesthetics, and the newsbot frontier
+subtitle: Jacob Harris explains how it was made, tuned and tested
+summary: A deep dive in to some of the internal workings of the backend system that powered election results at the New York Times from 2008 - 2015
 date: 20121129
 year: 2012
 category: published
@@ -25,9 +26,7 @@ The Candidates file is largely fixed by the time an election occurs in a given s
 It all starts with race changes.
         
 ## Track What Changes                   
-                    
-![Terminal output from the loading process >](/static/images/writing/election-loader/console-output.jpg)
-                    
+![Terminal output from the loading process >](/static/images/writing/election-loader/console-output.jpg)  
 Once loaded, the AP files provide a complete representation of the election at that particular moment in  time. But usually 10% or fewer of those races change between one load and the next. We were concerned that it would unduly stress the database to reload rows of unchanged data within transaction during each load. So, we decided to figure out which races change on any given load, and then only update those. We do this by creating parallel staging and production tables for races and results. Staging is used to load the races for that day. Production includes races for that day and prior elections. We also created a special table (`race_changes`) for tracking race_changes. Our loading process then runs like this:<
 - Create a new Load record in the DB with a unique autoincrement ID
 - Clear all the staging tables

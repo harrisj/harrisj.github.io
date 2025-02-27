@@ -9,6 +9,10 @@ dl#metadata {
     grid-template-columns: 4.2em auto;
 }
 
+#avatar picture {
+    max-width: 200px;
+}
+
 #metadata dt {
     grid-column-start: 1;
     background-color: #eae8e8;

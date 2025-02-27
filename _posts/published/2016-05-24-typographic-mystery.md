@@ -2,6 +2,7 @@
 layout: writing_layout
 title: Solving a Century-Old Typographical Mystery
 subtitle: How a strange face in a random 19th-century newspaper ad became a portal to a forgotten moment in ASCII art history
+summary: As part of messing around with advertising in the New York Times archives, I inadvertently stumbled across an example of ASCII art from the 1880s.
 date: 20160524
 year: 2016
 category: published

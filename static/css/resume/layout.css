@@ -9,7 +9,7 @@
     width: auto;
 }
 
-@media(max-width:829px) {
+@media(max-width:835px) {
     section.avatar img {
         display: none;
     }

@@ -1,6 +1,8 @@
 ---
 layout: writing_layout
 title: Word Clouds Considered Harmful
+subtitle: The New York Times senior software architect would like the newest “mullets of the Internet” to go back from whence they came.
+summary: My first published piece was a diatribe against those unholy abominations of visualization known as word clouds.
 date: 20111013
 year: 2011
 category: published

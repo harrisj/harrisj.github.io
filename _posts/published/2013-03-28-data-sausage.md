@@ -2,7 +2,12 @@
 layout: writing_layout
 title: How the Data Sausage Gets Made
 subtitle: Jacob Harris on Turning Freeform Text into Journalism
-summary: A lengthy deep-dive on how I would scrape USDA and FDA food recalls to extract quantitative data
+summary: > 
+  A lengthy explainer on how I used simple code to scrape USDA and FDA food recalls to extract quantitative data
+
+  The FSIS and FDA websites have gone through a few revisions since this article was first published, but the general crux of it is still true.
+
+  I have a new [scraper with public source code](https://github.com/harrisj/food-recalls-actions/actions) as a hobbyist project.
 date: 20130328
 year: 2013
 category: published
@@ -393,9 +398,3 @@ One interesting aspect about food recalls is that they [inadvertently reveal hid
 A case of related recalls wouldn’t produce a comprehensive means of illustrating the modern food supply chain in itself, but there are potentially interesting stories to be told in there about how food is produced these days. We just need tools to find those stories and visualizations to show them to journalists and the general public.
 
 Get to work!
-
-# Addendum of 2/24/2025
-The FSIS and FDA websites have gone through a few revisions since this article was first published, but the general crux of it is still true.
-
-I still have a scraper running as a hobbyist project (have it for USDA, FDA is more scraper-unfriendly)
-- [Source Code](https://github.com/harrisj/food-recalls-actions/actions)

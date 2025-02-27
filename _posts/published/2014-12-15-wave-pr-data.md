@@ -2,6 +2,8 @@
 layout: writing_layout
 title: Prediction for 2015 - A Wave of P.R. Data
 subtitle: "The wave of bullshit data is rising, and now it’s our turn to figure out how not to get swept away."
+summary: >
+    The good news is that my fear of being overwhelmed with bad "news" stories based on shoddy data provided by PR firms hasn't materialized. The bad news is that we are living in an era of misinformation instead.
 date: 20141013
 year: 2014
 category: published
