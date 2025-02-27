@@ -1,6 +1,6 @@
 personal:
   name: Jacob Harris
-  email: harrisj.home@gmail.com
+  email: mail@jacobharr.is
   phone: (917) 535-2026
   site: https://jacobharr.is/
   city: Takoma Park, MD
@@ -10,397 +10,244 @@ personal:
     keybase: harrisj
   fingerprint: 219E C44A EC5B 6425 5A5B 0CB9 22C5 DDCC 45EE 2FBA
 objective: >
-  I am seeking a Tech Lead/Manager of Software Engineering role building software that serves the public in a meaningful way.
-  I have 27 years of software engineering experience, 16 years of senior technical leadership and 7 years of people management
-  in engineering. I am quick to learn new technologies while using my experience to architect simple solutions to complicated problems.
-  Software engineering is a team effort – I use my technical skills and empathetic communication to lift up the entire team, so we can build great products 
-  together. I also am an empathetic people manager who enjoys mentoring people and guiding them as they advance in their career. I am
-  looking for a role where I can leverage all of these skills and grow as a leader.
+  I am seeking a Tech Lead/Manager of Software Engineering role building software that serves the public in a meaningful way. I have 27 years of software engineering experience, 16 years of senior technical leadership and 7 years of people management in engineering. I am quick to learn new technologies while using my experience to architect simple solutions to complicated problems. Software engineering is a team effort – I use my technical skills and empathetic communication to lift up the entire team, so we can build great products  together. I also am a dedicated people manager who enjoys mentoring people and guiding them as they advance in their career. I am looking for a role where I can leverage all of these skills and grow as a leader.
 career:
-  - company: Consumer Financial Protection Bureau
-    link: http://www.consumerfinance.gov/
-    title: Supervisory IT Specialist
-    start: 2023
-    end: now
+- company: Consumer Financial Protection Bureau
+  link: http://www.consumerfinance.gov/
+  title: Supervisory IT Specialist
+  start: 2023
+  end: now
+  description: >-
+    The Consumer Financial Protection Bureau (CFPB) is a small federal agency founded in 2010 and dedicated to financial education, regulation and enforcement in service of the American public. Since its founding, the CFPB has had an innovative digital presence, including the first design system and open-source presence in the US government, and it influenced the tactics and mission of the US Digital Service and 18F.
+  projects:
+  - title: Application Development Lead in Design & Development
     description: >-
-      The Consumer Financial Protection Bureau (CFPB) is a small federal agency
-      founded in 2010 and dedicated to financial education, regulation and
-      enforcement in service of the American public. Since its founding, the
-      CFPB has had an innovative digital presence, including the first design
-      system and open-source presence in the US government, and it influenced
-      the tactics and mission of the US Digital Service and 18F.
-    projects:
-      - title: Application Development Lead in Design & Development
-        description: >-
-          The Design & Development (D&D) team within CFPB handles a variety of
-          print and digital design, as well as software development
-          responsibilities. As part of the Front Office leadership team, I
-          balance a variety of supervisory managerial duties within the department.
-          I also partially oversee the technical work for multiple front-end and back-end
-          web developers, guide decision-making, steer teams through
-          bureaucratic roadblocks and establish engineering practices for an
-          experienced and stable division focused on sustainability and
-          longevity.
-      - title: Supervisory IT Specialist
-        description: >-
-          I am the first-line supervisor for 12 software engineers distributed
-          in a matrix model across 5 different software engineering teams. These
-          teams are working on the CFPB website, consumer-facing tools, internal
-          enforcement products and consumer complaints. As their supervisor, I
-          conduct regular 1-1s with all my direct reports, coach them through
-          problems and assess their performance against agency expectations
-          twice a year. I take particular pride in having re-established regular
-          engineering syncs as well as sending staff to conferences and other
-          training opportunities. I also have identified several engineering
-          best practices as guidelines for all the teams to follow.
-      - title: Contracting Officer Representative (Level 1)
-        description: >-
-          I am certified as a COR Level 1 in the federal government and have
-          overseen the the procurement, payment and even the wind-down of
-          several Software-as-a-Service (SaaS) products used by developers
-          within Design & Development. In my role as COR, I have also helped to
-          roll out Single-Sign-On (SSO) support for multiple applications as
-          well as set up necessary configuration.
-  - company: Nava PBC
-    link: https://www.navapbc.com/
-    title: Senior Engineering Lead / Engineering Manager
-    start: 2018
-    end: 2023
-    description: >
-      Nava is a public benefit corporation that contracts with
-      government agencies to build solutions and thoughtfully apply
-      technology to serve the American public.
-    projects:
-      - title: Medicare Replicated Data Access (RDA) API
-        link: https://www.usds.gov/projects/medicare-payment-program
-        description: >-
-          The Medicare Payment Systems Modernization (MPSM) is an ambitious
-          long-term effort spanning multiple teams to migrate Medicare payments
-          processing away from COBOL running on mainframes to modern Java
-          running in the AWS Cloud. I was the Engineering Lead (a key personnel
-          role) of the Replicated Data Access (RDA) API team, which is building
-          a streaming API in gRPC to provide claims in near real-time to other
-          projects within CMS. While acting as the engineering lead, I also
-          helped guide the expansion of the RDA API contract to include a
-          greater role in the MPSM project that is providing claims data to the
-          RDA API, as well as a pilot project to build a prototype API for
-          receiving questionnaires in the FHIR format.
-      - title: CMS Cloud IT Operations (CLOUDITOPS)
-        description: >-
-          The CMS Cloud ITOPS project is an extensive effort to modernize the
-          infrastructure powering hundreds of applications at the Center for
-          Medicare and Medicaid Services (CMS) and migrate them to the AWS and
-          Microsoft Azure clouds. As a developer on the Apps team, I helped to
-          identify and implement ways to operationalize some custom tooling
-          needed for security and compliance. I also helped build out new
-          tooling in Go. As a member of the CMS Cloud frontend team, I have
-          worked to standardize and improve backend infrastructure with
-          terraform. I also was a people manager for 6 engineers.
-      - title: Quality Payments Program (QPP) Submissions API
-        link: https://qpp.cms.gov/developers
-        description: >-
-          The QPP program in Medicare replaces the old flat fee-for-service
-          model of Medicare with adjusted reimbursements that award effective
-          doctors and penalize bad outcomes to improve the quality of Medicare
-          through financial incentives. Nava built the QPP Submissions API to
-          accept annual submissions of measures by participating health
-          registries. I joined the team while the API was already in service,
-          but I helped to implement the initial version of the final scoring
-          algorithm and helped with a later effort to improve the scoring
-          process for future years. I then moved into the role of Senior Tech
-          Lead (key personnel) for the project, managing a team of up to 9
-          engineers and helping to define and prioritize tasks for further
-          improvments to the API and other projects. I also help coordinate our
-          work with other contractors working on the QPP project. I helped
-          gracefully wind down and hand off the project when Nava's involvement
-          ended.
-      - title: Business Development Work
-        description: >-
-          I participated on different teams bidding on projects to expand Nava's
-          reach into new areas, several of which Nava won. On these projects, I
-          worked closely with internal experts from various teams on such tasks
-          as scoping out the architectures of the current system and our
-          proposed approaches, staffing and cost estimates, QASPs and other
-          measures of success and planning out rough timelines for delivery and
-          milestones for the project.
-      - title: Engineering Management
-        description: >-
-          I have been an Engineering Manager at Nava since the fall of 2018.
-          During that time, I typically managed teams of 6-8 engineers and
-          coached their career development through weekly 1:1s and regular
-          performance checkins. I am most proud about guiding junior engineers
-          through promotions and increasing responsibilities and encouraging
-          other direct reports to explore people management as well. I have
-          received high marks from my direct reports in 360 Reviews, with
-          specific recognition for building supportive teams and addressing
-          problems quickly for my engineers to be productive.
-  - company: 18F
-    link: https://18f.gsa.gov/
-    title: Innovation Specialist
-    start: 2015
-    end: 2018
-    description: >
-      18F is a “government startup” that operates within the General
-      Services Administration and consults to build software products
-      for other federal agencies as clients. We build all of our
-      projects in public, as open source software informed by user
-      research and agile planning.
-    projects:
-      - title: MyUSA
-        link: https://github.com/18F/myusa
-        description: >-
-          I joined this project while it was in progress and helped
-          build out the user interface. MyUSA was a prototype system
-          for single-sign-on that allowed users to sign in and control
-          what information they share with various government
-          websites.
-      - title: Micro-purchase
-        link: https://micropurchase.18f.gov
-        description: >-
-          "The premise of the micro-purchase experiment was radical:
-          government employees should be able to commission custom
-          software development with the same ease as they can buy
-          office supplies. The initial experiment was built in Google
-          Docs; I helped create a robust web application in Ruby on
-          Rails to successfully run all other auctions."
-      - title: FBI Crime Data Explorer
-        link: https://github.com/18F/crime-data-api
-        description: >-
-          I am extremely interested in Open Data; when I learned that
-          18F would be building an interface for crime data from the
-          FBI, I asked to be part of the project, especially since it
-          also meant learning Python, a language I did not know that
-          well. I have worked closely with another developer on the
-          backend, building and optimizing an API used by the visual
-          explorer website.
-      - title: Confidential Survey
-        link: https://github.com/18f/confidential-survey
-        description: >-
-          As part of my involvement with the Diversity Guild and a
-          project to gather statistics on 18F's efforts at diversity
-          and inclusion, I built a prototype for conducting surveys
-          without collecting detailed records that could compromise a
-          user's privacy
-  - company: The New York Times
-    link: http://nytimes.com
-    title: Senior Software Architect
-    office: Interactive News
-    start: 2006
-    end: 2015
+      The Design & Development (D&D) team within CFPB handles a variety of print and digital design, as well as software development responsibilities. As part of the Front Office leadership team, I balance a variety of supervisory managerial duties within the department. I also partially oversee the technical work for multiple front-end and back-end web developers, guide decision-making, steer teams through bureaucratic roadblocks and establish engineering practices for an experienced and stable division focused on sustainability and longevity.
+  - title: Supervisory IT Specialist
     description: >-
-      In 2007, I was a co-founder of the Interactive Newsroom Technologies
-      Team, a startup-like group embedded within the newsroom that
-      creates news-driven web applications on agile timeframes.
-    projects:
-      - title: Elections (2008-2014)
-        link: https://source.opennews.org/en-US/articles/ny-times-results-loader/
-        description: >-
-          In 2008, I paired with another developer to build a new and
-          better election results loader for the general election. We
-          continued using it for 2010, 2012, the 2013 NYC Mayoral
-          election and 2014 election years, and I refactored that
-          loader into a modular API-based service that shared results
-          with the web and print and operated under insane amounts of
-          traffic.
-      - title: Olympics Results (2010/2012)
-        link: http://2010games.nytimes.com/events/curling/mens/results.html
-        description: >
-          The International Olympic Committee provides a real-time
-          feed of XML results data, and I helped architect and build
-          out a service to parse those results and display on the
-          sites of the _Times_ and a few partners. I also helped to
-          architect the successor system built for the 2014 London
-          Olympics.
-      - title: Wikileaks War Logs
-        link: http://www.nytimes.com/interactive/2010/10/24/world/1024-surge-graphic.html
-        description: >
-          When Wikileaks provided the _Times_ with leaked military
-          dispatches from Iraq and Afghanistan, I built an internal
-          website application used by reporters to search and analyze
-          the people and places within. I also contributed
-          research and pitched a graphic to accompany a story on the
-          deaths in Baghdad.
-      - title: PUFFY
-        link: https://lens.blogs.nytimes.com/2010/05/02/readers-13/
-        description: >-
-          I helped create a new site for readers to upload photos from the 2009
-          inauguration of President Obama. This became the basis of a
-          general-purpose tool named PUFFY (for Photo Upload Form For You) that
-          allowed editors to moderate reader-submitted photos in 30+ projects.
-          This included Moment in Time, where more than 10,000 readers submitted
-          geotagged photos taken at the same time.
-      - title: Open Source
-        link: https://open.nytimes.com/
-        description: >-
-          As part of NYT Digital, I spearheaded new open-source initiatives at
-          the NYT and improved outreach for people to use public APIs from the
-          New York Times. I also helped to create the open.blogs.nytimes.com
-          site for engineers to blog about their work at the Times.
-      - title: "@nytimes Twitter Account"
-        link: https://twitter.com/nytimes
-        description: >
-          One afternoon in 2007, I created the @nytimes twitter
-          account. I then added other accounts and built the service
-          for feeding stories from various RSS feeds into the 80+
-          accounts belonging to the _Times_.
-      - title: Times Haiku
-        link: http://haiku.nytimes.com/
-        description: >
-          After the 2012 election, I built a bot that scanned _Times_
-          articles to find haiku embedded within them.
-  - company: Alacra, Inc.
-    title: Software Developer
-    link: http://www.alacra.com/
-    start: 1998
-    end: 2006
+      I am the first-line supervisor for 12 software engineers distributed in a matrix model across 5 different software engineering teams. These teams are working on the CFPB website, consumer-facing tools, internal enforcement products and consumer complaints. As their supervisor, I conduct regular 1-1s with all my direct reports, coach them through problems and assess their performance against agency expectations twice a year. I take particular pride in having re-established regular engineering syncs as well as sending staff to conferences and other training opportunities. I also have identified several engineering best practices as guidelines for all the teams to follow.
+  - title: Contracting Officer Representative (Level 1)
+    description: >-
+      I am certified as a COR Level 1 in the federal government and have overseen the the procurement, payment and even the wind-down of several Software-as-a-Service (SaaS) products used by developers within Design & Development. In my role as COR, I have also helped to roll out Single-Sign-On (SSO) support for multiple applications as well as set up necessary configuration.
+- company: Nava PBC
+  link: https://www.navapbc.com/
+  title: Senior Engineering Lead / Engineering Manager
+  start: 2018
+  end: 2023
+  description: >
+    Nava is a public benefit corporation that contracts with government agencies to build solutions and thoughtfully apply technology to serve the American public.
+  projects:
+  - title: Medicare Replicated Data Access (RDA) API
+    link: https://www.usds.gov/projects/medicare-payment-program
+    description: >-
+      The Medicare Payment Systems Modernization (MPSM) is an ambitious long-term effort spanning multiple teams to migrate Medicare payments processing away from COBOL running on mainframes to modern Java running in the AWS Cloud. I was the Engineering Lead (a key personnel role) of the Replicated Data Access (RDA) API team, which is building a streaming API in gRPC to provide claims in near real-time to other projects within CMS. While acting as the engineering lead, I also helped guide the expansion of the RDA API contract to include a greater role in the MPSM project that is providing claims data to the RDA API, as well as a pilot project to build a prototype API for receiving questionnaires in the FHIR format.
+  - title: CMS Cloud IT Operations (CLOUDITOPS)
+    description: >-
+      The CMS Cloud ITOPS project is an extensive effort to modernize the infrastructure powering hundreds of applications at the Center for Medicare and Medicaid Services (CMS) and migrate them to the AWS and Microsoft Azure clouds. As a developer on the Apps team, I helped to identify and implement ways to operationalize some custom tooling needed for security and compliance. I also helped build out new tooling in Go. As a member of the CMS Cloud frontend team, I have worked to standardize and improve backend infrastructure with terraform. I also was a people manager for 6 engineers.
+  - title: Quality Payments Program (QPP) Submissions API
+    link: https://qpp.cms.gov/developers
+    description: >-
+      The QPP program in Medicare replaces the old flat fee-for-service model of Medicare with adjusted reimbursements that award effective doctors and penalize bad outcomes to improve the quality of Medicare through financial incentives. Nava built the QPP Submissions API to accept annual submissions of measures by participating health registries. I joined the team while the API was already in service, but I helped to implement the initial version of the final scoring algorithm and helped with a later effort to improve the scoring process for future years. I then moved into the role of Senior Tech Lead (key personnel) for the project, managing a team of up to 9 engineers and helping to define and prioritize tasks for further improvments to the API and other projects. I also help coordinate our work with other contractors working on the QPP project. I helped gracefully wind down and hand off the project when Nava's involvement ended.
+  - title: Business Development Work
+    description: >-
+      I participated on different teams bidding on projects to expand Nava's reach into new areas, several of which Nava won. On these projects, I worked closely with internal experts from various teams on such tasks as scoping out the architectures of the current system and our proposed approaches, staffing and cost estimates, QASPs and other measures of success and planning out rough timelines for delivery and milestones for the project.
+  - title: Engineering Management
+    description: >-
+      I have been an Engineering Manager at Nava since the fall of 2018. During that time, I typically managed teams of 6-8 engineers and coached their career development through weekly 1:1s and regular performance checkins. I am most proud about guiding junior engineers through promotions and increasing responsibilities and encouraging other direct reports to explore people management as well. I have received high marks from my direct reports in 360 Reviews, with specific recognition for building supportive teams and addressing problems quickly for my engineers to be productive.
+- company: 18F
+  link: https://18f.gsa.gov/
+  title: Innovation Specialist
+  start: 2015
+  end: 2018
+  description: >
+    18F is a “government startup” that operates within the General Services Administration and consults to build software products for other federal agencies as clients. We build all of our projects in public, as open source software informed by user research and agile planning.
+  projects:
+  - title: MyUSA
+    link: https://github.com/18F/myusa
+    description: >-
+      I joined this project while it was in progress and helped build out the user interface. MyUSA was a prototype system for single-sign-on that allowed users to sign in and control what information they share with various government websites.
+  - title: Micro-purchase
+    link: https://micropurchase.18f.gov
+    description: >-
+      "The premise of the micro-purchase experiment was radical: government employees should be able to commission custom software development with the same ease as they can buy office supplies. The initial experiment was built in Google Docs; I helped create a robust web application in Ruby on Rails to successfully run all other auctions."
+  - title: FBI Crime Data Explorer
+    link: https://github.com/18F/crime-data-api
+    description: >-
+      I am extremely interested in Open Data; when I learned that 18F would be building an interface for crime data from the FBI, I asked to be part of the project, especially since it also meant learning Python, a language I did not know that well. I have worked closely with another developer on the backend, building and optimizing an API used by the visual explorer website.
+  - title: Confidential Survey
+    link: https://github.com/18f/confidential-survey
+    description: >-
+      As part of my involvement with the Diversity Guild and a project to gather statistics on 18F's efforts at diversity and inclusion, I built a prototype for conducting surveys without collecting detailed records that could compromise a user's privacy
+- company: The New York Times
+  link: http://nytimes.com
+  title: Senior Software Architect
+  office: Interactive News
+  start: 2006
+  end: 2015
+  description: >-
+    In 2007, I was a co-founder of the Interactive Newsroom Technologies Team, a startup-like group embedded within the newsroom that creates news-driven web applications on agile timeframes.
+  projects:
+  - title: Elections (2008-2014)
+    link: https://source.opennews.org/en-US/articles/ny-times-results-loader/
+    description: >-
+      In 2008, I paired with another developer to build a new and better election results loader for the general election. We continued using it for 2010, 2012, the 2013 NYC Mayoral election and 2014 election years, and I refactored that loader into a modular API-based service that shared results with the web and print and operated under insane amounts of traffic.
+  - title: Olympics Results (2010/2012)
+    link: http://2010games.nytimes.com/events/curling/mens/results.html
     description: >
-      Alacra resells financial content from over 80 different
-      databases to financial and legal firms. My role there was R&D
-      and rapid development, particularly combining content from these
-      databases.
+      The International Olympic Committee provides a real-time feed of XML results data, and I helped architect and build out a service to parse those results and display on the sites of the _Times_ and a few partners. I also helped to architect the successor system built for the 2014 London Olympics.
+  - title: Wikileaks War Logs
+    link: http://www.nytimes.com/interactive/2010/10/24/world/1024-surge-graphic.html
+    description: >
+      When Wikileaks provided the _Times_ with leaked military dispatches from Iraq and Afghanistan, I built an internal website application used by reporters to search and analyze the people and places within. I also contributed research and pitched a graphic to accompany a story on the deaths in Baghdad.
+  - title: PUFFY
+    link: https://lens.blogs.nytimes.com/2010/05/02/readers-13/
+    description: >-
+      I helped create a new site for readers to upload photos from the 2009 inauguration of President Obama. This became the basis of a general-purpose tool named PUFFY (for Photo Upload Form For You) that allowed editors to moderate reader-submitted photos in 30+ projects. This included Moment in Time, where more than 10,000 readers submitted geotagged photos taken at the same time.
+  - title: Open Source
+    link: https://open.nytimes.com/
+    description: >-
+      As part of NYT Digital, I spearheaded new open-source initiatives at the NYT and improved outreach for people to use public APIs from the New York Times. I also helped to create the open.blogs.nytimes.com site for engineers to blog about their work at the Times.
+  - title: "@nytimes Twitter Account"
+    link: https://twitter.com/nytimes
+    description: >
+      One afternoon in 2007, I created the @nytimes twitter account. I then added other accounts and built the service for feeding stories from various RSS feeds into the 80+ accounts belonging to the _Times_.
+  - title: Times Haiku
+    link: http://haiku.nytimes.com/
+    description: >
+      After the 2012 election, I built a bot that scanned _Times_ articles to find haiku embedded within them.
+- company: Alacra, Inc.
+  title: Software Developer
+  link: http://www.alacra.com/
+  start: 1998
+  end: 2006
+  description: >
+    Alacra resells financial content from over 80 different databases to financial and legal firms. My role there was R&D and rapid development, particularly combining content from these databases.
 education:
-  - name: Massachusetts Institute of Technology
-    link: https://mit.edu/
-    start: 1993
-    end: 1998
-    degree: Masters Eng./Bachelor of Science (dual)
-    description: >
-      Major in Computer Science, Minor in Literature. Concentration of
-      studies: operating systems, software engineering, programming
-      languages and compilers.
+- name: Massachusetts Institute of Technology
+  link: https://mit.edu/
+  start: 1993
+  end: 1998
+  degree: Masters Eng./Bachelor of Science (dual)
+  description: >
+    Major in Computer Science, Minor in Literature. Concentration of studies: operating systems, software engineering, programming languages and compilers.
 skills:
   languages:
-    - Python/Flask/FastAPI
-    - Node.js/Express
-    - Ruby/Ruby on Rails
-    - HTML/CSS/Javascript
-    - C/C++/Go
-    - Java/Scala/Spark
-    - Scheme/Lisp/Clojure
-    - MySQL/Postgres/Sqlite
-    - Kafka/GRPC/Protobuf
+  - Python/Flask/FastAPI
+  - Node.js/Express
+  - Ruby/Ruby on Rails
+  - HTML/CSS/Javascript
+  - C/C++/Go
+  - Java/Scala/Spark
+  - Scheme/Lisp/Clojure
+  - MySQL/Postgres/Sqlite
+  - Kafka/GRPC/Protobuf
   tools:
-    - Amazon Web Services
-    - Terraform/Ansible
-    - New Relic/on-call tools
-    - Docker/CloudFoundry
-    - Scraping and ETL Pipelines
-    - Splunk/Kinesis/ELK
-    - Redis/Elasticsearch
-    - Test-Driven Development
-    - Accessibility
+  - Amazon Web Services
+  - Terraform/Ansible
+  - New Relic/on-call tools
+  - Docker/CloudFoundry
+  - Scraping and ETL Pipelines
+  - Splunk/Kinesis/ELK
+  - Redis/Elasticsearch
+  - Test-Driven Development
+  - Accessibility
   career:
-    - Data Journalism
-    - API-centric approaches
-    - Agile/Kanban/SAFe
-    - Self-directed remote worker
-    - Experienced engineering manager
-    - Federal contracting
-    - Strong communication skills
-    - Works well with others
+  - Data Journalism
+  - API-centric approaches
+  - Agile/Kanban/SAFe
+  - Self-directed remote worker
+  - Experienced engineering manager
+  - Federal contracting
+  - Strong communication skills
+  - Works well with others
 writing:
-  - title: Solving a Century-Old Typographical Mystery
-    link: http://www.theatlantic.com/technology/archive/2016/05/the-ascii-mystery-face/483698/
-    publication: Atlantic Monthly
-    year: 2016
-    description: >
-      How a strange face in a random 19th-century newspaper ad became
-      a portal to a forgotten moment in ASCII art history
-  - title: Why Is It So Hard to Make Great Food Infographics?
-    link: http://www.eater.com/2015/12/16/10288258/book-review-food-infographics
-    publication: Eater
-    year: 2015
-    description: >
-      A review of two books that try to bring infographic techniques
-      to food subjects.
-  - title: Consider the Boolean
-    link: https://source.opennews.org/en-US/learning/consider-boolean/
-    publication: Source
-    year: 2015
-    description: >
-      An example with boolean types of how even the simplest datatype
-      models can fail in complicated ways
-  - title: Connecting With The Dots
-    link: https://source.opennews.org/en-US/learning/connecting-dots/
-    publication: Source
-    year: 2015
-    description: >
-      A look at how infographics might potentially include empathy
-  - title: Thank You, Electionbot
-    link: https://source.opennews.org/en-US/articles/thank-you-electionbot/
-    publication: Source
-    year: 2015
-    description: >
-      How I used a Slack bot to easily track the progress of the Times
-      election loader.
-  - title: A Wave Of P.R. Data
-    link: http://www.niemanlab.org/2014/12/a-wave-of-p-r-data/
-    publication: NiemanLab
-    year: 2014
-    description: >
-      I am worried about the rise of sloppy chartjunk produced by PR
-      firms to virally advertise for companies
-  - title: Bots With Thoughts
-    link: https://source.opennews.org/en-US/articles/bots-with-thoughts/
-    publication: Source
-    year: 2014
-    description: >
-      Bots are more like toys than helpers these days. What if we
-      could create a bot that learned its aesthetics?
-  - title: Distrust Your Data
-    link: https://source.opennews.org/en-US/learning/distrust-your-data/
-    publication: Source
-    year: 2014
-    description: >
-      I analyzed some severe problems with a joint study from Pornhub
-      and Buzzfeed that was designed to be viral and was also terribly
-      wrong
-  - title: And Remember, This Is For Posterity
-    link: https://source.opennews.org/en-US/learning/and-remember-ones-posterity/
-    publication: Source
-    year: 2013
-    description: >
-      It is easier to read a newspaper from 100 years ago than a data
-      journalism project from 5 years back, because we do not build
-      our work to last.
-  - title: The Times Regrets The Programmer Error
-    link: https://source.opennews.org/en-US/learning/times-regrets-programmer-error/
-    publication: Source
-    year: 2013
-    description: >
-      Data journalism gives us new ways to report on the world, but
-      also many new and interesting ways to get it wrong. It is time
-      to consider a taxonomy of possible problems.
-  - title: About Times Haiku
-    link: http://haiku.nytimes.com/about
-    publication: The New York Times
-    year: 2013
-    description: >
-      How the New York Times haiku bot works
-  - title: How the Data Sausage Gets Made
-    link: https://source.opennews.org/en-US/learning/how-sausage-gets-made/
-    publication: Source
-    year: 2013
-    description: >
-      How I built a scraper to pull structured data out of the
-      unstructured press releases for food recalls
-  - title: "The New York Times' Election Loader"
-    link: https://source.opennews.org/en-US/articles/ny-times-results-loader/
-    publication: Source
-    year: 2012
-    description: >
-      I described some of the interesting aspect of the program that
-      automatically loaded election results for the Times homepage.
-  - title: Word Clouds Considered Harmful
-    link: http://www.niemanlab.org/2011/10/word-clouds-considered-harmful/
-    publication: NiemanLab
-    year: 2011
-    description: >
-      My diatribe against word clouds, a visualization that must be stopped
-  - title: A Deadly Day in Baghdad
-    link: http://www.nytimes.com/interactive/2010/10/24/world/1024-surge-graphic.html?_r=0
-    publication: The New York Times
-    year: 2010
-    description: >
-      A visualization of the sectarian violence that swept Iraq
-      derived from the Wikileaks War Logs
+- title: Solving a Century-Old Typographical Mystery
+  link: http://www.theatlantic.com/technology/archive/2016/05/the-ascii-mystery-face/483698/
+  publication: Atlantic Monthly
+  year: 2016
+  description: >
+    How a strange face in a random 19th-century newspaper ad became a portal to a forgotten moment in ASCII art history
+- title: Why Is It So Hard to Make Great Food Infographics?
+  link: http://www.eater.com/2015/12/16/10288258/book-review-food-infographics
+  publication: Eater
+  year: 2015
+  description: >
+    A review of two books that try to bring infographic techniques to food subjects.
+- title: Consider the Boolean
+  link: https://source.opennews.org/en-US/learning/consider-boolean/
+  publication: Source
+  year: 2015
+  description: >
+    An example with boolean types of how even the simplest datatype models can fail in complicated ways
+- title: Connecting With The Dots
+  link: https://source.opennews.org/en-US/learning/connecting-dots/
+  publication: Source
+  year: 2015
+  description: >
+    A look at how infographics might potentially include empathy
+- title: Thank You, Electionbot
+  link: https://source.opennews.org/en-US/articles/thank-you-electionbot/
+  publication: Source
+  year: 2015
+  description: >
+    How I used a Slack bot to easily track the progress of the Times election loader.
+- title: A Wave Of P.R. Data
+  link: http://www.niemanlab.org/2014/12/a-wave-of-p-r-data/
+  publication: NiemanLab
+  year: 2014
+  description: >
+    I am worried about the rise of sloppy chartjunk produced by PR firms to virally advertise for companies
+- title: Bots With Thoughts
+  link: https://source.opennews.org/en-US/articles/bots-with-thoughts/
+  publication: Source
+  year: 2014
+  description: >
+    Bots are more like toys than helpers these days. What if we could create a bot that learned its aesthetics?
+- title: Distrust Your Data
+  link: https://source.opennews.org/en-US/learning/distrust-your-data/
+  publication: Source
+  year: 2014
+  description: >
+    I analyzed some severe problems with a joint study from Pornhub and Buzzfeed that was designed to be viral and was also terribly wrong
+- title: And Remember, This Is For Posterity
+  link: https://source.opennews.org/en-US/learning/and-remember-ones-posterity/
+  publication: Source
+  year: 2013
+  description: >
+    It is easier to read a newspaper from 100 years ago than a data journalism project from 5 years back, because we do not build our work to last.
+- title: The Times Regrets The Programmer Error
+  link: https://source.opennews.org/en-US/learning/times-regrets-programmer-error/
+  publication: Source
+  year: 2013
+  description: >
+    Data journalism gives us new ways to report on the world, but also many new and interesting ways to get it wrong. It is time to consider a taxonomy of possible problems.
+- title: About Times Haiku
+  link: http://haiku.nytimes.com/about
+  publication: The New York Times
+  year: 2013
+  description: >
+    How the New York Times haiku bot works
+- title: How the Data Sausage Gets Made
+  link: https://source.opennews.org/en-US/learning/how-sausage-gets-made/
+  publication: Source
+  year: 2013
+  description: >
+    How I built a scraper to pull structured data out of the unstructured press releases for food recalls
+- title: "The New York Times' Election Loader"
+  link: https://source.opennews.org/en-US/articles/ny-times-results-loader/
+  publication: Source
+  year: 2012
+  description: >
+    I described some of the interesting aspect of the program that automatically loaded election results for the Times homepage.
+- title: Word Clouds Considered Harmful
+  link: http://www.niemanlab.org/2011/10/word-clouds-considered-harmful/
+  publication: NiemanLab
+  year: 2011
+  description: >
+    My diatribe against word clouds, a visualization that must be stopped
+- title: A Deadly Day in Baghdad
+  link: http://www.nytimes.com/interactive/2010/10/24/world/1024-surge-graphic.html?_r=0
+  publication: The New York Times
+  year: 2010
+  description: >
+    A visualization of the sectarian violence that swept Iraq derived from the Wikileaks War Logs
