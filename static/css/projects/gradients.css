@@ -1,0 +1,35 @@
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: top;
+    gap: 0px;
+}
+
+.images img {
+    max-width: 200px;
+    height: auto;
+    /* Maintain aspect ratio */
+    flex: 1 1 auto;
+    /* Allow images to grow and shrink */
+    object-fit: cover;
+}
+
+/* Optional: Add media queries for responsiveness */
+@media (max-width: 600px) {
+    .images img {
+        flex: 1 1 100%;
+        /* Full width on small screens */
+    }
+}
+
+.img_box img {
+    max-width: 100px;
+    height: auto;
+}
+
+.year_label h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3vw;
+    margin-bottom: 1rem;
+}
