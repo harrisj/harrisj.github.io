@@ -10,7 +10,7 @@ gradients_dir = 'static/images/projects/sky-gradients'
 filenames = Dir.entries(gradients_dir).select { |file| File.file?(File.join(gradients_dir, file)) && file.end_with?('.jpg') }   
 
 file_records = filenames.map do |filename|
-    parts = filename.split('-')
+    parts = filename.gsub('.jpg', '').split('-')
     date = Date.iso8601(parts[0])
     season = parts[1].capitalize
     location = parts[2].gsub('+', ' ')
@@ -32,7 +32,7 @@ puts(years.inspect)
 
 File.open('_includes/projects/gradients.html', 'w') do |out|
     years.each do |year|
-        files = files_by_year[year]
+        files = files_by_year[year].sort_by {|f| f[:date] }.reverse
 
         out.puts "<div class=\"row\">"
         out.puts "<div class=\"one column year_label\"><h2>#{year}</h2></div>"
@@ -40,10 +40,10 @@ File.open('_includes/projects/gradients.html', 'w') do |out|
 
         files.each do |file|
             alt = "#{file[:season]} Gradient #{file[:date].strftime('%Y-%m-%d')} #{file[:location]}"
-            out.puts "<div class=\"img_box\">"
-            # out.puts "{% picture gradient_thumbnail static/images/projects/sky-gradients/#{file[:filename]} --alt #{alt} %}"
-            out.puts "<img class=\"gradient-thumbnail\" src=\"static/images/projects/sky-gradients/#{file[:filename]}\" alt=\"#{alt}\"/>"
-            out.puts "</div>"
+            out.puts "  <a href=\"static/images/projects/sky-gradients/#{file[:filename]}\" data-lightbox=\"sky-gradients\" data-title=\"#{alt}\">"
+            #out.puts "    <img class=\"thumbnail\" src=\"static/images/projects/sky-gradients/#{file[:filename]}\" alt=\"#{alt}\"></img>"
+            out.puts "{% picture thumbnail \"static/images/projects/sky-gradients/#{file[:filename]}\" %}"
+            out.puts "  </a>"
         end
 
         out.puts '</div>'

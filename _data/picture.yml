@@ -68,12 +68,23 @@ presets:
   # will always be the same size on all screens (icons, graphics, thumbnails, etc), but you'd like
   # to supply higher resolution images to devices with higher pixel ratios.
   thumbnail:
-    base_width: 250 # How wide the 1x image should be.
+    base_width: 200 # How wide the 1x image should be.
     pixel_ratios: [ 1, 1.5, 2 ] # Which multipliers to target.
-    fallback_width: 250 # The default is 800, which is probably too big.
+    fallback_width: 200 # The default is 800, which is probably too big.
     formats: [ webp, original ]
     attributes:
       picture: 'class="thumbnail"'
+
+  skeleton_full:
+    base_width: 800
+    widths: [ 200, 400, 600, 800, 960 ]
+
+  gradient_thumbnail:
+    size: 20vw
+    base_width: 100
+    dimension_attributes: true
+    widths: [ 100, 200, 400, 600 ]
+    fallback_width: 100
 
   # Another pixel-ratio example.
   avatar:
