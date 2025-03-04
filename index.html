@@ -13,7 +13,7 @@
     <!--- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="static/css/normalize.css">
     <link rel="stylesheet" href="static/css/skeleton.css">
@@ -27,26 +27,43 @@
         <section id="title" class="six columns">
           <h1 id="big-title">jacobharr.is</h1>
         </section>
+      </div>
 
-        <section id="contact" class="six columns">
-          <ul class="compact">
-            <li><a href="/resume.html">Professional Résumé</a></li>
-            <li><a href="mailto:mail@jacobharr.is">mail@jacobharr.is</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Takoma_Park,_Maryland">Takoma Park, MD</a></li>
-            <li><a href="https://bsky.app/profile/jacobharr.is">@jacobharr.is on Bsky</a></li>
-          </ul>
+    <div class="row">
+      <section id="contact" class="six columns">
+        <dl>
+          <dt>Résumé</dt>
+          <dd><a href="/resume.html">https://jacobharr.is/resume.html</a></dd>
+
+          <dt>Email</dt>
+          <dd><a href="mailto:mail@jacobharr.is">mail@jacobharr.is</a></dd>
+
+          <dt>Location</dt>
+          <dd><a href="https://en.wikipedia.org/wiki/Takoma_Park,_Maryland">Takoma Park, MD</a></dd>
+
+          <dt>Bluesky</dt>
+          <dd><a href="https://bsky.app/profile/jacobharr.is">@jacobharr.is</a></dd>
+        </dl>
+      </section>
+    </div>
+
+      <div class="row" id="projects">
+        <section class="eight columns">
+          <h2>Notable Projects</h2>
+
+          <dl>
+          {% assign projects = site.projects | sort: "start_year" %}
+          {% for project in projects %}
+            <dt><time>{{ project.start_year }} - {{ project.end_year }}</time></dt>
+            <dd><a href="{{ project.url }}"">{{ project.title }}</a></dd>
+          {% endfor %}
+          </dl>
         </section>
       </div>
 
       <div class="row" id="writing">
         <section id="professional_writing" class="eight columns">
           {% include homepage/professional_writing.html %}
-        </section>
-      </div>
-
-      <div class="row" id="writing">
-        <section id="personal_writing" class="eight columns">
-          {% include homepage/personal_writing.html %}
         </section>
       </div>
     </div>

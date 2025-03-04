@@ -27,5 +27,11 @@
 # Build settings
 markdown: kramdown
 exclude:
-  - Gemfile
-  - Gemfile.lock
+- Gemfile
+- Gemfile.lock
+- _generate_gradient_includes.rb
+- README.md
+
+collections:
+  projects:
+    output: true

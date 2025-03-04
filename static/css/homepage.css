@@ -1,7 +1,9 @@
 #big-title {
     margin-top: 2rem;
-    font-size: 10vw;
+    font-size: 7.8vw;
     padding-right: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 #bio {

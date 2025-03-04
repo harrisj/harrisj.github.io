@@ -8,7 +8,8 @@ summary: >
     - [Source Code](https://github.com/harrisj/nyt-haiku-python)
     - [Twitter Account](https://xcancel.com/nythaikus)
 date: 20130401
-year: 2013
+start_year: 2013
+end_year: 2023
 category: published
 permalink: /published/times-haiku
 pub_permalink: https://haiku.nytimes.com/
