@@ -1,0 +1,9 @@
+<h2>Notable Projects</h2>
+
+<dl>
+  {% assign projects = site.projects | sort: "start_year" %}
+  {% for project in projects %}
+  <dt><time>{{ project.start_year }} - {{ project.end_year }}</time></dt>
+  <dd><a href="{{ project.url }}"">{{ project.title }}</a></dd>
+  {% endfor %}
+</dl>

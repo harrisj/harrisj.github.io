@@ -1,71 +1,73 @@
 ---
 ---
 <html>
-  <head>
-    <title>jacobharr.is</title>
+<head>
+  <title>jacobharr.is</title>
 
-    <meta charset="utf-8">
-    <meta name="description" content="The personal website of Jacob Harris">
-    <meta name="author" content="Jacob Harris">
+  <meta charset="utf-8">
+  <meta name="description" content="The personal website of Jacob Harris">
+  <meta name="author" content="Jacob Harris">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!--- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <!--- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
 
-    <link rel="stylesheet" href="static/css/normalize.css">
-    <link rel="stylesheet" href="static/css/skeleton.css">
-    <link rel="stylesheet" href="static/css/resume/layout.css">
-    <link rel="stylesheet" href="static/css/homepage.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <section id="title" class="six columns">
-          <h1 id="big-title">jacobharr.is</h1>
-        </section>
-      </div>
+  <link rel="stylesheet" href="/static/css/normalize.css">
+  <link rel="stylesheet" href="/static/css/skeleton.css">
+  <link rel="stylesheet" href="/static/css/base_layout.css">
+  <link rel="stylesheet" href="/static/css/homepage.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
 
+<body>
+  <div class="container">
     <div class="row">
-      <section id="contact" class="six columns">
-        <dl>
-          <dt>Résumé</dt>
-          <dd><a href="/resume.html">https://jacobharr.is/resume.html</a></dd>
+      <div class="eight columns">
+        <h1 id="big-title">jacobharr.is</h1>
 
-          <dt>Email</dt>
-          <dd><a href="mailto:mail@jacobharr.is">mail@jacobharr.is</a></dd>
-
-          <dt>Location</dt>
-          <dd><a href="https://en.wikipedia.org/wiki/Takoma_Park,_Maryland">Takoma Park, MD</a></dd>
-
-          <dt>Bluesky</dt>
-          <dd><a href="https://bsky.app/profile/jacobharr.is">@jacobharr.is</a></dd>
-        </dl>
-      </section>
-    </div>
-
-      <div class="row" id="projects">
-        <section class="eight columns">
-          <h2>Notable Projects</h2>
-
+        <div id="contact">
           <dl>
-          {% assign projects = site.projects | sort: "start_year" %}
-          {% for project in projects %}
-            <dt><time>{{ project.start_year }} - {{ project.end_year }}</time></dt>
-            <dd><a href="{{ project.url }}"">{{ project.title }}</a></dd>
-          {% endfor %}
-          </dl>
-        </section>
-      </div>
+            <dt>Résumé</dt>
+            <dd><a href="/resume">https://jacobharr.is/resume</a></dd>
 
-      <div class="row" id="writing">
-        <section id="professional_writing" class="eight columns">
-          {% include homepage/professional_writing.html %}
-        </section>
+            <dt>Email</dt>
+            <dd><a href="mailto:mail@jacobharr.is">mail@jacobharr.is</a></dd>
+
+            <dt>Location</dt>
+            <dd><a href="https://en.wikipedia.org/wiki/Takoma_Park,_Maryland">Takoma Park, MD</a></dd>
+
+            <dt>Bluesky</dt>
+            <dd><a href="https://bsky.app/profile/jacobharr.is">@jacobharr.is</a></dd>
+
+            <dt>Signal</dt>
+            <dd>jacobharris.28</dd>
+          </dl>
+        </div>
+
+        <div id="projects">
+          {% include homepage/projects.html %}
+        </div>
+
+        <div id=" professional_writing">
+            {% include homepage/professional_writing.html %}
+        </div>
+      </div>
+      <div id="sidebar" class="four columns">
+        <img src="static/images/homepage/homepage1.png" width="150"/>
+        <img src="static/images/homepage/homepage2.png" width="150"/>
+        <img src="static/images/homepage/homepage3.png" width="150"/>
+        <img src="static/images/homepage/homepage4.png" width="150"/>
+        <img src="static/images/homepage/homepage5.png" width="150"/>
+        <img src="static/images/homepage/homepage6.png" width="150"/> 
+        <img src="static/images/homepage/homepage7.png" width="150"/> 
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

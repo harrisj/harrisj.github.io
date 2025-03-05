@@ -40,22 +40,3 @@ div#subtitle {
 div#summary {
     margin-top: 1em;
 }
-
-/* Fun little Markdown hack */
-img[alt$=">"] {
-    float: right;
-    padding-left: 10px;
-}
-  
-img[alt$="<"] {
-    float: left;
-    padding-right: 10px;
-}
-  
-img[alt$="><"] {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-    float: none!important;
-}

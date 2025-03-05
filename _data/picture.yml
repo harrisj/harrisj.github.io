@@ -86,6 +86,14 @@ presets:
     widths: [ 100, 200, 400, 600 ]
     fallback_width: 100
 
+  homepage:
+    crop: "1:1"
+    size: 150
+    base_width: 150
+    dimension_attributes: true
+    widths: [ 100, 150, 200, 300 ]
+    fallback_width: 150
+
   # Another pixel-ratio example.
   avatar:
     # Say your layout demands a square:

@@ -1,0 +1,111 @@
+:root {
+    --compact-line-height: 1.2em;
+    --compact-list-height: 1.3em;
+    --dt-time-font-size: 0.9em
+}
+
+/* Display Lists */
+dl {
+    display: grid;
+    grid-template-columns: max-content auto;
+    margin-block-start: 0rem;
+}
+
+dt {
+    grid-column-start: 1;
+    color: #626262;
+    font-size: var(--dt-time-font-size);
+    text-transform: none;
+    width: 80px;
+    text-align: right;
+    border-right: 1px solid #dfdfdf;
+    padding-right: 9px;
+}
+  
+dd {
+    grid-column-start: 2;
+    margin-left: 9px;
+}
+
+/* List treatment */
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    padding-left: 1em;
+    text-indent: -0.7em;
+    line-height: var(--compact-list-height);
+}
+  
+li:before {
+    content: "›";
+    padding-right: 5px;
+    margin-bottom: 0;
+}
+
+ul.compact {
+    margin-bottom: 0.5rem;
+}
+
+ul.compact li {
+    line-height: var(--compact-list-height);
+    margin-bottom: 0;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0.4rem;
+}
+
+/* Navbar */
+.navbar {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.navbar {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.navbar span.time {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: darkgray
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: white;
+    background-color: #575757;
+}
+
+/* Image Float Markdown Hack */
+img[alt$=">"] {
+    float: right;
+    padding-left: 10px;
+}
+  
+img[alt$="<"] {
+    float: left;
+    padding-right: 10px;
+}
+  
+img[alt$="><"] {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    float: none!important;
+}
