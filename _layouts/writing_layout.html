@@ -21,34 +21,25 @@
 </head>
 <body>
   <div class="container">
-    <h1>{{ page.title }}</h1>
-    <h6>{{ page.subtitle }}</h6>
-    <div class="row">
-        <section class="twelve columns" id="sidebar">
-            <dl id="metadata">
-                <dt id="pub_date">Date</dt>
-                <dd>{{ page.date | date_to_string: "ordinal", "US" }}</dd>
-
-                <dt id="site">Publisher</dt>
-                <dd><a href="{{ page.pub_permalink }}">{{ page.publisher }}</a></dd>
-            </dl>
-
-            <div id="subtitle">{{ page.subtitle }}</div>
-
-            <div id="summary">{{ page.summary | markdownify }}</div>
-        </section>
+    <div id="writing_header" class="row">
+        <div class="navbar twelve columns">
+            <div><a href="/"><i class="fa fa-home" aria-hidden="true" alt="Home"></i></a> / {{page.title}} <span class="time">(<em><a href="{{ page.pub_permalink }}">{{ page.publisher }}</a></em>, {{ page.date | date: "%m/%d/%Y" }})</span></div>
+        </div>
     </div>
+
+    {% if page.summary %}
+    <div id="writing-summary" class="row">
+      <div class="twelve columns">
+        {{ page.summary | smartify | markdownify}}
+      </div>
+    </div>
+    {% endif %}
+
     <div class="row">
-        <section class="ten columns" id="content">
+        <section class="twelve columns" id="content">
             {{ content | smartify }}
         </section>
-
-        <section class="two column" id="metadata">
-            {{ page.date | date_to_string: "ordinal", "US" }}
-        </section>
     </div>
-  <footer class="twelve columns">
-  </footer>
   </div>
 </body>
 </html>

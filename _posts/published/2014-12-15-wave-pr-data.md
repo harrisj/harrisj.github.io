@@ -14,7 +14,7 @@ publisher: Nieman Lab
 Nobody can say exactly when the trend first started, but in 2014 we saw the first major outbreaks of bogus data distributed by private companies just so it would go viral online. Among the many exciting thing we’ve learned this year are:<
 
 - [Democrats watch more pornography than Republicans](http://www.buzzfeed.com/ryanhatesthis/who-watches-more-porn-republicans-or-democrats), according to Pornhub.
-- [Mexicans and Nigerians are the best at sex](http://www.vox.com/2014/5/7/5662608/in-different-area-codes), as polled by condom manufacturer Durex.</li>
+- [Mexicans and Nigerians are the best at sex](http://www.vox.com/2014/5/7/5662608/in-different-area-codes), as polled by condom manufacturer Durex.
 - [The nation’s most stressed zipcodes](http://www.movoto.com/blog/top-ten/most-stressed-zip-codes/) [include](http://www.latimes.com/local/lanow/la-me-ln-stressful-zip-codes-20141124-story.html) [one](http://www.chron.com/news/article/Houston-ranked-among-the-most-stressed-cities-5946516.php) [near](http://lasvegas.suntimes.com/las-entertainment/7/104/42166/stressed-zip-codes-las-vegas/) [you](http://www.bizjournals.com/dayton/blog/morning_call/2014/12/residents-in-ohio-zip-code-most-stressed-out-in-u.html), as reported by real estate blog Movoto.
 - [Washington residents complain about rats more than New Yorkers](http://www.washingtonpost.com/blogs/local/wp/2014/10/13/rats-d-c-calls-pest-company-about-rodents-more-often-than-new-york/), as reported by Orkin.
 - [People sometimes use car-share services after hooking up](http://sanfrancisco.cbslocal.com/2014/11/18/uber-crunches-user-data-to-determine-where-the-most-one-night-stands-come-from/), thanks to some creepy oversharing from Uber.

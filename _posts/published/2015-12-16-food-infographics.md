@@ -5,7 +5,7 @@ subtitle: Two new books, ‘Taste’ and ‘A Visual Guide to Drink,' try to bri
 summary: >
     As a commissioned piece for Eater, I reviewed two infographics-themed books about food and drink to discuss what was
     effective and what was eye candy. I am archiving the text here, but I do not have rights for the images, so you will
-    need to navigate to Eater to view them.
+    need to navigate to [the original article on Eater](https://www.eater.com/2015/12/16/10288258/book-review-food-infographics) to view them.
 date: 20151216
 year: 2015
 category: published

@@ -2,7 +2,7 @@
 layout: writing_layout
 title: Why I Like to Instagram the Sky
 subtitle: The real meaning of a plain blue square.
-summary: One of my personal little hobbies has been to take a photo of the clear blue sky and post it with no other context or explanation. This piece explains why and finds antecedents in the work of other artists.
+summary: One of my personal little hobbies has been to take a photo of the clear blue sky and post it with no other context or explanation. This piece explains why and finds antecedents in the work of other artists. The complete collection of photos is available on the [sky gradients project page]({% link _projects/sky-gradients %})
 date: 20160304
 year: 2016
 category: published

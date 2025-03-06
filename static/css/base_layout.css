@@ -34,13 +34,13 @@ ul {
     padding-left: 0;
 }
 
-li {
+ul li {
     padding-left: 1em;
     text-indent: -0.7em;
     line-height: var(--compact-list-height);
 }
   
-li:before {
+ul li:before {
     content: "›";
     padding-right: 5px;
     margin-bottom: 0;
@@ -83,6 +83,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar a {
     color: black;
+}
+
+.navbar .fa a {
     text-decoration: none;
 }
 
@@ -108,4 +111,11 @@ img[alt$="><"] {
     height: auto;
     margin: auto;
     float: none!important;
+}
+
+/* footnotes */
+div.footnotes p {
+    display: inline;
+    line-height: var(--compact-line-height);
+    margin-bottom: 0;
 }

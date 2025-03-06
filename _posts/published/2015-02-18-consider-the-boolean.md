@@ -3,7 +3,7 @@ layout: writing_layout
 title: Consider the Boolean
 subtitle: The Challenge of Using Binary Data Structures in a Complicated World
 summary: >
-    I remain fascinated by how data types work because they constrain how the software sees the world. Even representing reality with something as simple as a boolean can lead to tradeoffs that shape how we model things. This was also referenced in the book _Living in Data_ by Jer Thorp.
+    I remain fascinated by how data types work because they constrain how the software sees the world. Even representing reality with something as simple as a boolean can lead to tradeoffs that shape how we model things. This was also referenced in the book [Living in Data](https://us.macmillan.com/books/9780374720513/livingindata/) by Jer Thorp.
 date: 20150218
 year: 2015
 category: published

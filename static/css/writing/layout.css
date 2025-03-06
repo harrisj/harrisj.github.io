@@ -2,41 +2,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
-dl#metadata {
-    display: grid;
-    grid-gap: 0px 9px;
-    margin-block-start: 0rem;
-    grid-template-columns: 4.2em auto;
-}
-
-#avatar picture {
-    max-width: 200px;
-}
-
-#metadata dt {
-    grid-column-start: 1;
-    background-color: #eae8e8;
-    font-size: 0.9em;
-    font-weight: bold;
-    text-align: left;
-    margin-inline: 0;
-}
-  
-#metadata dd {
-    grid-column-start: 2;
-    margin-inline: 0;
-}
-
-#sidebar section {
-    border-right: 1px solid #dfdfdf;
-}
-
-div#subtitle {
-    margin-top: 1em;
+#writing-summary {
+    font-weight: bolder;
     font-style: italic;
-    font-size: 0.9em;
 }
 
-div#summary {
-    margin-top: 1em;
+a {
+    color: slateblue;
 }
+

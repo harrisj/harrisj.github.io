@@ -3,7 +3,7 @@ layout: writing_layout
 title: Thank You, Electionbot
 subtitle: A friendly bot that will shoulder the burden of monitoring offers peace of mind as well as efficient notifications.
 summary: >
-  I was doing "ChatOps" before it was cool. This piece looked at how we used Slack webhooks and posting to keep track of the election loading bot via Slack without needing to login to dedicated systems to monitor.
+  I was doing "ChatOps" before it was cool. This piece looked at how we used Slack webhooks and posting to keep track of the election loading bot via Slack without needing to login to dedicated systems to monitor. More details on the entire system and other screenshots are located on the [New York Times election loader]({% link _projects/nytimes-election-loader %}) project page. 
 date: 20150315
 year: 2015
 category: published
@@ -18,7 +18,7 @@ Reporting election results is a bit like flying a blimp through windmill country
 
 What makes things complicated is that each newsworthy race we might care about might reach these moments at different points during the night. Furthermore, each state will close its polls at different times, and some states will report votes immediately after polls close while others may take a half hour or more. On the night of the 2014 midterm election, there were 9 different poll closing times across all the states and 52 races the New York Times considered especially newsworthy. Those are a lot of balls in the air at once. Previously, the only recourse was to eyeball the loader’s console output as it scrolled past and to send messages to reporters whenever the races they cared about were called. This can mean some stressful interruptions when you are trying to track down a bug in your code. In 2014, it was time for Electionbot to shoulder part of the load.
 
-![Typical Electionbot chatter in our Slack channel](/static/images/writing/thank-you-electionbot/typical-chatter.jpg)
+![Typical Electionbot chatter in our Slack channel ><](/static/images/writing/thank-you-electionbot/typical-chatter.jpg)
 
 At its core, what we called Electionbot consisted of two separate pieces of code. The first of these was a notifier that would be called by the loader after it completed every load and post messages to a [Slack](https://slack.com/) channel where the election team was gathered. This used Slack’s [incoming webhooks API](https://api.slack.com/incoming-webhooks) to send alerts when an important race was called or a state’s polls had closed. The code for something like this is pretty straightforward but its utility is immense:
 
@@ -68,7 +68,7 @@ The election loader already had a decently sophisticated mechanism for generatin
 
 The next step was to enable communication with the loader from our Slack channel. I built a minimalist backend written in [Sinatra](http://sinatrarb.com/) that [replied to slash commands triggered in the election channel](https://api.slack.com/slash-commands) for some common administrative tasks. For instance, there was a command to report the upcoming poll closing times to the channel to remind us all when to time our bathroom breaks.
 
-![Poll closing notifications](/static/images/writing/thank-you-electionbot/poll-closings.jpg)
+![Poll closing notifications ><](/static/images/writing/thank-you-electionbot/poll-closings.jpg)
 
 Another command toggled certain races as _important_, so that the notifier would tell us when they had their first votes or were called. Again, the code was pretty straightforward:
 
@@ -133,6 +133,6 @@ Still, I can’t overstate how great it was to have Electionbot with us in the S
 
 The best moments were when Electionbot transcended a mere shell script and informed us all of an uncalled race we probably wouldn’t have noticed otherwise. Even though I knew better, I found myself reflexively thanking it in the chat for the save. We form bonds with even the simplest of tools, and Electionbot was there with me on every night there were votes being tabulated somewhere in America. I know it’s just a dumb framework of Ruby code, but still I have to say it.
 
-![A screenshot of an uncalled race](/static/images/writing/thank-you-electionbot/uncalled_race.png)
+![A screenshot of an uncalled race ><](/static/images/writing/thank-you-electionbot/uncalled_race.png)
 
 Thank you, electionbot!
