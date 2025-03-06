@@ -32,17 +32,25 @@ Over the years, it's been pretty fun to see how people have stumbled upon this t
 ## Becoming a Product
 I liked to joke that I knew the twitter feed became a product the weekend a cleaning person accidentally unplugged the machine under my desk where it was running. That morning, I rolled into work to be greeted with an email thread of people wondering which team was supporting this product, was it even an official New York Times product, do we need to get legal involved... I had to come clean and start supporting it as an official product.
 
-I also started giving presentations to the _New York Times_ newsroom staff explaining what twitter was and why they should consider joining it and using it for news. I especially enjoyed how I designed it to flow. Here is the third iteration:
+I also started giving presentations to the _New York Times_ newsroom staff explaining what twitter was and why they should consider joining it and using it for news. I especially enjoyed how I designed it to flow. Here is the third iteratio from 2009:
 - [Slides](/static/images/projects/twitter/twitter-slides.pdf)
 - [Movie](/static/images/projects/twitter/twitter-slides.mov)
+
+Around this time, Twitter also rolled out a feature called The Suggested User List, where new users could follow a group of selected account in one click so they could get an idea of what Twitter is like. They included @nytimes on the list and, as a result, the number of followers for this sleepy little accounts started increasing exponentially. What had once been a project for dozens of subscribers was now being followed by millions. Along the way, we streamlined and improved some things. The service got an actual hand-coded web admin. I moved it off my computer and into the cloud. The NYT paid for Bitly pro so we could have better short URLs. And the numbers of subscribers continued to climb.
 
 During the height of all this, I was invited to give a talk at Twitter's Chirp conference in 2010. The whole conference was a showcase to unveil a bunch of [cool new features for developers that the company promptly reversed course on and buried unceremoniously](https://www.anildash.com/2015/07/11/the_internet_of_tweets/) after Evan Williams was forced out as CEO. I gave a little talk about @nytimes and [how many times a NYT story is tweeted per second]({% post_url published/2010-04-15-how-often-times-tweeted %}). I remember that for some reason the musician will.i.am was there. I also remember looking out into the audience during my section and realizing I had bored will.i.am to sleep. Good talk!
 
 ## Other Bots
-Coming soon...
+The @nytimes twitter account wasn't the only Twitter bot that wrote over the ensuing years. There was something appealing about how easy it was to create silly little scripts that would feed in some content and post to Twitter. Early on in my experimentation, I made a bot that would post weather messages _and_ change its icon based on the current weather.
+
+After the rise in popularity of the [@horse_ebooks account](https://en.wikipedia.org/wiki/Horse_ebooks)[^2] twitter account, I made my own version that would try to generate similar content from _New York Times_ articles. The outcome was generally more weird than funny, but it did get a [write-up from Nieman Lab about it](https://www.niemanlab.org/2012/05/how-a-new-york-times-developer-reverse-engineered-horse_ebooks-an-interesting/).
+
+Also, the [@nytimes_ebooks](https://xcancel.com/nytimes_ebooks) code became the basis of my most famous bot, [Times Haiku]({% link _projects/times-haiku.md %}), details of which can be found on its own project page.
 
 ## Handing Off The Accounts
-Coming soon...
+Eventually, the New York Times built out an entire social media team to handle strategy and content across multiple social media properties. Third party tools like [buffer](https://buffer.com/) gave organizations the abilities to post content and track metrics easily. Hand-crafted social media content was seen as both more relatable and effective, with a higher click-through rate. Content could also be scheduled to be posted and repeated during the hours that most people were using Twitter, rather than the middle of the night when many news stories still were published (due to press times). It was time to move on. I handed over the passwords[^3] to the accounts into the capable hands of the NYT social media editors. 
 
 ------
 [^1]: Originally, I used shurl, because it was slightly shorter that tinyurl (this was in the days before [bit.ly](https://bit.ly)). Ironically, shurl went out of business and its domain was purchased by a porn site, so I think a lot of those early tweets now link to porn. Deep sigh...
+[^2]: I'm still so mad that this account turned out to be two dudes pretending to be a program. I spent days trying to figure out how they got their output so perfectly random and it turns out I was trying to reverse-engineer a [Mechanical Turk](https://en.wikipedia.org/wiki/Mechanical_Turk)
+[^3]: In the days before OAuth and MFA, I was worried about someone getting access to the account to spam all our followers. I think the main account password was a 45-character random string generated by 1Password. I didn't know. Nobody did!
