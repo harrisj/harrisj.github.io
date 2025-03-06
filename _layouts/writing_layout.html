@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/css/normalize.css">
+    <link rel="stylesheet" href="/static/css/skeleton.css">
+    <link rel="stylesheet" href="/static/css/base_layout.css">
+    <link rel="stylesheet" href="/static/css/writing/layout.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <div id="writing_header" class="row">
+        <div class="navbar twelve columns">
+            <div><a href="/"><i class="fa fa-home" aria-hidden="true" alt="Home"></i></a> / {{page.title}} <span class="time">(<em><a href="{{ page.pub_permalink }}">{{ page.publisher }}</a></em>, {{ page.date | date: "%m/%d/%Y" }})</span></div>
+        </div>
+    </div>
+
+    {% if page.summary %}
+    <div id="writing-summary" class="row">
+      <div class="twelve columns">
+        {{ page.summary | smartify | markdownify}}
+      </div>
+    </div>
+    {% endif %}
+
+    <div class="row">
+        <section class="twelve columns" id="content">
+            {{ content | smartify }}
+        </section>
+    </div>
+  </div>
+</body>
+</html>

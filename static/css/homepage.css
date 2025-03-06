@@ -1,0 +1,38 @@
+#big-title {
+    margin-top: 2rem;
+    font-size: 7vw;
+    padding-right: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+#bio {
+    margin-top: 3.5rem;
+    border: 3px;
+    vertical-align: bottom;
+    margin-bottom: 0.4rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+#sidebar {
+    max-width: 300px;
+}
+
+@media(max-width:930px) {
+    /* Let's kill the images and make the left column fully wide for smaller screens */
+    .eight {
+        width: 100% !important;
+    }
+
+    #sidebar {
+        display: none;
+    }
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}

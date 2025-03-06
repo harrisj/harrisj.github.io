@@ -1,0 +1,19 @@
+<section class="row no-print" id="writing">
+  <h2>Professional Writing</h2>
+
+  <dl>
+    {% assign by_year = site.categories.published | group_by: "year" | reverse %}
+    {% for year in by_year %}
+    <dt><time>{{ year.name }}</time></dt>
+    <dd>
+      <ul class="compact">
+        {% for doc in year.items %}
+            <li><a href="{{ doc.url }}">{{ doc.title }}</a>, <em>{{ doc.publisher }}</em></li>
+        {% endfor %}
+      </ul>
+    </dd>
+    {% endfor %}
+    <dt>end</dt>
+    <dd><em>What happened after 2016? I left journalism, life was busy.</em></dd>
+  </dl>
+</section>

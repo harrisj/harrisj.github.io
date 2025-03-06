@@ -1,0 +1,38 @@
+:root {
+    --compact-line-height: 1.2em;
+    --compact-list-height: 1.3em;
+    --dt-time-font-size: 0.9em
+}
+
+#avatar img {
+    max-height: 200px;
+    width: auto;
+}
+
+@media(max-width:835px) {
+    section.avatar img {
+        display: none;
+    }
+}
+
+#employment dl {
+    row-gap: 1em;
+}
+
+div.job {
+    line-height: 1.4;
+}
+
+ul.job-projects {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+dd.job {
+    line-height: var(--compact-line-height, 1.2);
+}
+
+p {
+    line-height: var(--compact-line-height, 1.2);
+    margin-bottom: 10px;
+}
