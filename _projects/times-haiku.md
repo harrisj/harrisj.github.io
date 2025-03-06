@@ -22,7 +22,7 @@ The initial seed of this project was a hackish selection of a few Ruby scripts a
 Put that all togther and I had a little program I could run on my computer that would go searching for haiku and sharing them with me. When I showed this to some of my coworkers on the Interactive Newsroom Technologies team, they agreed it could be a fun project to create. To implement this, we tried a novel moderation approach where the Haiku bot would post haiku it found to a private moderation Tumblr blog. When moderators approved, they would the be published to [a public tumblr](https://timeshaiku.tumblr.com/). The design for the site was done by Heena Ko and the distinctive procedurally generated format for each haiku was built by Anjali Bhojani.
 
 ## Explainer that Appeared on the [Times Haiku Site](https://timeshaiku.tumblr.com/about)
-<em>Whimsy is not a quality we usually associate with computer programs. We tend to think of software in terms of the function it fulfills. For example, a spreadsheet helps us do our work. A game of Tetris provides a means of procrastination. Social media reconnects us with our high school nemeses. But what about computer code that serves no inherent purpose in itself?
+_Whimsy is not a quality we usually associate with computer programs. We tend to think of software in terms of the function it fulfills. For example, a spreadsheet helps us do our work. A game of Tetris provides a means of procrastination. Social media reconnects us with our high school nemeses. But what about computer code that serves no inherent purpose in itself?_
 
 ```
 There is pleasure to
@@ -30,7 +30,7 @@ be had here, in flares of spice
 that revive and warm.
 ```
 
-This is a Tumblr blog of haikus found within The New York Times. Most of us first encountered haikus in a grade school, when we were taught that they are three-line poems with five syllables on the first line, seven on the second and five on the third. According to the Haiku Society of America, that is not an ironclad rule. A proper haiku should also contain a word that indicates the season, or “kigo,” as well as a juxtaposition of verbal imagery, known as “kireji.” That's a lot harder to teach an algorithm, though, so we just count syllables like most amateur haiku aficionados do.
+_This is a Tumblr blog of haikus found within The New York Times. Most of us first encountered haikus in a grade school, when we were taught that they are three-line poems with five syllables on the first line, seven on the second and five on the third. According to the Haiku Society of America, that is not an ironclad rule. A proper haiku should also contain a word that indicates the season, or “kigo,” as well as a juxtaposition of verbal imagery, known as “kireji.” That's a lot harder to teach an algorithm, though, so we just count syllables like most amateur haiku aficionados do._
 
 ```
 As dawn broke we warmed
@@ -38,9 +38,9 @@ strawberry Pop Tarts over
 the dying embers.
 ```
 
-How does our algorithm work? It periodically checks the New York Times home page for newly published articles. Then it scans each sentence looking for potential haikus by using an electronic dictionary containing syllable counts. We started with a basic rhyming lexicon, but over time we've added syllable counts for words like “Rihanna” or “terroir” to keep pace with the broad vocabulary of The Times.
+_How does our algorithm work? It periodically checks the New York Times home page for newly published articles. Then it scans each sentence looking for potential haikus by using an electronic dictionary containing syllable counts. We started with a basic rhyming lexicon, but over time we've added syllable counts for words like “Rihanna” or “terroir” to keep pace with the broad vocabulary of The Times._
 
-Not every haiku our computer finds is a good one. The algorithm discards some potential poems if they are awkwardly constructed and it does not scan articles covering sensitive topics. Furthermore, the machine has no aesthetic sense. It can't distinguish between an elegant verse and a plodding one. But, when it does stumble across something beautiful or funny or just a gem of a haiku, human journalists select it and post it on this blog.
+_Not every haiku our computer finds is a good one. The algorithm discards some potential poems if they are awkwardly constructed and it does not scan articles covering sensitive topics. Furthermore, the machine has no aesthetic sense. It can't distinguish between an elegant verse and a plodding one. But, when it does stumble across something beautiful or funny or just a gem of a haiku, human journalists select it and post it on this blog._
 
 ```
 Stop the machine and
@@ -48,9 +48,9 @@ scrape down the sides of the bowl
 with a spatula.
 ```
 
-Finding the haikus is only the beginning. Because we want the poems to retain their visual integrity, even when people share them across social networks, we post them as images instead of text. On every image, you’ll notice a seemingly random background pattern of colored lines. The different orientations of those lines are computer-generated according to the meter of the first line of the poem.
+_Finding the haikus is only the beginning. Because we want the poems to retain their visual integrity, even when people share them across social networks, we post them as images instead of text. On every image, you’ll notice a seemingly random background pattern of colored lines. The different orientations of those lines are computer-generated according to the meter of the first line of the poem._
 
-So, what's next? This experiment in automated poetry detection has only just begun. We’ll fine-tune the algorithm, expand the dictionary and see what treasures we find. We hope you’ll follow along.</em>
+_So, what's next? This experiment in automated poetry detection has only just begun. We’ll fine-tune the algorithm, expand the dictionary and see what treasures we find. We hope you’ll follow along._
 
 ## Launch and Reception
 After spending a few weeks refining the process, we decided to let the haiku generator run for a little bit so we could evaluate the bot and have a collection of dozens of haiku when the site was open. Since April is [National Poetry Month](https://poets.org/national-poetry-month), we picked April 1st, 2013 as the day to go live.
@@ -64,4 +64,10 @@ After the initial hubbub died down, it just became a little part of our days, mo
 I left the _New York Times_ in 2015. But the site itself continued operating until December 19, 2017 – or over four-and-a-half years. Over that time it posted a lot of haiku (it looks like I need to pull them all down, but [here is data from the first year of operation](https://docs.google.com/spreadsheets/d/1L4G7HmuBE3M7O-YXTf4b449CzAHZ3yE1aNLeBczbjCo/edit?gid=0#gid=0))
 
 ## Later Years
-I still have enjoyed playing with the concept and often when I am trying to learn a new programming language (like Elm or Clojure),I will try writing a haiku finder/validator for it. More recently, I revived the Haiku bot with a [new open-source version written in Python](https://github.com/harrisj/nyt-haiku-python) that posted haiku to the [@nythaikus](https://xcancel.com/nythaikus)) twitter account from September 14, 2020 (you can guess what global event was making me depressed for this one) until November 18, 2022 (when Elon Musk started charging bots for API access).
+I still have enjoyed playing with the concept and often when I am trying to learn a new programming language (like Elm or Clojure),I will try writing a haiku finder/validator for it. More recently, I revived the Haiku bot with a [new open-source version written in Python](https://github.com/harrisj/nyt-haiku-python) that posted haiku to the [@nythaikus](https://xcancel.com/nythaikus)) twitter account from September 14, 2020 (_you can guess what global event was making me depressed_ for this one) until November 18, 2022 (_when Elon Musk started charging bots for API access_).
+
+```
+Ah well, that was fun.
+Too bad Elon has to ruin
+all that he touches
+```

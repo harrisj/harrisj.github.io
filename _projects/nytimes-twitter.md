@@ -36,9 +36,12 @@ I also started giving presentations to the _New York Times_ newsroom staff expla
 - [Slides](/static/images/projects/twitter/twitter-slides.pdf)
 - [Movie](/static/images/projects/twitter/twitter-slides.mov)
 
-Finally, I wound up 
+During the height of all this, I was invited to give a talk at Twitter's Chirp conference in 2010. The whole conference was a showcase to unveil a bunch of [cool new features for developers that the company promptly reversed course on and buried unceremoniously](https://www.anildash.com/2015/07/11/the_internet_of_tweets/) after Evan Williams was forced out as CEO. I gave a little talk about @nytimes and [how many times a NYT story is tweeted per second]({% post_url published/2010-04-15-how-often-times-tweeted %}). I remember that for some reason the musician will.i.am was there. I also remember looking out into the audience during my section and realizing I had bored will.i.am to sleep. Good talk!
 
 ## Other Bots
+Coming soon...
+
+## Handing Off The Accounts
 Coming soon...
 
 ------
