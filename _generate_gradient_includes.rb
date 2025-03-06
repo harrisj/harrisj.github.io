@@ -26,13 +26,13 @@ end
 
 
 files_by_year = file_records.group_by { |file| file[:year] }
-years = files_by_year.keys.sort.reverse
+years = files_by_year.keys.sort
 
 puts(years.inspect)
 
 File.open('_includes/projects/gradients.html', 'w') do |out|
     years.each do |year|
-        files = files_by_year[year].sort_by {|f| f[:date] }.reverse
+        files = files_by_year[year].sort_by {|f| f[:date] }
 
         out.puts "<div class=\"row\">"
         out.puts "<div class=\"one column year_label\"><h2>#{year}</h2></div>"
@@ -41,8 +41,7 @@ File.open('_includes/projects/gradients.html', 'w') do |out|
         files.each do |file|
             alt = "#{file[:season]} Gradient #{file[:date].strftime('%Y-%m-%d')} #{file[:location]}"
             out.puts "  <a href=\"/static/images/projects/sky-gradients/#{file[:filename]}\" data-lightbox=\"sky-gradients\" data-title=\"#{alt}\">"
-            #out.puts "    <img class=\"thumbnail\" src=\"static/images/projects/sky-gradients/#{file[:filename]}\" alt=\"#{alt}\"></img>"
-            out.puts "{% picture thumbnail \"/static/images/projects/sky-gradients/#{file[:filename]}\" %}"
+            out.puts "    <img class=\"thumbnail\" src=\"/static/images/projects/sky-gradients/thumbnails/#{file[:filename].gsub(".jpg", "-400.jpg")}\" alt=\"#{alt}\"/>"
             out.puts "  </a>"
         end
 
