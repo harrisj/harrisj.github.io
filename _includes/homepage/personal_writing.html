@@ -1,20 +1,19 @@
 <section class="row no-print" id="writing">
     <h2>Personal Writing</h2>
  
-    Coming soon...
-  <!---
     <dl>
       {% assign by_year = site.categories.personal | group_by: "year" | reverse %}
       {% for year in by_year %}
       <dt><time>{{ year.name }}</time></dt>
       <dd>
         <ul class="compact">
-          {% for doc in year.items %}
-              <li><a href="{{ doc.url }}">{{ doc.title }}</a>, <em>{{ doc.publisher }}</em></li>
+          {% assign docs = year.items | sort: 'date' %}
+          {% for doc in docs   %}
+              <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
           {% endfor %}
         </ul>
       </dd>
       {% endfor %}
-    </dl> ---> 
+    </dl>
   </section>
   

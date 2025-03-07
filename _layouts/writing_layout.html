@@ -23,7 +23,11 @@
   <div class="container">
     <div id="writing_header" class="row">
         <div class="navbar twelve columns">
-            <div><a href="/"><i class="fa fa-home" aria-hidden="true" alt="Home"></i></a> / {{page.title}} <span class="time">(<em><a href="{{ page.pub_permalink }}">{{ page.publisher }}</a></em>, {{ page.date | date: "%m/%d/%Y" }})</span></div>
+            {% if page.publisher %}
+              <div><a href="/"><i class="fa fa-home" aria-hidden="true" alt="Home"></i></a> / {{page.title}} <span class="time">(<em><a href="{{ page.pub_permalink }}">{{ page.publisher }}</a></em>, {{ page.date | date: "%m/%d/%Y" }})</span></div>
+            {% else %}
+               <div><a href="/"><i class="fa fa-home" aria-hidden="true" alt="Home"></i></a> / {{page.title}} <span class="time">({{ page.date | date: "%m/%d/%Y" }})</span></div>         
+            {% endif %}
         </div>
     </div>
 
