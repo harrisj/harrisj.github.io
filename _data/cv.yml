@@ -97,7 +97,7 @@ career:
     description: >
       The International Olympic Committee provides a real-time feed of XML results data, and I helped architect and build out a service to parse those results and display on the sites of the _Times_ and a few partners. I also helped to architect the successor system built for the 2014 London Olympics.
   - title: Wikileaks War Logs
-    link: http://www.nytimes.com/interactive/2010/10/24/world/1024-surge-graphic.html
+    link: /projects/wikileaks-war-logs.html
     description: >
       When Wikileaks provided the _Times_ with leaked military dispatches from Iraq and Afghanistan, I built an internal website application used by reporters to search and analyze the people and places within. I also contributed research and pitched a graphic to accompany a story on the deaths in Baghdad.
   - title: PUFFY
@@ -109,11 +109,11 @@ career:
     description: >-
       As part of NYT Digital, I spearheaded new open-source initiatives at the NYT and improved outreach for people to use public APIs from the New York Times. I also helped to create the open.blogs.nytimes.com site for engineers to blog about their work at the Times.
   - title: "@nytimes Twitter Account"
-    link: https://twitter.com/nytimes
+    link: /projects/nytimes-twitter.html
     description: >
       One afternoon in 2007, I created the @nytimes twitter account. I then added other accounts and built the service for feeding stories from various RSS feeds into the 80+ accounts belonging to the _Times_.
   - title: Times Haiku
-    link: http://haiku.nytimes.com/
+    link: /projects/times-haiku.html
     description: >
       After the 2012 election, I built a bot that scanned _Times_ articles to find haiku embedded within them.
 - company: Alacra, Inc.
