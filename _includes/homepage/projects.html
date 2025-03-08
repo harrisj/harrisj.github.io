@@ -4,6 +4,6 @@
   {% assign projects = site.projects | sort: "start_year" %}
   {% for project in projects %}
   <dt><time>{{ project.start_year }} - {{ project.end_year }}</time></dt>
-  <dd><a href="{{ project.url }}"">{{ project.title }}</a></dd>
+  <dd><a href="{{ project.url }}"">{{ project.title | improve }}</a></dd>
   {% endfor %}
 </dl>

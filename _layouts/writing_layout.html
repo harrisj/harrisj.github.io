@@ -34,14 +34,14 @@
     {% if page.summary %}
     <div id="writing-summary" class="row">
       <div class="twelve columns">
-        {{ page.summary | smartify | markdownify}}
+        {{ page.summary | smartify | markdownify | improve }}
       </div>
     </div>
     {% endif %}
 
     <div class="row">
         <section class="twelve columns" id="content">
-            {{ content | smartify }}
+            {{ content | improve }}
         </section>
     </div>
   </div>

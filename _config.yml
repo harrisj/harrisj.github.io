@@ -35,3 +35,6 @@ exclude:
 collections:
   projects:
     output: true
+
+gems:
+- jekyll-typogrify
