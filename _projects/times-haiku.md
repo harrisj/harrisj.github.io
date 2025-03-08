@@ -9,7 +9,7 @@ This project largely happened because I was depressed and bored.
 
 It was always a bit rough to end a season of election coverage. After spending almost more than a year testing, tweaking and [loading election results]({% link _projects/nytimes-election-loader.md %}), it's disorienting to suddenly have no more election stuff to do. In 2012, this shock was compounded with frustration from several significant technical bugs that had happened on election night itself. I needed an outlet. And that's when I decided to go hunting for haiku.
 
-![An example of the visual Times Haiku presentation](/static/images/projects/times-haiku/symmetry.gif)
+![An example of the visual Times Haiku presentation ><](/static/images/projects/times-haiku/symmetry.gif)
 
 I had been inspired by the [Haiku Leaks](https://www.poetryfoundation.org/poetry-news/59602/leaks-come-in-all-shapes-and-sizes) project in late 2010, that combed the Wikileaks Cablegate corpus to find haiku hidden within the messages. And I had already written a few silly bots that acted on NYT article text. So, why not combine the two?
 
