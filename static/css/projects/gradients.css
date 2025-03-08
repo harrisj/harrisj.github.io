@@ -42,7 +42,7 @@
   }
 }
 
-@media only screen and (540px < width < 768px) {
+@media only screen and (400px < width < 768px) {
   .gradient-gallery {
     --gallery-items-per-row: 2;
   }
