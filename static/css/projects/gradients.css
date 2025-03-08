@@ -27,7 +27,6 @@
     line-height: 0;
 }
 
-/* Optional: Add media queries for responsiveness */
 @media (max-width: 600px) {
     .images img {
         flex: 1 1 100%;
