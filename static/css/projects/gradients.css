@@ -1,142 +1,65 @@
 :root {
-    --gallery-gap: 4px;
-    --gallery-items-per-row: 1;
+    --gradient-gallery-gap: 4px;
+    --gradient-gallery-items-per-row: 1;
+    --gradient-img-width: 250px;
 }
 
 .row {
     margin-bottom: var(--grid-gap);
 }
 
-.img-gallery {
+.gradient-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
   align-items: top;
-  gap: var(--gallery-gap);
+  gap: var(--gradient-gallery-gap);
 }
 
-.img-gallery__item {
+.gradient-gallery__item {
     aspect-ratio: 1;
     object-fit: cover;
     margin: 0;
 
-    flex: 0 0 200px;
+    flex: 0 0 var(--gradient-img-width);
       /* calc(
         100% / var(--gallery-items-per-row) - var(--gallery-gap) *
           (var(--gallery-items-per-row) - 1) / var(--gallery-items-per-row)
       ); */
 }
 
-.img-gallery__item img {
+.gradient-gallery__item img {
   height: auto;
   width: 100%;
-}
-
-.img-gallery__item img {
   margin: 0;
 }
 
 @media only screen and (width >= 1024px) {
-  .img-gallery {
+  .gradient-gallery {
     --gallery-items-per-row: 4;
   }
 }
 
 @media only screen and (768px < width < 1024px) {
-  .img-gallery {
+  .gradient-gallery {
     --gallery-items-per-row: 3;
   }
 }
 
 @media only screen and (540px < width < 768px) {
-  .img-gallery {
+  .gradient-gallery {
     --gallery-items-per-row: 2;
   }
 }
 
-.img-gallery__item {
+.gradient-gallery__item {
     line-height: 0;
-}
-
-.year_label {
-  min-width: 30px;
 }
 
 .year_label h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 3rem;
     text-align: left;
-    margin-bottom: 1rem;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
-
-/* MODAL */
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-  }
-  
-  /* Modal Content (Image) */
-  .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-  }
-  
-  /* Caption of Modal Image (Image Text) - Same Width as the Image */
-  #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-  }
-  
-  /* Add Animation - Zoom in the Modal */
-  .modal-content, #caption {
-    animation-name: zoom;
-    animation-duration: 0.6s;
-  }
-  
-  @keyframes zoom {
-    from {transform:scale(0)}
-    to {transform:scale(1)}
-  }
-  
-  /* The Close Button */
-  .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  /* 100% Image Width on Smaller Screens */
-  @media only screen and (max-width: 700px){
-    .modal-content {
-      width: 100%;
-    }
-  }
