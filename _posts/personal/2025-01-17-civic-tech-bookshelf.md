@@ -1,6 +1,6 @@
 ---
 layout: writing_layout
-title: Civic Tech Bookshelf
+title: A Civic Tech Bookshelf
 date: 2025-01-17
 year: 2025
 category: personal
