@@ -38,11 +38,13 @@ File.open('_includes/projects/gradients.html', 'w') do |out|
         out.puts "<div class=\"one column year_label\"><h2>#{year}</h2></div>"
         out.puts '<div class="eleven columns images">'
 
+        out.puts '   <div class="img-gallery">'
+
         files.each do |file|
             alt = "#{file[:season]} Gradient #{file[:date].strftime('%Y-%m-%d')} #{file[:location]}"
-            out.puts "  <a href=\"/static/images/projects/sky-gradients/#{file[:filename]}\" data-lightbox=\"sky-gradients\" data-title=\"#{alt}\">"
-            out.puts "    <img class=\"thumbnail\" src=\"/static/images/projects/sky-gradients/thumbnails/#{file[:filename].gsub(".jpg", "-400.jpg")}\" alt=\"#{alt}\"/>"
-            out.puts "  </a>"
+            out.puts " <div class=\"img-gallery__item\"><a href=\"/static/images/projects/sky-gradients/#{file[:filename]}\" data-lightbox=\"sky-gradients\" data-title=\"#{alt}\">"
+            out.puts "    <img class=\"thumbnail\" src=\"/static/images/projects/sky-gradients/thumbnails/#{file[:filename].gsub(".jpg", "-400.jpg")}\" width=\"200\" height=\"200\" alt=\"#{alt}\"/>"
+            out.puts "  </a></div>"
         end
 
         out.puts '</div>'
