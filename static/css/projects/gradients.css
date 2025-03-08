@@ -17,12 +17,16 @@
     object-fit: cover;
     margin: 0;
 
+    width: calc(100% / var(--gradient-gallery-items-per-row));
     flex: 0 0 var(--gradient-img-width);
 }
 
+.gradient-gallery::after {
+  content: "";
+  flex-grow: 999;
+}
+
 .gradient-gallery__item img {
-  height: auto;
-  width: 100%;
   margin: 0;
 }
 
