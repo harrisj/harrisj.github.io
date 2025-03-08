@@ -1,7 +1,7 @@
 :root {
     --gradient-gallery-gap: 4px;
     --gradient-gallery-items-per-row: 1;
-    --gradient-img-width: 250px;
+    --gradient-img-width: 200px;
 }
 
 .row {
