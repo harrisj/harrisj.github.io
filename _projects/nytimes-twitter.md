@@ -47,7 +47,7 @@ After the rise in popularity of the [@horse_ebooks account](https://en.wikipedia
 
 Also, the [@nytimes_ebooks](https://xcancel.com/nytimes_ebooks) code became the basis of my most famous bot, [Times Haiku]({% link _projects/times-haiku.md %}), details of which can be found on its own project page.
 
-## Handing Off The Accounts
+## Handing Over the Keys
 Eventually, the New York Times built out an entire social media team to handle strategy and content across multiple social media properties. Third party tools like [buffer](https://buffer.com/) gave organizations the abilities to post content and track metrics easily. Hand-crafted social media content was seen as both more relatable and effective, with a higher click-through rate. Content could also be scheduled to be posted and repeated during the hours that most people were using Twitter, rather than the middle of the night when many news stories still were published (due to press times). It was time to move on. I handed over the passwords[^3] to the accounts into the capable hands of the NYT social media editors. 
 
 ------
