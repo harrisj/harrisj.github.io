@@ -42,7 +42,7 @@ File.open('_includes/projects/gradients.html', 'w') do |out|
         files.each do |file|
             alt = "#{file[:season]} Gradient #{file[:date].strftime('%Y-%m-%d')} #{file[:location]}"
             out.puts "<div class=\"gradient-gallery__item\"><a href=\"/static/images/projects/sky-gradients/#{file[:filename]}\" data-lightbox=\"sky-gradients\" data-title=\"#{alt}\">"
-            out.puts "    <img class=\"thumbnail\" src=\"/static/images/projects/sky-gradients/thumbnails/#{file[:filename].gsub(".jpg", "-400.jpg")}\" width=\"200\" height=\"200\" alt=\"#{alt}\"/>"
+            out.puts "    <img class=\"thumbnail\" src=\"/static/images/projects/sky-gradients/thumbnails/#{file[:filename].gsub(".jpg", "-200.jpg")}\" width=\"200\" height=\"200\" alt=\"#{alt}\"/>"
             out.puts "  </a></div>"
         end
 

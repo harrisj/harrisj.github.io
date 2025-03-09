@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/css/normalize.css">
+    <link rel="stylesheet" href="/static/css/skeleton.css">
+    <link rel="stylesheet" href="/static/css/base_layout.css">
+    <link rel="stylesheet" href="/static/css/projects/layout.css">
+
+    <link rel="stylesheet" href="/static/css/projects/gradients.css">
+    <link rel="stylesheet" href="/static/css/projects/lightbox.css">
+
+    <script src="/static/js/lightbox-plus-jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="project_header" class="row">
+            <div class="navbar twelve columns">
+                <a href="/"><i class="fa fa-home" aria-hidden="true" alt="Home"></i></a> / Projects / {{page.title}} <span class="time">({{page.start_year}} - {{page.end_year}})</span>
+            </div>
+        </div>
+
+        {{ content | improve }}
+    </div>
+</body>
+</html>

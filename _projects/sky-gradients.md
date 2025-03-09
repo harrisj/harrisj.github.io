@@ -1,5 +1,5 @@
 ---
-layout: project_layout
+layout: gallery_layout
 category: projects
 title: Sky Gradients
 start_year: 2015
