@@ -95,7 +95,7 @@ career:
   - title: Olympics Results (2010/2012)
     link: http://2010games.nytimes.com/events/curling/mens/results.html
     description: >
-      The International Olympic Committee provides a real-time feed of XML results data, and I helped architect and build out a service to parse those results and display on the sites of the _Times_ and a few partners. I also helped to architect the successor system built for the 2014 London Olympics.
+      The International Olympic Committee provides a real-time feed of XML results data, and I helped architect and build out a service to parse those results and display on the sites of the _Times_ and a few partners. I also helped to architect the successor system built for the 2012 London Olympics.
   - title: Wikileaks War Logs
     link: /projects/wikileaks-war-logs.html
     description: >
