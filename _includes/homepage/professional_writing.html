@@ -9,7 +9,7 @@
       <ul class="compact">
         {% assign docs = year.items | sort: 'date' %}
         {% for doc in docs %}
-            <li><a href="{{ doc.url }}">{{ doc.title }}</a>, <em>{{ doc.publisher | improve }}</em></li>
+            <li><a href="{{ doc.url }}">{{ doc.title | markdownify | improve | remove: '<p>' | remove: '</p>' }}</a>, <em>{{ doc.publisher | improve }}</em></li>
         {% endfor %}
       </ul>
     </dd>

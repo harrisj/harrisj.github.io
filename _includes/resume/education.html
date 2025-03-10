@@ -10,7 +10,7 @@
         <strong>{{ school.degree }}</strong>, <a href="{{ school.link }}">{{ school.name }}</a>
       </header>
 
-      <p>{{ school.description }}</p>
+      <p>{{ school.description | markdownify | improve | remove: '<p>' | remove: '</p>' }}</p>
     </dd>
 
     {% endfor %}
