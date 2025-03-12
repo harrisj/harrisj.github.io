@@ -14,7 +14,7 @@
         {% if job.projects.size > 0 %}
         <ul class="job-projects">
           {% for project in job.projects %}
-          <li><strong><a href="{{ project.link }}">{{ project.title }}</a></strong> {{ project.description | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+          <li><strong><a href="{{ project.link }}">{{ project.title }}</a></strong> {{ project.description | markdownify | improve | remove: '<p>' | remove: '</p>' }}</li>
           {% endfor %}
         </ul>
         {% endif %}
