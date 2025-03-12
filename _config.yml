@@ -32,6 +32,11 @@ exclude:
 - _generate_gradient_includes.rb
 - README.md
 
+kramdown:
+  syntax_highlighter: coderay
+  syntax_highlighter_opts:
+    line_numbers: off
+
 collections:
   projects:
     output: true

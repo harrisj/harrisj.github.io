@@ -28,3 +28,5 @@ end
 gem "csv", "~> 3.3"
 
 gem "webrick", "~> 1.9"
+
+gem "kramdown-syntax-coderay", "~> 1.0"
