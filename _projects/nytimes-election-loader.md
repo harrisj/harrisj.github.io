@@ -106,7 +106,7 @@ One of the nice things about Slack is that it supported something called "webhoo
 ## The Flow of a Typical Night
 
 <a href="/static/images/projects/nyt-elections/20120228-vertical-monitor.jpeg" data-lightbox="elections" data-title="My typical vertical monitor setup">
-    <img class="thumbnail" src="/static/images/projects/nyt-elections/20120228-vertical-monitor.jpeg" width=325 alt="My typical vertical monitor setup >"/>
+    <img class="thumbnail" src="/static/images/projects/nyt-elections/20120228-vertical-monitor.jpeg" width=350 alt="My typical vertical monitor setup >"/>
 </a>
 I often described election nights as hours of tedium punctuated by moments of terror. This is a bit of an exaggeration – apart from that terrible night in 2012, everything else worked smoothly – but it is true that the tension would usually ratchet up a few minutes before the polls closed and during that interval where we waited for first votes and race calls to come in for a given state before dissipating and then ratcheting up again. It was sometimes important to set alarms just to know when the best time to take a bathroom break was.
 
