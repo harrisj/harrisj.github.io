@@ -89,7 +89,7 @@ career:
     In 2007, I was a co-founder of the Interactive Newsroom Technologies Team, a startup-like group embedded within the newsroom that creates news-driven web applications on agile timeframes.
   projects:
   - title: Elections (2008-2014)
-    link: https://source.opennews.org/en-US/articles/ny-times-results-loader/
+    link: /projects/nytimes-election-loader.html
     description: >-
       In 2008, I paired with another developer to build a new and better election results loader for the general election. We continued using it for 2010, 2012, the 2013 NYC Mayoral election and 2014 election years, and I refactored that loader into a modular API-based service that shared results with the web and print and operated under insane amounts of traffic.
   - title: Olympics Results (2010/2012)
