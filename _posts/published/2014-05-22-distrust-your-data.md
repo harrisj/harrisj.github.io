@@ -1,8 +1,9 @@
 ---
 layout: writing_layout
 title: Distrust Your Data
-subtitle: Six Ways to Make Mistakes with Data
-summary: >
+tagline: Six Ways to Make Mistakes with Data
+image: /static/images/writing/distrust-data/pornhub.jpg
+description: >
     A look into several fundamental reporting errors that led to a regrettable story about porn consumption 
     in red and blue states. From there, I wondered if we should come up with some sort of taxonomy of errors 
     and a general rubric for when an error in the data should result in a printed correction.

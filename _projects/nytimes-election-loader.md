@@ -2,6 +2,7 @@
 layout: project_layout
 category: project
 title: The New York Times Election Loader
+description: A deep-dive into the internal workings and specialized usage of the election loader I helped build for the New York Times from 2008 to 2014.
 start_year: 2008
 end_year: 2014
 ---

@@ -2,7 +2,8 @@
     --compact-line-height: 1.2em;
     --compact-list-height: 1.3em;
     --dt-time-font-size: 0.9em;
-    --border-color: #dfdfdf;
+    --dt-border-color: #dfdfdf;
+    --dt-text-color: #626262;
 }
 
 /* Display Lists */
@@ -14,12 +15,12 @@ dl {
 
 dt {
     grid-column-start: 1;
-    color: #626262;
+    color: var(--dt-text-color);
     font-size: var(--dt-time-font-size);
     text-transform: none;
     width: 80px;
     text-align: right;
-    border-right: 1px solid var(--border-color);
+    border-right: 1px solid var(--dt-border-color);
     padding-right: 9px;
 }
   
@@ -141,7 +142,7 @@ div.footnotes p {
 
 /* Blockquote */
 blockquote {
-    border-left: 7px solid var(--border-color);
+    border-left: 7px solid var(--dt-border-color);
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";

@@ -1,8 +1,8 @@
 ---
 layout: writing_layout
 title: Connecting with the Dots
-subtitle: Jake Harris on data visualization, empathy, and representing people with dots
-summary: >
+tagline: Jake Harris on data visualization, empathy, and representing people with dots
+description: >
     This is one of my favorite pieces, a meditation into how we can ensure that visualizations still contain empathy and a reminder that in so many cases, "the dots are people."
 date: 20150115
 year: 2015

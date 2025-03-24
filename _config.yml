@@ -43,3 +43,19 @@ collections:
 
 gems:
 - jekyll-typogrify
+- jekyll-seo-tag
+
+defaults:
+- scope:
+    path: ""
+  values:
+    title: jacobharr.is
+    url: https://jacobharr.is/
+    author: Jacob Harris
+    tagline: The personal website of Jacob Harris
+    social:
+      name: Jacob Harris
+      links:
+      - https://github.com/harrisj
+      - https://linkedin.com/jacob-harris-4157961
+      - https://bsky.app/profile/jacobharr.is

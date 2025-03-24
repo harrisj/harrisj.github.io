@@ -6,7 +6,7 @@ year: 2025
 category: personal
 published: true 
 permalink: /personal/ai-bureaucratic-nightmare.html
-summary: One of the promised goals of DOGE has been to replace human bureaucrats with AI systems. This may be cheaper to operate, but it will become a bureaucratic nightmare for anybody interacting with government.
+description: One of the promised goals of DOGE has been to replace human bureaucrats with AI systems. This may be cheaper to operate, but it will become a bureaucratic nightmare for anybody interacting with government.
 ---
 As DOGE continues their smash-and-grab operation to gut government agencies and steal all their internal data, some of their purported goals have come to light. One of them is to radically reduce the size of the federal workforce by replacing people with AI, as these recent examples illustrate:
 

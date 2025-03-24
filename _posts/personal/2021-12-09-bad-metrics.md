@@ -7,7 +7,8 @@ year: 2021
 category: personal
 permalink: /personal/bad-metrics.html
 published: true
-summary: The text of an internal talk I gave at Nava PBC on how the misuse of metrics can make things worse than not having metrics at all.
+description: The text of an internal talk I gave at Nava PBC on how the misuse of metrics can make things worse than not having metrics at all.
+image: /static/images/writing/bad-metrics/bad-metrics.001.jpg
 ---
 
 <div class="row">

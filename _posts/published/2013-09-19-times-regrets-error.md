@@ -1,9 +1,8 @@
 ---
 layout: writing_layout
 title: The Times Regrets the Error
-subtitle: Jake Harris opens a serious barrel of monkeys about when and how to issue corrections for data journalism
-summary: >
-    A piece looking at how using automated data sources in realtime will lead to inevitable errors. When will they require a correction?
+tagline: Jake Harris opens a serious barrel of monkeys about when and how to issue corrections for data journalism
+description: A piece looking at how using automated data sources in realtime will lead to inevitable errors. When will they require a correction?
 date: 20130919
 year: 2013
 category: published

@@ -1,7 +1,8 @@
 ---
 layout: writing_layout
 title: Leaving the New York Times
-summary: Looking back on my career in journalism as I moved into civic technology
+description: A piece I wrote about leaving the New York Times after working there for nine years
+image: /static/images/writing/leaving-nytimes/smeared-badge.png
 date: 20150423
 year: 2015
 category: personal

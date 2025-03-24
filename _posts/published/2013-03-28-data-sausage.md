@@ -1,13 +1,8 @@
 ---
 layout: writing_layout
 title: How the Data Sausage Gets Made
-subtitle: Jacob Harris on Turning Freeform Text into Journalism
-summary: > 
-  A lengthy explainer on how I used simple code to scrape USDA and FDA food recalls to extract quantitative data
-
-  The FSIS and FDA websites have gone through a few revisions since this article was first published, but the general crux of it is still true.
-
-  I have a new [scraper with public source code](https://github.com/harrisj/food-recalls-actions/actions) as a hobbyist project.
+tagline: Jacob Harris on Turning Freeform Text into Journalism
+description: A lengthy explainer on how I used simple code to scrape USDA and FDA food recalls to extract quantitative data.
 date: 20130328
 year: 2013
 category: published

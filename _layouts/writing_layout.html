@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+{% seo %}
 <head>
     <meta charset="utf-8">
     <title>{{ title }}</title>
@@ -37,10 +38,14 @@
         </div>
     </div>
 
-    {% if page.summary %}
+    {% if page.description or page.display_description %}
     <div id="writing-summary" class="row">
       <div class="twelve columns">
-        {{ page.summary | smartify | markdownify | improve }}
+        {% if page.display_description %}
+          {{ page.display_description | smartify | markdownify | improve }}
+        {% else %}
+          {{ page.description | smartify | markdownify | improve }}
+        {% endif %}
       </div>
     </div>
     {% endif %}

@@ -1,8 +1,10 @@
 ---
 layout: writing_layout
 title: Thank You, Electionbot
-subtitle: A friendly bot that will shoulder the burden of monitoring offers peace of mind as well as efficient notifications.
-summary: >
+tagline: A friendly bot that will shoulder the burden of monitoring offers peace of mind as well as efficient notifications.
+description: >
+  I was doing "ChatOps" before it was cool. This piece looked at how we used Slack webhooks and posting to keep track of the election loading bot via Slack without needing to login to dedicated systems to monitor.
+display_description: >
   I was doing "ChatOps" before it was cool. This piece looked at how we used Slack webhooks and posting to keep track of the election loading bot via Slack without needing to login to dedicated systems to monitor. More details on the entire system and other screenshots are located on the [New York Times election loader]({% link _projects/nytimes-election-loader %}) project page. 
 date: 20150315
 year: 2015

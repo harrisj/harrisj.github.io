@@ -1,9 +1,10 @@
 ---
 layout: writing_layout
 title: Using Varnish So News Doesn't Break Your Server
+image: /static/images/writing/varnish/big-board-screenshot.png
 date: 2010095
 year: 2010
-summary: A technical explanation of the reverse proxy cache tool Varnish and how we used it at the Interactive Newsroom Technologies server to keep high request rates from melting our servers.
+description: A technical explanation of the reverse proxy cache tool Varnish and how we used it at the Interactive Newsroom Technologies server to keep high request rates from melting our servers.
 category: published
 pub_permalink: https://archive.nytimes.com/open.blogs.nytimes.com/2010/09/15/using-varnish-so-news-doesnt-break-your-server/
 publisher: NYT Open

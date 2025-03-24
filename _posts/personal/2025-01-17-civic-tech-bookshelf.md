@@ -6,7 +6,8 @@ year: 2025
 category: personal
 permalink: /personal/civic-tech-bookshelf.html
 published: true
-summary: A starter collection of books to read if you are interested in becoming a civic technologist.
+description: A starter collection of books to read if you are interested in becoming a civic technologist.
+picture: /static/images/writing/civic-technologist-reading/thumbnail.jpg
 ---
 This year will mark ten years of my career in civic technology. I wish it were a good year, but these are dark times for the field. Elon Musk's so-called Department of Government Efficiency has ransacked government IT systems while claiming to do IT modernization. He has obliterated USDS and 18F, both organizations filled with technical staff who actually know how to improve government. DOGE has also turned its sights on federal contracting, using the formerly rarely invoked convenience clauses to terminate contracts for staff, products and services en masse – erasing one of the other avenues for civic technologists to contribute to the federal government.
 

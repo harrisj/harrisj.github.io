@@ -4,7 +4,8 @@ title: The Right Kind of Stupid
 date: 20070911
 year: 2007
 category: published
-summary: A technical look at the specific code I used to setup the @nytimes Twitter account. Little did I know it would lead to years of tinkering around. For more details, check out the [@nytimes twitter account]({% link _projects/nytimes-twitter %})
+display_description: A technical look at the specific code I used to setup the @nytimes Twitter account. Little did I know it would lead to years of tinkering around. For more details, check out the [@nytimes twitter account]({% link _projects/nytimes-twitter %}) project page.
+description: A technical look at the specific code I used to setup the @nytimes Twitter account.
 pub_permalink: https://archive.nytimes.com/open.blogs.nytimes.com/2007/09/11/the-right-kind-of-stupid/
 publisher: NYT Open
 ---

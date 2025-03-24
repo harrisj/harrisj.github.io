@@ -6,7 +6,7 @@ year: 2025
 category: personal
 permalink: /personal/visualizing-covid-deaths.html
 published: true
-summary: A focused look at three examples of visualizing the death toll from COVID as an illustration of how to inject empathy into data visualizations.
+description: A focused look at three examples of visualizing the death toll from COVID as an illustration of how to inject empathy into data visualizations.
 ---
 It's been over a decade since I've been in data journalism, but what of my enduring interests is how data visualizations can remind readers of the human beings that underlie most statistics and time-series – or as I call it, [connecting with the dots]({% post_url published/2015-01-15-connecting-with-dots %}). As we enter the five-year anniversary of the COVID-19 pandemic, I wanted to write a short piece looking at three different examples of media organizations have presented the severe loss of life, to show some of these concepts in practice.
 

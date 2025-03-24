@@ -1,6 +1,7 @@
 ---
 layout: project_layout
 title: Wikileaks War Logs
+description: A technical exploration in the data viewer I helped create for New York Times reporters to work on the Wikileaks War Logs.
 date: 20101024
 start_year: 2010
 end_year: 2011

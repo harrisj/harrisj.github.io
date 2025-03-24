@@ -1,11 +1,8 @@
 ---
 layout: writing_layout
 title: And Remember, this Is for Posterity
-subtitle: Jacob Harris on the hows and whys of designing interactives to survive the future
-summary: > 
-    A thinkpiece on how we might consider designing interactives to survive for posterity.
-    
-    Unfortunately, we haven't.
+tagline: Jacob Harris on the hows and whys of designing interactives to survive the future
+description: A thinkpiece on how we might consider designing interactives to survive for posterity. Unfortunately, we haven't.
 date: 20130413
 year: 2013
 category: published
