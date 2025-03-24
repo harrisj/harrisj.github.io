@@ -1,7 +1,7 @@
 ---
 layout: writing_layout
 title: A Civic Tech Bookshelf
-date: 2025-01-17
+date: 2025-02-15
 year: 2025
 category: personal
 permalink: /personal/civic-tech-bookshelf.html
