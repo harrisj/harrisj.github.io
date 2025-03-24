@@ -29,7 +29,11 @@
     <div class="container">
         <div id="project_header" class="row">
             <div class="navbar twelve columns">
-                <a href="/"><i class="fa fa-home" aria-hidden="true" alt="Home"></i></a> / Projects / {{page.title}} <span class="time">({{page.start_year}} - {{page.end_year}})</span>
+                {% if page.end_year %}
+                    <a href="/"><i class="fa fa-home" aria-hidden="true" alt="Home"></i></a> / Projects / {{page.title}} <span class="time">({{page.start_year}} - {{page.end_year}})</span>
+                {% else %}
+                    <a href="/"><i class="fa fa-home" aria-hidden="true" alt="Home"></i></a> / Projects / {{page.title}} <span class="time">({{page.start_year}})</span>
+                {% endif %}
             </div>
         </div>
         <div id="project_body" class="row">
