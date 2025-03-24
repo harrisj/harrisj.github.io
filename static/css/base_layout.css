@@ -1,7 +1,8 @@
 :root {
     --compact-line-height: 1.2em;
     --compact-list-height: 1.3em;
-    --dt-time-font-size: 0.9em
+    --dt-time-font-size: 0.9em;
+    --border-color: #dfdfdf;
 }
 
 /* Display Lists */
@@ -18,7 +19,7 @@ dt {
     text-transform: none;
     width: 80px;
     text-align: right;
-    border-right: 1px solid #dfdfdf;
+    border-right: 1px solid var(--border-color);
     padding-right: 9px;
 }
   
@@ -140,7 +141,7 @@ div.footnotes p {
 
 /* Blockquote */
 blockquote {
-    border-left: 7px solid #dfdfdf;
+    border-left: 7px solid var(--border-color);
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
