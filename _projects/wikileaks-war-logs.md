@@ -58,4 +58,6 @@ This is completely horrifying to read, but it felt vitally important to document
 For more details, check out the following resources:
 - [MGRS Explained](/static/images/projects/wikileaks/nicar_mgrs.pdf): a presentation I gave at a data journalism conference
 - [Reporting Wikileaks](/static/images/projects/wikileaks/hh_wikileaks.pdf): an in-depth presentation on how this graphic came together
+- [A Columbia Journalism Review interview on creating the visualization](https://www.cjr.org/the_news_frontier/visualizing_the_iraq_war_logs.php)
+- My coworker Alan McLean's [presentation on Telling Stories With Data](https://www.slideshare.net/slideshow/data-driven-journalism-telling-stories-online/5057385)
 - [Connecting With the Dots]({% post_url published/2015-01-15-connecting-with-dots %}): some thoughts on how we remind readers that the dots in our infographics are people
