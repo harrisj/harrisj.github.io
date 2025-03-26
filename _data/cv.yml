@@ -11,7 +11,7 @@ personal:
     signal: jacobharris.28
   fingerprint: 219E C44A EC5B 6425 5A5B 0CB9 22C5 DDCC 45EE 2FBA
 objective: >
-  I am seeking a full-time position as a Tech Lead/Manager of Software Engineering building software for a mission-oriented and people-centered organization. I have 27 years of software engineering experience, 16 years of senior technical leadership and 7 years of people management in engineering. I am quick to learn new technologies while using my experience to architect straightforward solutions to complicated problems. I live the belief that software engineering is a team effort – I use both technical direction and effective communication to lead teams, so we can build great products together. I also am an empathetic people manager, who enjoys mentoring people and guiding them as they advance in their careers.
+  I am seeking a full-time position as a Tech Lead/Manager of Software Engineering. I want to build web applications or APIs for a mission-oriented and people-centered organization. I have 27 years of software engineering experience, 16 years of senior technical leadership and 7 years of people management in engineering. I am quick to learn new technologies, and I use my experience to architect straightforward solutions to complicated problems. I firmly believe that software engineering is a team effort – I use both clear technical direction and effective communication to engage with stakeholders and lead teams. I also am an empathetic people manager, who enjoys mentoring people and guiding them as they advance in their careers.
 career:
 - company: Consumer Financial Protection Bureau
   link: http://www.consumerfinance.gov/
@@ -66,7 +66,7 @@ career:
   - title: MyUSA
     link: https://github.com/18F/myusa
     description: >-
-      I joined this project while it was in progress and helped build out the user interface. MyUSA was a prototype system for single-sign-on that allowed users to sign in and control what information they share with various government websites.
+      I joined this project while it was in progress and helped build out the user interface. MyUSA was a prototype web application for single-sign-on that allowed users to sign in and control what information they share with various government websites.
   - title: Micro-purchase
     link: https://micropurchase.18f.gov
     description: >-
@@ -74,11 +74,11 @@ career:
   - title: FBI Crime Data Explorer
     link: https://github.com/18F/crime-data-api
     description: >-
-      I am extremely interested in Open Data; when I learned that 18F would be building an interface for crime data from the FBI, I asked to be part of the project, especially since it also meant learning Python, a language I did not know that well. I have worked closely with another developer on the backend, building and optimizing an API used by the visual explorer website.
+      I am extremely interested in Open Data; when I learned that 18F would be building a new web application interface for crime data from the FBI, I asked to be part of the project, especially since it meant improving my Python skills. I worked closely with another developer to build and optimize an API used by the visual explorer website. I also created data loading queries to build new crosstab analyses of crime data.
   - title: Confidential Survey
     link: https://github.com/18f/confidential-survey
     description: >-
-      As part of my involvement with the Diversity Guild and a project to gather statistics on 18F's efforts at diversity and inclusion, I built a prototype for conducting surveys without collecting detailed records that could compromise a user's privacy
+      As part of my involvement with the Diversity Guild to potentially gather statistics on 18F's efforts for staffing to more closely reflect the American public, I built a prototype for conducting surveys without collecting detailed records that could compromise a user's privacy
 - company: The New York Times
   link: http://nytimes.com
   title: Senior Software Architect
@@ -86,12 +86,12 @@ career:
   start: 2006
   end: 2015
   description: >-
-    In 2007, I was a co-founder of the Interactive Newsroom Technologies Team, a startup-like group embedded within the newsroom that creates news-driven web applications on agile timeframes.
+    In 2007, I was a co-founder of the Interactive Newsroom Technologies Team, a startup-like group embedded within the newsroom that creates news-driven web applications on agile timeframes. These are some of the more notable projects:
   projects:
   - title: Elections (2008-2014)
     link: /projects/nytimes-election-loader.html
     description: >-
-      In 2008, I paired with another developer to build a new and better election results loader for the general election. We continued using it for 2010, 2012, the 2013 NYC Mayoral election and 2014 election years, and I refactored that loader into a modular API-based service that shared results with the web and print and operated under insane amounts of traffic.
+      In 2008, I paired with another developer to build a new and better election results loader for the general election. We continued using it for primaries and general elections in 2010, 2012, the 2013 NYC Mayoral election and 2014 election years. I refactored that loader into a modular API-based service that shared results with the web and print and operated under insane amounts of traffic.
   - title: Olympics Results (2010/2012)
     link: http://2010games.nytimes.com/events/curling/mens/results.html
     description: >
@@ -99,7 +99,7 @@ career:
   - title: Wikileaks War Logs
     link: /projects/wikileaks-war-logs.html
     description: >
-      When Wikileaks provided the _Times_ with leaked military dispatches from Iraq and Afghanistan, I built an internal website application used by reporters to search and analyze the people and places within. I also contributed research and pitched a graphic to accompany a story on the deaths in Baghdad.
+      When Wikileaks provided the _Times_ with leaked military dispatches from Iraq and Afghanistan, I built an internal web application used by reporters to search and analyze the people and places within. I also contributed research and pitched a graphic to accompany a story on the deaths in Baghdad.
   - title: PUFFY
     link: https://lens.blogs.nytimes.com/2010/05/02/readers-13/
     description: >-
@@ -161,10 +161,10 @@ skills:
   - Web Accessibility
   career:
   - Data Journalism
+  - Web Applications
   - API-centric approaches
   - Agile/Kanban/SAFe
   - Self-directed remote worker
   - Experienced engineering manager
   - Federal contracting
   - Strong communication skills
-  - Works well with others
