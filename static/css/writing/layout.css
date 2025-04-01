@@ -7,10 +7,6 @@ h1, h2, h3, h4, h5, h6 {
     font-style: italic;
 }
 
-a {
-    color: slateblue;
-}
-
 footer {
     margin-top: 0.5em;
     border-top: 1px solid var(--dt-border-color);
@@ -18,11 +14,11 @@ footer {
     font-style: italic;
 }
 
-a[href^="http"]:after {
+main a[href^="http"]:after {
     display: inline;
     content: " ";
     font-family: FontAwesome;
-    font-size: 60%;
+    font-size: 80%;
     text-decoration: none !important;
     color: black;
     text-rendering: auto;

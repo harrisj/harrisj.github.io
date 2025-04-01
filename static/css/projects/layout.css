@@ -1,0 +1,10 @@
+main a[href^="http"]:after {
+    display: inline;
+    content: " ";
+    font-family: FontAwesome;
+    font-size: 80%;
+    text-decoration: none !important;
+    color: black;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}

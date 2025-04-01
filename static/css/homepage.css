@@ -21,6 +21,14 @@ h2 {
     max-width: 300px;
 }
 
+/* a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+} */
+
 @media(max-width:930px) {
     /* Let's kill the images and make the left column fully wide for smaller screens */
     .eight {
