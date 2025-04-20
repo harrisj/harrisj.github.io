@@ -4,13 +4,11 @@ title: Trump Data
 published: true
 start_year: 2025
 ---
-As I write this, it is now several months into the second Trump presidency. It's been hard keeping track of all that is being damaged and lost within the federal government. Emboldened by Musk and the absence of oversight, the so-called "Department of Government Efficiency" (DOGE) has been rampaging through agencies to subvert their security, cancel contracts, fire staff and siphon up confidential data into large data warehouses. It's going to take years to both undo the damage and to hit them with consequences. 
+As I write this in late April 2025, we are now several months into the second Trump presidency. It's been hard keeping track of all that is being damaged and lost within the federal government. Emboldened by Musk and the absence of oversight, the so-called "Department of Government Efficiency" (DOGE) has been rampaging through agencies to subvert their security, cancel contracts, fire staff and siphon up confidential data into large data warehouses. It's going to take years to both undo the damage and to hit them with consequences. 
 
-As someone who has spent the past decade of my live in [Civic Tech]({% link _projects/civic-tech.md %}), this has been extremely upsetting to watch. Not only are they destroying vital government services, they're undermining the idea that technology can serve the public good.
+As someone who has spent the past decade of my live in [Civic Tech]({% link _projects/civic-tech.md %}), this has been extremely demoralize to watch. Not only are they destroying vital government services, they're undermining the idea that technology can serve the public good. I feel compelled to bear witness to this moment. But, I'm not particularly good at writing commentary. I'm no longer adjacent enough to journalism that I can report on what is happening. However, I do enjoy working with data and seeing what patterns will emerge over time from data collection and analysis.
 
-I can't just do nothing about this moment. I feel compelled to bear witness. But, I'm not particularly good at writing commentary. I'm no longer adjacent enough to journalism that I can report on what is happening. However, I do enjoy working with data and seeing what patterns will emerge over time from data collection and analysis.
-
-And so, I created a new Github repo named [trump_data](https://github.com/harrisj/trump_data) February 8th, 2025 and I started collecting data. The first datasets were relatively modest in scope:
+And so, I created a new Github repo named [**trump_data**](https://github.com/harrisj/trump_data) on February 8th, 2025. And then, I started collecting data. The first datasets were relatively modest in scope:
 
 - I wrote a script for pulling data from the [Just Security Litigation Tracker](https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/) to see how cases changed over time
 - I created a dataset for tracking Trump's trips to one of his various properties and what days he went golfing. This turned out to be easier to just hand-edit rather than write a scraper for it. More recently, [John Emerson](https://github.com/bcks) contributed an automated scraper to find the golf dates so I don't need to update those manually
@@ -24,21 +22,21 @@ My biggest project within the repository has turned out to be an evolving effort
 It started simply enough as a single [YAML](https://en.wikipedia.org/wiki/YAML) file, with the following basic structure:
 
 ```yaml
-  - agency: Centers for Medicare and Medicaid Services
-     acronym: CMS
-     date_started: 2025-02-05
-     date_completed:
-     participants:
-       - Luke Farritor
-     vandalism:
-     systems:
-       - name: CMS Acquisition Lifecycle Management system
-         acronym: CALM
-         description: System for tracking CMS acquisitions, contracts, milestones and audits.
-     sources:
-       - https://www.msn.com/en-us/money/general/doge-targets-u-s-health-agencies-gains-access-to-payment-systems/ar-AA1yu5OD
-       - https://www.cms.gov/newsroom/press-releases/cms-statement-collaboration-doge
-       - https://www.wsj.com/politics/elon-musk-doge-medicare-medicaid-fraud-e697b162
+- agency: Centers for Medicare and Medicaid Services
+  acronym: CMS
+  date_started: 2025-02-05
+  date_completed:
+  participants:
+  - Luke Farritor
+  vandalism:
+  systems:
+  - name: CMS Acquisition Lifecycle Management system
+    acronym: CALM
+    description: System for tracking CMS acquisitions, contracts, milestones and audits.
+  sources:
+  - https://www.msn.com/en-us/money/general/doge-targets-u-s-health-agencies-gains-access-to-payment-systems/ar-AA1yu5OD
+  - https://www.cms.gov/newsroom/press-releases/cms-statement-collaboration-doge
+  - https://www.wsj.com/politics/elon-musk-doge-medicare-medicaid-fraud-e697b162
 ```
 
 I just wanted to track who was at each agency and what was happening. From there, I have kept evolving both the types of data I'm collecting and the systems for keeping track of it all with a variety of iterations:
@@ -54,7 +52,7 @@ I just wanted to track who was at each agency and what was happening. From there
 At this point, the YAML looked more like this for a single agency
 
 ```yaml
-name: Department of the Interior
+- name: Department of the Interior
   acronym: DOI
   roundups:
   - source: https://www.nytimes.com/interactive/2025/02/27/us/politics/doge-staff-list.html
@@ -132,11 +130,11 @@ name: Department of the Interior
 
 But it was starting to get more unwieldy to edit. And sometimes, when I was dealing with a single event that affected multiple agencies for instance, I would need to duplicate and move content around. It made it harder to ensure everything was consistent. So, the next big step was to define a workflow where I would edit raw data and then a pre-commit hook could be used to regenerate files downstream. Under this model, I defined a few files with basic types in an aray:
 
-- agencies: a list of agencies by ID and name
-- events: an array of individual events
-- systems: information on systems that is mapped to agencies
-- cases: information on legal cases that apply to DOGE activities
-- roundup: information on media roundups
+- [agencies](https://github.com/harrisj/trump_data/blob/main/it_modernization/raw_data/agencies.yaml): a list of agencies by ID and name
+- [events](https://github.com/harrisj/trump_data/blob/main/it_modernization/raw_data/events.yaml): an array of individual events
+- [systems](https://github.com/harrisj/trump_data/blob/main/it_modernization/raw_data/systems.yaml): information on systems that is mapped to agencies
+- [cases](https://github.com/harrisj/trump_data/blob/main/it_modernization/raw_data/cases.yaml): information on legal cases that apply to DOGE activities
+- [roundups](https://github.com/harrisj/trump_data/blob/main/it_modernization/raw_data/roundups.yaml): information on media roundups
 
 From this information, I can then use the [raw data](https://github.com/harrisj/trump_data/tree/main/it_modernization/raw_data) to create files that are derived from processing the source files and combining information. My process starts by making sure the events table is sorted and I can then output an events table with some other information joined in. Using this, I can also generate other files like `postings.yaml` which records the durations and locations of various DOGE staff or `people.yaml` which groups events by each person.
 
@@ -151,4 +149,4 @@ My daily routine now is to run a few searches on Google News when I have some sp
 
 Clearly, there are things that could be done to improve how the data is presented. I might potentially create more simplified representations of important details like what systems DOGE has accessed and who was given access or how OPM and GSA were used as bases for DOGE staff to be detailed into multiple agencies. I could probably consider generating better graphics using [Observable](https://observablehq.com/) or even write dispatches on new things that have been uncovered (for instance, I have figured out who most of the unidentified staff at Social Security are or reminding people that DOGE already had infiltrated the email systems at CISA well before [a whistleblower at the NLRB had emailed them about DOGE's IT modernization activities there](https://www.npr.org/2025/04/15/nx-s1-5355896/doge-nlrb-elon-musk-spacex-security)). But I also am not a journalist. I am making my best efforts to be correct, but mistakes are possible. So, I will probably just keep to perfecting the data, in the hopes that it's useful to others.
 
-You are under no obligation to tell me – there is no license for this information and you accept any risks – but if you make anything interesting with this data, please tell me. And if there is information I am missing or an error in my data or you want to contribute in any way, please [let me know!](https://github.com/harrisj/trump_data/issues)
+There is no license or attribution requirement for using this data beyond that you must accept any risks. But, if you make anything interesting with this data – of if there is information I am missing or an error in my data – please [let me know!](https://github.com/harrisj/trump_data/issues)
