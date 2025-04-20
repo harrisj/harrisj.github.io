@@ -39,7 +39,7 @@ It started simply enough as a single [YAML](https://en.wikipedia.org/wiki/YAML) 
   - https://www.wsj.com/politics/elon-musk-doge-medicare-medicaid-fraud-e697b162
 ```
 
-I just wanted to track who was at each agency and what was happening. From there, I have kept evolving both the types of data I'm collecting and the systems for keeping track of it all with a variety of iterations:
+I just wanted to track who was at each agency and what was happening. I chose YAML because it is a data format that is designed for machine-processing but it is also meant to be somewhat readable for non-technical people if they wanted to also read the data From there, I have kept evolving both the types of data I'm collecting and the systems for keeping track of it all with a variety of iterations:
 
 - I added an `events` field where I started listing the dates and details of specific events, always with a linked source for attribution and reconstruction
 - I added a `named` field to the `event` structure to record when specific DOGE staff were associated with events
