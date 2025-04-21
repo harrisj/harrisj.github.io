@@ -45,6 +45,12 @@ div.job {
     line-height: 1.4;
 }
 
+ul li:before {
+    content: "›";
+    padding-right: 5px;
+    margin-bottom: 0;
+}
+
 ul.job-projects {
     margin-top: 10px;
     margin-bottom: 0px;

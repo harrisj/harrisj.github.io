@@ -2,6 +2,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+ul li:before {
+    content: "›";
+    padding-right: 5px;
+    margin-bottom: 0;
+}
+
 #writing-summary {
     font-weight: bolder;
     font-style: italic;

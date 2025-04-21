@@ -41,12 +41,6 @@ ul li {
     text-indent: -0.7em;
     line-height: var(--compact-list-height);
 }
-  
-ul li:before {
-    content: "›";
-    padding-right: 5px;
-    margin-bottom: 0;
-}
 
 ul.compact {
     margin-bottom: 0.5rem;
