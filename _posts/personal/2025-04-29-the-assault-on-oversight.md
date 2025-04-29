@@ -368,7 +368,7 @@ So, it's no surprises that DOGE's work started with [replacing CIOs in some key 
 {:.oversight.tl-cyber} 2025-04-10
 :   A senior technical leader at SSA is forced out of his office by security guards after objecting to a DOGE plan to declare undocumented immigrants as dead in SSA files to interfere with their finances.
 
-# The Big Timeline
+## The Big Timeline
 
 For your convenience, here is a merged timeline of all the sub-timelines above, with the color coding to show how the action proceeded in parallel on different fronts (and sometimes, a single action like replacing the OPM CIO would hit two themes at once).
 
