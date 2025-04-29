@@ -1,12 +1,13 @@
 ---
 layout: writing_layout
 title: The Assault on Oversight in the Executive Branch
-date: 2025-03-27
+date: 2025-04-29
 year: 2025
 category: personal
 permalink: /personal/assault-oversight.html
 published: true
 description: Not too many people outside of government understand how many laws are enforced entirely through oversight. The DOGE/Project 2025 plan has subverted these norms for its own ends.
+image: static/images/writing/misc-previews/assault-oversight.png
 ---
 As we pass the first 100 days of the DOGE/Project 2025 onslaught against the administrative state, I keep thinking about how the technical assault has depended on a complementary demolition of oversight that would document, delay and even prevent some of the egregious abuses. 
 
