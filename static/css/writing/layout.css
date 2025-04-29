@@ -30,3 +30,49 @@ main a[href^="http"]:after {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
 }
+
+
+/* Specific CSS for certain essays */
+dt.oversight.tl-other {
+    border-right: 4px solid black;
+}
+
+dt.oversight.tl-opm {
+    border-right: 4px solid #003f5c;
+}
+
+dt.oversight.tl-gsa {
+    border-right: 4px solid #2f4b7c;
+}
+
+dt.oversight.tl-omb {
+    border-right: 4px solid #665191;
+}
+
+dt.oversight.tl-ig {
+    border-right: 4px solid #a05195;
+}
+
+dt.oversight.tl-dirs {
+    border-right: 4px solid #d45087;
+}
+
+dt.oversight.tl-indies {
+    border-right: 4px solid #f95d6a;
+}
+
+dt.oversight.tl-civil {
+    border-right: 4px solid #ff7c43;
+}
+
+dt.oversight.tl-cyber {
+    border-right: 4px solid #ffa600;
+}
+
+dt.oversight.hide-date time {
+    display: none;
+}
+
+
+
+
