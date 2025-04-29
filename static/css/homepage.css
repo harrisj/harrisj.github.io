@@ -38,6 +38,10 @@ a:visited {
     #sidebar {
         display: none;
     }
+
+    #big-title {
+        font-size: 15vw;
+    }
 }
 
 a {
