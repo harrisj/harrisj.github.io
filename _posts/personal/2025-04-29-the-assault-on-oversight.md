@@ -111,8 +111,8 @@ GSA is also the other agency that initially housed many DOGE staffers who were t
 {:.oversight.tl-gsa} 2025-02-20
 :   GSA places an arbitrary $1 limit on all government spending cards.
 
-{:.oversight.tl-gsa} 2025-03-03
-:   All remaining staff in 18F are eliminated.
+{:.oversight.tl-gsa} 2025-03-01
+:   All remaining staff in 18F are fired via an email sent after midnight.
 
 
 ### Office of Management and Budget
@@ -526,14 +526,14 @@ For your convenience, here is a merged timeline of all the sub-timelines above, 
 {:.oversight.tl-civil} 2025-03-01
 :   The judge in the case about the firing of the OSC rules that the firing is illegal and Hampton Dellinger should be reinstated to his position.
 
+{:.oversight.tl-gsa} &nbsp;
+:   All remaining staff in 18F are fired in an email sent overnight.
+
 {:.oversight.tl-opm} 2025-03-03
 :   Federal staff receive a "Part II" email ordering them to provide a list of five things they did last week to an OPM email address by the end of Monday and to continue to do so every week. There are no other "Five Things" emails sent after this.
 
 {:.oversight.tl-civil} &nbsp;
 :   The US court of the appeals for the District of Columbia reverses the lower court decision and lifts the stay against the firing of the head of the OSC. Hampton Dellinger drops his lawsuit.
-
-{:.oversight.tl-gsa} &nbsp;
-:   All remaining staff in 18F are eliminated in an email sent overnight.
 
 {:.oversight.tl-cyber} &nbsp;
 :   After DOGE arrives at the National Labor Relations Board (NLRB), the agency CIO demands there are to be no logs or records of DOGE's account creation. Several suspicious accounts are later identified.
