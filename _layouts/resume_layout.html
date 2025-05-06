@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-US">
 {% seo %}
+
 <head>
-    <meta charset="utf-8">
-    <title>{{ site.data.cv.personal.name }}</title>
-    <meta name="description" content="{{ site.data.cv.personal.name }}'s Résumé">
-    <meta name="author" content="{{ site.data.cv.personal.name }}">
+  <meta charset="utf-8">
+  <title>{{ site.data.cv.personal.name }}</title>
+  <meta name="description" content="{{ site.data.cv.personal.name }}'s Résumé">
+  <meta name="author" content="{{ site.data.cv.personal.name }}">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!--- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
-      rel="stylesheet">
+  <!--- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
 
-    <link rel="stylesheet" href="/static/css/normalize.css">
-    <link rel="stylesheet" href="/static/css/skeleton.css">
-    <link rel="stylesheet" href="/static/css/base_layout.css">
-    <link rel="stylesheet" href="/static/css/resume/layout.css">
-    <link rel="stylesheet" href="/static/css/resume/screen.css" media="screen">
-    <link rel="stylesheet" href="/static/css/resume/print.css" media="print">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/static/css/normalize.css">
+  <link rel="stylesheet" href="/static/css/skeleton.css">
+  <link rel="stylesheet" href="/static/css/base_layout.css">
+  <link rel="stylesheet" href="/static/css/resume/layout.css">
+  <link rel="stylesheet" href="/static/css/resume/screen.css" media="screen">
+  <link rel="stylesheet" href="/static/css/resume/print.css" media="print">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
+
 <body>
   <div class="container">
 
     {{ content }}
   </div>
 </body>
+
 </html>

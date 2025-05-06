@@ -77,7 +77,6 @@ career:
       I am extremely interested in Open Data; when I learned that 18F would be building a new web application interface for crime data from the FBI, I requested to be part of that roject, especially since it would allow me to learn Python too. I worked closely with another senior developer to build and optimize an API used by the visual explorer website. I also created data loading queries to build new crosstab analyses of crime data that took advantage of the new NIBRS reporting data.
   - title: Confidential Survey
     link: https://github.com/18f/confidential-survey
-    noprint: true
     description: >-
       As part of my involvement with the Diversity Guild, I built a prototype for conducting surveys without collecting individual records that could compromise a user's privacy.
 - company: The New York Times
@@ -99,7 +98,6 @@ career:
       To improve how the _Times_ presented Olympics results, in 2010 I helped architect and build a backend service that could parse a firehose of XML data provided by the International Olympic Committee to populate pages, visualizations and interactive widgets for both the web and print. I also helped to architect the successor system built for the 2012 London Olympics.
   - title: Wikileaks War Logs
     link: /projects/wikileaks-war-logs.html
-    noprint: true
     description: >
       When Wikileaks provided the _Times_ with leaked military dispatches from Iraq and Afghanistan, I built an internal web application used by reporters to search and analyze the people and places within. I also contributed research and pitched a graphic to accompany a story about a surge of sectarian violence in Baghdad after the US invasion.
   - title: PUFFY

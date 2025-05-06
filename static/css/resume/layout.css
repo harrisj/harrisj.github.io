@@ -15,30 +15,8 @@
     }
 }
 
-#employment dl {
+dl {
     row-gap: 1em;
-}
-
-@media (max-width: 550px) {
-    /* Get rid of resume indented style on mobile */
-    dl {
-        display: block;
-    }
-
-    dt {
-        display: block;
-        margin-left: 0;
-        text-align: left;
-        --dt-time-font-size: 1.1em;
-
-        border-right: 0px;
-        width: 100%;
-    }
-
-    dd {
-        display:block;
-        margin-left: 0;
-    }
 }
 
 div.job {
@@ -56,7 +34,7 @@ ul.job-projects {
     margin-bottom: 0px;
 }
 
-dd.job {
+dd {
     line-height: var(--compact-line-height, 1.2);
 }
 

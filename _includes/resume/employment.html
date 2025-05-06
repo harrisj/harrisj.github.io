@@ -4,20 +4,24 @@
   <dl>
     {% for job in site.data.cv.career %}
     <dt><time>{{ job.start }} - {{ job.end }}</time></dt>
-    <dd class="job">
+    <dd>
       <header>
-      <strong>{{ job.title }}</strong>, 
+        <strong>{{ job.title }}</strong>,
         <a href="{{ job.link }}"><span>{{ job.company }}</span></a>
+        <span class="job-times"> (<time>{{ job.start }} - {{
+            job.end }}</time>)</span>
       </header>
 
       <div class="job-description">{{ job.description }}</div>
-        {% if job.projects.size > 0 %}
-        <ul class="job-projects">
-          {% for project in job.projects %}
-            {% if project.noprint %}<li class="no-print">{% else %}<li>{% endif %}<strong><a href="{{ project.link }}">{{ project.title }}</a></strong> {{ project.description | markdownify | improve | remove: '<p>' | remove: '</p>' }}</li>
-          {% endfor %}
-        </ul>
-        {% endif %}
+      {% if job.projects.size > 0 %}
+      <ul class="job-projects">
+        {% for project in job.projects %}
+        {% if project.noprint %}<li class="no-print">{% else %}
+        <li>{% endif %}<strong><a href="{{ project.link }}">{{ project.title }}</a></strong> {{ project.description |
+          markdownify | improve | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </dd>
     {% endfor %}
   </dl>

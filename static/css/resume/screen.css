@@ -16,4 +16,93 @@ h1 {
     display: none;
 }
 
+.job-times {
+    display: none;
+}
 
+@media (max-width: 730px) {
+    #skills section { 
+        display: grid;
+        grid-template-columns: 4.8em auto;
+        text-align: left;
+        vertical-align: top;
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    #skills h3 {
+        display: inline;
+        font-size: 15px;
+        text-align: left;
+        grid-column-start: 1;
+        font-weight: bold;
+        line-height: var(--compact-list-height);
+        padding-left: 1em;
+        /* margin-top: -0.2rem;
+        vertical-align: bottom; */
+        font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    
+    #skills h3:after {
+        content: ": ";
+    }
+    
+    #skills ul {
+        display: inline;
+        vertical-align: bottom;
+        grid-column-start: 2;
+        margin-bottom: 5px;
+        grid-column-start: 2;
+        /* font-size: 1.1em !important; */
+        line-height: var(--compact-line-height);
+    }
+    
+    #skills ul li {
+        display: inline;
+        padding-left: 0;
+        line-height: var(--compact-line-height, 1.2);
+    }
+    
+    #skills ul li:before {
+        content: none;
+    }
+    
+    #skills ul li:before {
+        content: none;
+    }
+    
+    #skills ul li:not(:first-child):before {
+        content: "·";
+    }
+}
+
+@media (max-width: 550px) {
+    /* Get rid of resume indented style on mobile */
+    dl {
+        display: block;
+    }
+
+    /* dt {
+        display: block;
+        margin-left: 0;
+        text-align: left;
+        --dt-time-font-size: 1.1em;
+
+        border-right: 0px;
+        width: 100%;
+        float: right;
+    } */
+
+    dt {
+        display: none;
+    }
+
+    dd {
+        display:block;
+        margin-left: 0;
+    }
+
+    .job-times {
+        display: inline;
+    }
+}

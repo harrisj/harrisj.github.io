@@ -8,9 +8,11 @@
     <dd>
       <header>
         <strong>{{ school.degree }}</strong>, <a href="{{ school.link }}">{{ school.name }}</a>
+        <span class="job-times"> (<time>{{ school.start }} - {{
+            school.end }}</time>)</span>
       </header>
 
-      <p>{{ school.description | markdownify | improve | remove: '<p>' | remove: '</p>' }}</p>
+      {{ school.description | markdownify | improve | remove: '<p>' | remove: '</p>' }}
     </dd>
 
     {% endfor %}
