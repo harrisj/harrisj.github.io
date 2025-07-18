@@ -61,9 +61,12 @@ dd {
     line-height: var(--compact-line-height) !important;
 }
 
+#skills {
+}
+
 #skills section { 
     display: grid;
-    grid-template-columns: 4.8em auto;
+    grid-template-columns: 5.5em auto;
     text-align: left;
     vertical-align: top;
     width: 100%;
@@ -80,7 +83,7 @@ dd {
     text-align: left;
     grid-column-start: 1;
     font-weight: bold;
-    line-height: var(--compact-list-height) !important;
+    line-height: var(--compact-line-height) !important;
     padding-left: 1em;
     vertical-align: top;
     /* margin-top: -0.2rem;
@@ -99,6 +102,7 @@ dd {
     margin-bottom: 5px;
     grid-column-start: 2;
     line-height: var(--compact-list-height);
+    padding-right: 6em;
 }
 
 #skills ul li {
